@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Ensaio GlucoCheck"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Início
+      - href: protocolo.qmd
+        text: Protocolo
+      - href: materiais.qmd
+        text: Materiais
+      - href: resultados.qmd
+        text: Resultados
+      - href: equipa.qmd
+        text: Equipa
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    lang: pt

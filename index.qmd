@@ -1,0 +1,78 @@
+---
+title: "Ensaio GlucoCheck"
+subtitle: "Aplicação móvel de monitorização glicémica e registo alimentar em adultos com diabetes tipo 2"
+---
+
+## Resumo
+
+O **GlucoCheck** é um ensaio clínico aleatorizado, controlado e de grupos
+paralelos, conduzido em cuidados de saúde primários, que avalia a eficácia
+de uma aplicação móvel de monitorização glicémica e registo alimentar com
+*feedback* nutricional automatizado, em comparação com a consulta habitual
+isolada, em adultos com diabetes mellitus tipo 2 e controlo glicémico
+subótimo. O *outcome* primário é a **redução da hemoglobina glicada (HbA1c)
+às 24 semanas**.
+
+Esta versão do ensaio corresponde ao **estudo piloto** (pré-teste), com
+**30 participantes** distribuídos em razão 1:1 (15 intervenção + 15
+controlo) numa Unidade de Saúde Familiar da região norte de Portugal.
+
+## Cenário
+
+Adultos entre 40 e 75 anos, com diagnóstico de diabetes mellitus tipo 2
+(DM2) há pelo menos 6 meses, HbA1c entre 7,0% e 9,5% (controlo subótimo),
+sem insulinoterapia e em seguimento ativo numa USF, são aleatorizados para
+uma de duas condições:
+
+- **Intervenção** — acesso, durante 24 semanas, à aplicação **GlucoCheck**,
+  que combina registo alimentar com *feedback* nutricional, integração com
+  glucómetro via *Bluetooth*, objectivos glicémicos semanais personalizados,
+  educação nutricional adaptativa, alertas para padrões problemáticos e
+  gráficos de evolução da HbA1c estimada. Os participantes mantêm o cuidado
+  habitual em paralelo.
+- **Controlo** — apenas a consulta habitual em cuidados primários: consultas
+  trimestrais, aconselhamento nutricional *standard*, auto-monitorização
+  conforme prescrito e material educativo da USF.
+
+A avaliação intermédia ocorre às **12 semanas (T1)** e a avaliação final
+às **24 semanas (T2)**.
+
+## Objectivos
+
+**Objectivo primário.** Avaliar a eficácia da aplicação GlucoCheck, em
+comparação com a consulta habitual isolada, na redução da HbA1c aos 6 meses.
+A diferença mínima clinicamente relevante considerada é de **≥ 0,4 pontos
+percentuais**.
+
+**Objectivos secundários.** Avaliar o efeito da intervenção em:
+
+- Glicemia em jejum
+- Peso corporal
+- Adesão ao registo alimentar e frequência de auto-monitorização
+- Autoeficácia (escala DES-SF)
+- Conhecimento sobre diabetes (DKQ-24)
+- Satisfação com os cuidados (DTSQ)
+
+## Estrutura do site
+
+- [Protocolo](protocolo.qmd) — versão revista do protocolo SPIRIT (E1).
+- [Materiais](materiais.qmd) — CRF, formulário REDCap e protótipos da E2.
+- [Resultados](resultados.qmd) — características basais e *outcome* primário do piloto.
+- [Equipa](equipa.qmd) — membros, papéis e contactos.
+
+## Declaração de uso de Inteligência Artificial
+
+Este projecto utilizou ferramentas de IA generativa nas seguintes tarefas:
+
+- **Apoio téncnico à montagem do site Quarto** — configuração do ficheiro
+  `_quarto.yml`, estrutura de pastas do projecto RStudio. Ferramenta: Claude (Anthropic), Abril de 2026.
+- **Apoio à redacção das secções introdutórias do site**, com base no
+  protocolo SPIRIT desenvolvido pelo grupo na E1 e no cenário clínico
+  fornecido pela disciplina. Todo o texto foi revisto pelo grupo antes
+  de publicação.
+
+O **protocolo SPIRIT** (E1), os **materiais** (E2 — CRF, formulário REDCap
+e protótipos), o **desenho do estudo**, a **definição da intervenção e dos
+outcomes**, o **plano de análise estatística** e a **interpretação dos
+resultados** foram desenvolvidos integralmente pela equipa, sem recurso a
+IA generativa.
