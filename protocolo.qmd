@@ -1,0 +1,579 @@
+---
+title: "Protocolo"
+subtitle: "GlucoCheck — Ensaio Clínico Randomizado · Grupo 6, Turma B"
+date: "2026-03-06"
+---
+
+<!-- Este documento é a versão Quarto do protocolo de ensaio clínico GlucoCheck. -->
+
+# Protocolo de Ensaio Clínico
+
+## Informação Administrativa
+
+### Título do Estudo
+
+<!-- O título deve ser completo e descritivo (50–100 palavras), incluindo: População, Intervenção, Comparador e Outcome (formato PICO). -->
+
+Eficácia de uma Aplicação Móvel de Monitorização Glicémica e Registo Alimentar com Feedback Nutricional Automatizado (GlucoCheck) versus Consulta Habitual Isolada na Redução da Hemoglobina Glicada (HbA1c) em Adultos entre 40 e 75 Anos com Diabetes Mellitus Tipo 2 e Controlo Glicémico Subótimo, Sem Insulinoterapia, em Seguimento em Cuidados de Saúde Primários: Um Ensaio Clínico Randomizado, Controlado e de Grupos Paralelos.
+
+### Título Abreviado
+
+GlucoCheck: App móvel para controlo da DM2
+
+### Autores e Afiliações
+
+**Investigadores Principais:**
+
+- Francisca Teixeira, Faculdade de Medicina da Universidade do Porto (FMUP)
+- Luísa Moreira, Faculdade de Medicina da Universidade do Porto (FMUP)
+- Mariana Dias, Faculdade de Medicina da Universidade do Porto (FMUP)
+- Rosarinho Barros, Faculdade de Medicina da Universidade do Porto (FMUP)
+
+**Instituição:** Faculdade de Medicina da Universidade do Porto
+
+**Contacto:** Email: up202506985@up.pt
+
+### Identificação do Ensaio
+
+**Tipo de estudo:** Ensaio clínico randomizado, controlado, paralelo
+
+**Data de início prevista:** Setembro 2026
+
+**Data de conclusão prevista:** Junho 2027
+
+## Introdução
+
+### Racional
+
+<!-- O racional deve ter 300–400 palavras e seguir a estrutura: (1) magnitude do problema, (2) limitações do cuidado atual, (3) evidência sobre intervenções digitais, (4) gap que o estudo preenche, (5) justificação do comparador, (6) relevância clínica e impacto esperado. -->
+
+A Diabetes Mellitus Tipo 2 (DM2) é uma das doenças crónicas com maior impacto nos sistemas de saúde a nível global. Segundo a 11.ª edição do IDF Diabetes Atlas, estima-se que cerca de 589 milhões de adultos vivam atualmente com diabetes, com projeções que apontam para 853 milhões em 2050. Em Portugal, o Relatório Anual do Observatório Nacional da Diabetes (dados de 2024) estima uma prevalência de DM2 na ordem dos 14,2% na população adulta (20–79 anos), o valor mais elevado de sempre, correspondendo a cerca de 1,1 milhões de portugueses. Os custos diretos associados à doença representam entre 0,5% e 0,6% do PIB nacional (1 500 a 1 800 milhões de euros anuais), e as complicações microvasculares (retinopatia, nefropatia, neuropatia) e macrovasculares (doença cardiovascular) são responsáveis por uma proporção substancial da morbilidade e mortalidade nestes doentes.
+
+O controlo glicémico adequado, avaliado pela hemoglobina glicada (HbA1c), constitui o pilar central da prevenção destas complicações. Contudo, uma proporção significativa dos doentes seguidos em cuidados de saúde primários (CSP) não atinge os alvos terapêuticos recomendados (HbA1c < 7,0%). Os principais obstáculos incluem a baixa adesão às recomendações nutricionais, a auto-monitorização glicémica irregular, a dificuldade na interpretação dos valores obtidos e o contacto limitado com os profissionais de saúde entre consultas trimestrais. O modelo de consulta habitual, embora fundamental, não proporciona feedback contínuo nem apoio à decisão do doente no quotidiano.
+
+As aplicações móveis de saúde (*mHealth*) emergiram como intervenções promissoras para complementar o cuidado convencional na gestão da DM2. Meta-análises recentes demonstram que intervenções digitais estão associadas a reduções clinicamente relevantes da HbA1c, tipicamente entre 0,3 e 0,5 pontos percentuais. Os mecanismos de acção propostos incluem: (a) aumento da frequência e qualidade da auto-monitorização glicémica; (b) promoção de escolhas alimentares mais adequadas através de feedback nutricional imediato; (c) reforço da autoeficácia e motivação mediante objectivos personalizados e mensagens de progresso; e (d) deteção precoce de padrões glicémicos problemáticos. As funcionalidades com maior evidência incluem o registo alimentar automatizado, a integração com glucómetros e a definição de metas individualizadas.
+
+Apesar destes resultados promissores, a evidência permanece heterogénea: muitos estudos apresentam amostras pequenas, ausência de grupo controlo adequado e seguimentos curtos, tendo sido conduzidos fora do contexto europeu de cuidados primários. Em Portugal, são escassos os ensaios que avaliem a eficácia de aplicações móveis integradas com glucómetros na gestão da DM2 em Unidades de Saúde Familiar (USF). O presente estudo pretende preencher esta lacuna, avaliando a eficácia da aplicação GlucoCheck comparada com a consulta habitual isolada — o *standard of care* atual em CSP — num grupo de adultos com controlo glicémico subótimo. Os resultados poderão fundamentar a implementação de ferramentas digitais na prática clínica corrente e informar o desenho de ensaios multicêntricos de maior escala.
+
+### Objetivos
+
+<!-- Os objetivos devem ter 100–150 palavras. Dividir em: objetivo primário (1 frase clara) e objetivos secundários (3–5 objetivos em lista). -->
+
+#### Objetivo Primário
+
+Avaliar a eficácia da aplicação móvel GlucoCheck, em comparação com a consulta habitual isolada, na redução da hemoglobina glicada (HbA1c) aos 6 meses (24 semanas), em adultos entre 40 e 75 anos com Diabetes Mellitus Tipo 2 e controlo glicémico subótimo (HbA1c 7,0–9,5%), sem insulinoterapia, seguidos em cuidados de saúde primários.
+
+#### Objetivos Secundários
+
+Os objetivos secundários deste estudo são:
+
+1. Avaliar o efeito da intervenção na glicemia em jejum aos 3 e 6 meses.
+2. Avaliar o impacto da intervenção no peso corporal aos 3 e 6 meses.
+3. Determinar a adesão ao registo alimentar diário e a frequência de auto-monitorização glicémica ao longo das 24 semanas.
+4. Avaliar a autoeficácia dos participantes, medida pela *Diabetes Empowerment Scale — Short Form* (DES-SF), aos 3 e 6 meses.
+5. Comparar o nível de conhecimento sobre diabetes e a satisfação com os cuidados recebidos entre os dois grupos aos 6 meses.
+
+## Métodos
+
+### Desenho do Estudo
+
+<!-- Esta secção deve ter 150–200 palavras e incluir: tipo de ensaio (RCT, paralelo), razão de randomização (1:1), duração total, número de centros, fase do estudo e período de follow-up. -->
+
+Este é um ensaio clínico randomizado, controlado, de grupos paralelos.
+
+**Características do desenho:**
+
+- Randomização 1:1 (intervenção : controlo)
+- Duração: 24 semanas (6 meses) por participante
+- Setting: 1 Unidade de Saúde Familiar (USF) da região norte de Portugal
+- Fase: Estudo piloto (pré-teste)
+- Tamanho da amostra: 30 participantes (15 por braço)
+
+A randomização será estratificada por sexo e valor de HbA1c no baseline (<8,0% vs. ≥8,0%), utilizando blocos permutados de dimensão 4 gerados por computador. A sequência será produzida por um investigador independente e a alocação ocultada em envelopes opacos, selados e numerados sequencialmente. Dado que a intervenção envolve o uso de uma aplicação móvel, o estudo é aberto (*open-label*) para participantes e clínicos; contudo, os avaliadores dos outcomes laboratoriais serão cegos à alocação.
+
+**Timeline:**
+
+| Fase | Duração | Descrição |
+|------|---------|-----------|
+| Recrutamento | 8 semanas | Identificação e seleção de participantes na USF |
+| Baseline (T0) | 1 semana | Avaliação inicial, consentimento informado e randomização |
+| Intervenção | 24 semanas | Período ativo de uso da app ou cuidado habitual |
+| Follow-up T1 | Semana 12 | Avaliação intermédia (outcomes primário e secundários) |
+| Follow-up T2 | Semana 24 | Avaliação final (outcomes primário e secundários) |
+
+### Fluxograma do Estudo (CONSORT)
+
+```{mermaid}
+flowchart TD
+    %% ===== FASE 1: INCLUSÃO =====
+    A["Avaliados para elegibilidade (n= ?)<br>Adultos 40-75a, DM Tipo 2, cuidados primários"]
+    A --> B["Excluídos (n= ?)<br>HbA1c fora 7.0-9.5% (n= ?)<br>Insulinoterapia (n= ?)<br>Idade fora intervalo (n= ?)<br>Desistiram (n= ?)<br>Outras razões (n= ?)"]
+    A --> C["Randomizados: n=30<br>(15 intervenção + 15 controlo)"]
+
+    %% ===== FASE 2: ALOCAÇÃO =====
+    C --> D["Alocados intervenção (n=15)<br>Receberam: n=15<br>(App GlucoCheck + glucómetro Bluetooth)<br>Não receberam: n=0"]
+    C --> E["Alocados controlo (n=15)<br>Receberam: n=15<br>(Consultas trimestrais +<br>aconselhamento nutricional standard)<br>Não receberam: n=0"]
+
+    %% ===== FASE 3a: SEGUIMENTO 3 MESES =====
+    D --> F["Seguimento 3m — Intervenção<br>Perda de seguimento (dar razões): n= ?<br>Intervenção descontinuada (dar razões): n= ?"]
+    E --> G["Seguimento 3m — Controlo<br>Perda de seguimento (dar razões): n= ?<br>Intervenção descontinuada (dar razões): n= ?"]
+
+    %% ===== FASE 3b: SEGUIMENTO 6 MESES =====
+    F --> H["Seguimento 6m — Intervenção<br>Perda de seguimento (dar razões): n= ?<br>Intervenção descontinuada (dar razões): n= ?"]
+    G --> I["Seguimento 6m — Controlo<br>Perda de seguimento (dar razões): n= ?<br>Intervenção descontinuada (dar razões): n= ?"]
+
+    %% ===== FASE 4: ANÁLISE =====
+    H --> J["Analisados (n= ?)<br>Excluídos da análise (dar razões): n= ?<br>Intention-to-treat"]
+    I --> K["Analisados (n= ?)<br>Excluídos da análise (dar razões): n= ?<br>Intention-to-treat"]
+
+    %% ===== LABELS DE FASE (à esquerda, ligados invisivelmente) =====
+    L1(["Inclusão"])
+    L2(["Alocação"])
+    L3(["Seguimento<br>3 meses"])
+    L4(["Seguimento<br>6 meses"])
+    L5(["Análise"])
+
+    L1 ~~~ A
+    L2 ~~~ D
+    L3 ~~~ F
+    L4 ~~~ H
+    L5 ~~~ J
+
+    %% ===== ALINHAMENTO: forçar pares lado a lado =====
+    D ~~~ E
+    F ~~~ G
+    H ~~~ I
+    J ~~~ K
+
+    %% ===== ESTILOS =====
+    classDef phase fill:#dce6f1,stroke:#4472c4,color:#1a3a5c,font-weight:bold
+    classDef intervention fill:#e1f5ee,stroke:#0f6e56,color:#04342c
+    classDef control fill:#faece7,stroke:#993c1d,color:#4a1b0c
+    classDef exclude fill:#fcebeb,stroke:#a32d2d,color:#501313
+    classDef neutral fill:#f1efe8,stroke:#5f5e5a,color:#2c2c2a
+    classDef analysis fill:#eeedfe,stroke:#534ab7,color:#26215c
+
+    class L1,L2,L3,L4,L5 phase
+    class A,C neutral
+    class B exclude
+    class D,F,H intervention
+    class E,G,I control
+    class J,K analysis
+```
+
+### População do Estudo
+
+<!-- Esta secção deve ter 200–300 palavras. Cada critério deve ser específico e verificável/mensurável. -->
+
+#### Critérios de Inclusão
+
+Serão elegíveis para participação neste estudo indivíduos que cumpram **todos** os seguintes critérios:
+
+1. Idade entre 40 e 75 anos.
+2. Diagnóstico de Diabetes Mellitus Tipo 2 documentado no processo clínico (código ICPC-2: T90), há pelo menos 6 meses.
+3. HbA1c entre 7,0% e 9,5% (controlo glicémico subótimo), determinada por análise laboratorial nos últimos 3 meses.
+4. Em seguimento ativo numa USF, com pelo menos uma consulta nos últimos 12 meses.
+5. Regime terapêutico sem insulinoterapia (antidiabéticos orais e/ou agonistas do recetor GLP-1 são permitidos).
+6. Posse de *smartphone* Android (versão 9.0+) ou iOS (versão 14.0+), com acesso à Internet.
+7. Literacia suficiente para ler e compreender informação escrita em português europeu.
+8. Capacidade e disponibilidade para fornecer consentimento informado por escrito.
+9. Disponibilidade para participar durante 24 semanas e comparecer a todas as visitas programadas.
+
+#### Critérios de Exclusão
+
+Serão excluídos do estudo indivíduos que apresentem **qualquer** dos seguintes critérios:
+
+1. Diabetes Mellitus Tipo 1, diabetes gestacional ou diabetes secundária.
+2. Uso atual de insulinoterapia ou previsão clínica de início de insulina nos próximos 6 meses.
+3. HbA1c < 7,0% ou > 9,5% na avaliação de rastreio.
+4. Doença renal crónica avançada (TFGe < 30 mL/min/1,73 m²).
+5. Doença hepática grave (cirrose Child-Pugh B ou C).
+6. Doença psiquiátrica grave não controlada (esquizofrenia, perturbação bipolar descompensada, depressão major com ideação suicida ativa).
+7. Défice cognitivo clinicamente significativo (diagnóstico de demência ou MMSE < 24).
+8. Participação simultânea noutro ensaio clínico ou programa estruturado de intervenção para diabetes.
+9. Gravidez, lactação ou planeamento de gravidez durante o período do estudo.
+10. Incapacidade de utilizar um *smartphone* de forma autónoma, mesmo após sessão de formação.
+11. Sem acesso a *smartphone* compatível ou sem ligação à Internet.
+12. Doença terminal ou esperança de vida inferior a 12 meses.
+
+#### Processo de Recrutamento
+
+O recrutamento será realizado na USF selecionada, através de duas vias: (1) revisão sistemática das listas de utentes com diagnóstico codificado de DM2 (ICPC-2: T90) e HbA1c recente entre 7,0% e 9,5%, realizada pelo investigador principal em articulação com os médicos de família; e (2) referenciação direta por médicos de família durante consultas de rotina. Os potenciais participantes serão contactados telefonicamente para apresentação sumária do estudo e, caso manifestem interesse, será agendada uma visita presencial de rastreio para verificação de elegibilidade e obtenção de consentimento informado.
+
+### Intervenções
+
+<!-- Esta secção deve ter 300–400 palavras no total (ambos os braços). Deve detalhar o que EXATAMENTE os participantes vão fazer/receber. -->
+
+#### Grupo de Intervenção
+
+Os participantes randomizados para o grupo de intervenção receberão, para além do cuidado habitual, acesso à aplicação móvel GlucoCheck durante 24 semanas.
+
+**Aplicação GlucoCheck:**
+
+A GlucoCheck é uma aplicação móvel desenhada para apoiar a autogestão da DM2, combinando monitorização glicémica integrada, registo alimentar com feedback automatizado e educação terapêutica personalizada.
+
+#### Figura 1: Diagrama de Casos de Uso
+
+```{mermaid}
+flowchart LR
+    subgraph GlucoCheck["App GlucoCheck"]
+        UC1("Registar alimentação")
+        UC2("Sincronizar glucómetro")
+        UC3("Consultar objetivos glicémicos")
+        UC4("Receber mensagens motivacionais")
+        UC5("Educação nutricional")
+        UC6("Visualizar gráficos de evolução")
+        UC7("Receber alertas glicémicos")
+        UC8("Monitorizar adesão")
+        UC9("Visualizar dados do participante")
+        UC10("Exportar dados do estudo")
+        UC11("Validar dados")
+        UC12("Feedback nutricional automatizado")
+        UC13("Transferir dados via Bluetooth")
+    end
+
+    Participante(["Participante"]) --- UC1 & UC2 & UC3 & UC4 & UC5 & UC6 & UC7
+    Investigador(["Investigador"]) --- UC8 & UC9 & UC10
+    Glucometro(["Glucómetro BT"]) --- UC2
+
+    UC1 -.-> UC11 & UC12
+    UC2 -.-> UC13
+    UC7 -.-> UC8
+    UC9 -.-> UC10
+```
+
+**Funcionalidades principais:**
+
+<!-- Cada funcionalidade é descrita com: o que faz, tipo de interação do participante e frequência esperada de utilização. -->
+
+1. **Registo alimentar com feedback nutricional automatizado**
+   - *O que faz:* O participante fotografa ou descreve textualmente cada refeição; o sistema analisa automaticamente a composição nutricional (hidratos de carbono, calorias, índice glicémico estimado) e gera sugestões de melhoria personalizadas.
+   - *Interação:* Registo manual pelo participante após cada refeição.
+   - *Frequência esperada:* Pelo menos 2 refeições por dia.
+
+2. **Integração com glucómetro via Bluetooth**
+   - *O que faz:* Sincroniza automaticamente os valores de glicemia capilar obtidos por um glucómetro certificado com conectividade Bluetooth, eliminando a transcrição manual.
+   - *Interação:* Após a medição no glucómetro, o valor é transferido automaticamente para a app.
+   - *Frequência esperada:* Pelo menos 2 medições diárias (jejum e pós-prandial).
+
+#### Figura 2: Diagrama de Sequência (Sincronização do Glucómetro)
+
+```{mermaid}
+sequenceDiagram
+    participant P as Participante (DM tipo 2)
+    participant G as Glucómetro (Bluetooth)
+    participant A as App Glucocheck
+    participant S as Servidor Glucocheck
+    participant B as Base de Dados
+    participant M as Médico USF
+
+    P ->> A: iniciar sincronização
+    A ->> G: ligar via Bluetooth
+    G ->> A: ligação estabelecida
+    A ->> G: pedir leituras
+    G -->> A: glicemia + timestamp
+    A ->> S: enviar dados validados
+    S ->> B: guardar leituras
+    B -->> S: confirmação
+    S -->> A: resultado da análise
+    A -->> P: alerta + objetivos semanais
+    A -->> M: notificar padrão problemático
+    A -->> P: sincronização concluída
+```
+
+3. **Objectivos glicémicos semanais personalizados**
+   - *O que faz:* Com base nos valores registados, a app define metas glicémicas progressivas, ajustadas automaticamente ao perfil e evolução do participante.
+   - *Interação:* Visualização do objectivo na página inicial; notificação semanal com nova meta.
+   - *Frequência:* Actualização semanal automática.
+
+4. **Mensagens motivacionais baseadas no progresso**
+   - *O que faz:* Envia notificações *push* com mensagens de reforço positivo, adaptadas ao comportamento recente (adesão ao registo, evolução dos valores).
+   - *Interação:* Notificação recebida passivamente; o participante pode abrir e ler.
+   - *Frequência:* 1 a 2 notificações diárias.
+
+5. **Educação nutricional adaptativa**
+   - *O que faz:* Disponibiliza módulos educativos breves (*microlearning*) sobre temas adaptados às necessidades identificadas no registo alimentar (contagem de hidratos de carbono, leitura de rótulos, gestão de lanches).
+   - *Interação:* Leitura e quiz interativo no final de cada módulo.
+   - *Frequência:* 1 módulo novo por semana.
+
+6. **Gráficos de evolução de HbA1c estimada**
+   - *O que faz:* Apresenta gráficos da tendência glicémica e estimativa da HbA1c com base na média glicémica (fórmula ADAG), permitindo ao participante visualizar o impacto das suas escolhas.
+   - *Interação:* Consulta voluntária na secção "Progresso" da app.
+   - *Frequência:* Actualização contínua, disponível a qualquer momento.
+
+7. **Alertas para padrões glicémicos problemáticos**
+   - *O que faz:* Deteta padrões recorrentes de hiperglicemia ou hipoglicemia e envia alertas automáticos, com sugestão de contacto com o médico assistente.
+   - *Interação:* Notificação *push* com recomendação.
+   - *Frequência:* Sempre que um padrão for detetado pelo algoritmo.
+
+#### Figura 3: Percurso do Utilizador na Aplicação GlucoCheck
+
+```{mermaid}
+flowchart TD
+    START(( )) --> A["Download da app"]
+    A --> B["Abertura da app"]
+    B --> C{"Utilizador registado?"}
+    C -- Não --> D["Registo (dados pessoais e clínicos)"]
+    C -- Sim --> E["Login"]
+    D --> F["Introdução de dados úteis (idade, peso, HbA1c atual, medicação, objetivos)"]
+    E --> F
+    F --> G["Ligação ao glucómetro via Bluetooth"]
+    G --> H["Visualização do painel principal"]
+    H --> I["Seleção de funcionalidade"]
+    I --> J["Medição glicémica"]
+    I --> K["Registo alimentar"]
+    I --> L["Conteúdos educativos (educação nutricional adaptativa)"]
+    I --> M["Consulta de objetivos glicémicos semanais"]
+    J --> J1["Sincronização automática com glucómetro (Bluetooth)"]
+    J1 --> N["Armazenamento de dados"]
+    K --> N
+    N --> O["Visualização do dashboard"]
+    N --> P["Análise de padrões glicémicos"]
+    O --> O1["Gráficos de evolução e HbA1c estimada"]
+    P --> P1["Feedback nutricional automático"]
+    P --> P2["Alertas para padrões glicémicos problemáticos"]
+    P --> P3["Mensagens motivacionais baseadas em progresso"]
+    O1 --> Q["Geração de feedback personalizado"]
+    P1 --> Q
+    P2 --> Q
+    P3 --> Q
+    Q --> R["Continuação do uso diário"]
+    L --> R
+    M --> R
+    R --> ENDNODE(( ))
+
+    style START fill:#000,stroke:#000,color:#000
+    style ENDNODE fill:#000,stroke:#fff,color:#000
+    style C fill:#fff3cd,stroke:#856404,color:#000
+    style N fill:#d4edda,stroke:#155724,color:#000
+    style Q fill:#cce5ff,stroke:#004085,color:#000
+    style R fill:#d1ecf1,stroke:#0c5460,color:#000
+```
+
+#### Figura 4: Fluxo de Utilização da Aplicação GlucoCheck
+
+```{mermaid}
+flowchart TD
+    START(( )) --> A["Download da app"]
+    A --> B["Abertura da app"]
+    B --> C{"Utilizador\nregistado?"}
+    C -- Não --> D["Registo\n(dados pessoais e clínicos)"]
+    C -- Sim --> E["Login"]
+    D --> F["Introdução de dados úteis\n(idade, peso, HbA1c atual,\nmedicação, objetivos)"]
+    E --> F
+    F --> G["Ligação ao glucómetro\nvia Bluetooth"]
+    G --> H["Visualização do\npainel principal"]
+    H --> I["Seleção de funcionalidade"]
+    I --> J["Medição glicémica"]
+    I --> K["Registo alimentar"]
+    I --> L["Conteúdos educativos\n(educação nutricional adaptativa)"]
+    I --> M["Consulta de objetivos\nglicémicos semanais"]
+    J --> J1["Sincronização automática\ncom glucómetro (Bluetooth)"]
+    J1 --> N["Armazenamento de dados"]
+    K --> N
+    N --> O["Visualização do dashboard"]
+    N --> P["Análise de padrões\nglicémicos"]
+    O --> O1["Gráficos de evolução\ne HbA1c estimada"]
+    P --> P1["Feedback nutricional\nautomático"]
+    P --> P2["Alertas para padrões\nglicémicos problemáticos"]
+    P --> P3["Mensagens motivacionais\nbaseadas em progresso"]
+    O1 --> Q["Geração de feedback\npersonalizado"]
+    P1 --> Q
+    P2 --> Q
+    P3 --> Q
+    Q --> R["Continuação do uso diário"]
+    L --> R
+    M --> R
+    R --> ENDNODE(( ))
+
+    style START fill:#000,stroke:#000,color:#000
+    style ENDNODE fill:#000,stroke:#fff,color:#000
+    style C fill:#fff3cd,stroke:#856404,color:#000
+    style N fill:#d4edda,stroke:#155724,color:#000
+    style Q fill:#cce5ff,stroke:#004085,color:#000
+    style R fill:#d1ecf1,stroke:#0c5460,color:#000
+```
+
+**Instalação e Onboarding:**
+
+A aplicação será instalada no *smartphone* do participante durante a visita de baseline (T0). Cada participante receberá uma sessão de formação presencial de aproximadamente 30 minutos, conduzida por um membro da equipa de investigação, que incluirá: criação de conta, emparelhamento do glucómetro Bluetooth fornecido pelo estudo, demonstração prática de todas as funcionalidades e realização de um registo alimentar de teste. Será entregue um guia resumido de utilização em formato impresso.
+
+**Suporte técnico:**
+
+Será disponibilizada uma linha de apoio (telefone e WhatsApp), ativa em dias úteis das 9h00 às 18h00, para resolução de dificuldades técnicas com a app ou o glucómetro.
+
+**Cuidado concomitante:**
+
+Os participantes mantêm o seu cuidado médico habitual, incluindo consultas trimestrais com o médico de família, aconselhamento nutricional *standard* e medicação antidiabética prescrita. Ajustes terapêuticos decididos pelo médico assistente são permitidos e serão registados.
+
+#### Grupo Controlo
+
+Os participantes randomizados para o grupo controlo receberão exclusivamente o cuidado habitual prestado na USF.
+
+**Cuidado habitual isolado:**
+
+- Consultas médicas programadas com frequência trimestral.
+- Aconselhamento nutricional *standard*, quando clinicamente indicado.
+- Auto-monitorização glicémica conforme prescrito pelo médico assistente (frequência e método habituais do participante).
+- Material educativo *standard* sobre gestão da diabetes (folhetos informativos da USF).
+- Contactos com a equipa de investigação limitados às visitas de avaliação em T0, T1 e T2.
+- Sem acesso à aplicação GlucoCheck durante o período do estudo.
+
+Após a conclusão do ensaio, será oferecido acesso à aplicação a todos os participantes do grupo controlo que o desejem (abordagem de lista de espera ética).
+
+**Justificação do comparador:**
+
+A consulta habitual isolada representa o *standard of care* atual na gestão da DM2 em cuidados de saúde primários em Portugal. Não existem, à data, ferramentas digitais integradas de forma rotineira neste contexto assistencial, o que torna este comparador pragmático, ético e clinicamente relevante.
+
+#### Critérios de Descontinuação
+
+Participantes serão retirados do estudo se:
+
+1. Retirarem voluntariamente o consentimento informado.
+2. Desenvolverem condição médica que torne a participação insegura (e.g., início de insulinoterapia, internamento prolongado, diagnóstico de neoplasia).
+3. Cometerem violação grave do protocolo (e.g., partilha da aplicação com terceiros, falsificação de registos).
+4. Não comparecerem a duas avaliações consecutivas sem justificação.
+5. Engravidarem durante o período do estudo.
+
+Os participantes que descontinuem serão convidados a realizar uma avaliação final e os seus dados serão incluídos na análise por intenção-de-tratar.
+
+## Avaliações e Outcomes
+
+### Outcome Primário
+
+<!-- O outcome primário deve ser único, mensurável e claramente definido. -->
+
+Hemoglobina glicada (HbA1c)
+
+- **Instrumento:** Análise laboratorial por cromatografia líquida de alta eficiência (HPLC), método certificado pelo NGSP (*National Glycohemoglobin Standardization Program*).
+- **Momento de avaliação:** Baseline (T0), 12 semanas (T1) e 24 semanas (T2).
+- **Definição de sucesso:** Redução estatisticamente significativa da HbA1c entre T0 e T2 no grupo de intervenção comparativamente ao grupo controlo; diferença mínima clinicamente relevante considerada: ≥ 0,4 pontos percentuais.
+
+### Outcomes Secundários
+
+<!-- Cada outcome secundário indica o instrumento de medição, unidade e momentos de avaliação. -->
+
+1. **Glicemia em jejum** — Análise laboratorial (mg/dL); avaliação em T0, T1 e T2.
+2. **Peso corporal** — Balança calibrada (kg), com o participante descalço e em roupa leve; avaliação em T0, T1 e T2.
+3. **Adesão ao registo alimentar** — *Logs* da aplicação GlucoCheck: percentagem de dias com ≥2 refeições registadas; medição contínua ao longo das 24 semanas (apenas grupo de intervenção).
+4. **Frequência de auto-monitorização glicémica** — Número de medições por semana; obtido pelos *logs* da app (grupo de intervenção) ou por auto-relato (grupo controlo); medição contínua.
+5. **Autoeficácia** — *Diabetes Empowerment Scale — Short Form* (DES-SF), questionário validado de 8 itens, escala de Likert 1–5; avaliação em T0, T1 e T2.
+6. **Conhecimento sobre diabetes** — *Diabetes Knowledge Questionnaire* (DKQ-24), 24 itens com resposta sim/não/não sei; avaliação em T0 e T2.
+7. **Satisfação com os cuidados** — *Diabetes Treatment Satisfaction Questionnaire* (DTSQ), 8 itens com escala 0–6; avaliação em T0 e T2.
+
+### Cronograma de Avaliações (SPIRIT Figure)
+
+<!-- Tabela baseada nas recomendações SPIRIT (Standard Protocol Items: Recommendations for Interventional Trials). O × indica os momentos em que cada avaliação é realizada. -->
+
+| Avaliação | Rastreio | T0 (Baseline) | T1 (12 sem) | T2 (24 sem) |
+|-----------|----------|---------------|-------------|-------------|
+| Consentimento informado | × | | | |
+| Critérios de elegibilidade | × | | | |
+| Dados demográficos | | × | | |
+| História clínica | | × | | |
+| Medicação concomitante | | × | × | × |
+| HbA1c | | × | × | × |
+| Glicemia em jejum | | × | × | × |
+| Peso corporal | | × | × | × |
+| DES-SF (autoeficácia) | | × | × | × |
+| DKQ-24 (conhecimento) | | × | | × |
+| DTSQ (satisfação) | | × | | × |
+| Eventos adversos | | | × | × |
+| Adesão à app (grupo interv.) | | | contínua | contínua |
+
+*Cronograma de avaliações segundo as recomendações SPIRIT.*
+
+## Análise Estatística
+
+### Dimensão da Amostra
+
+<!-- A dimensão da amostra não foi calculada por poder estatístico formal porque se trata de um estudo piloto. A justificação segue as recomendações da literatura para estudos piloto (mínimo 12 por braço). -->
+
+Tratando-se de um estudo piloto (pré-teste), a dimensão da amostra (n = 30; 15 por braço) não foi calculada com base em poder estatístico formal, mas segue as recomendações da literatura para estudos piloto, que sugerem pelo menos 12 participantes por braço. O valor de 15 por braço permite acomodar uma taxa de *dropout* estimada de 20%, particularmente relevante neste estudo dada a duração de 6 meses e a faixa etária da população-alvo (40–75 anos), que pode apresentar literacia digital mais baixa e maior risco de abandono.
+
+Os resultados deste estudo piloto serão utilizados para estimar o tamanho de efeito e a variabilidade da diferença em HbA1c entre grupos — parâmetros necessários para o cálculo formal da dimensão amostral de um futuro ensaio definitivo.
+
+### Análise Principal
+
+<!-- A análise principal segue o princípio ITT e utiliza modelos lineares mistos, adequados para medidas repetidas e dados em falta sob o pressuposto MAR. -->
+
+A análise primária será conduzida segundo o princípio de **intenção-de-tratar** (ITT), incluindo todos os participantes randomizados independentemente do grau de adesão ao protocolo.
+
+A diferença entre grupos no outcome primário (variação da HbA1c) será analisada com um **modelo linear misto** (*linear mixed model*) para medidas repetidas, incluindo como efeitos fixos: grupo de alocação (intervenção vs. controlo), tempo (T0, T1, T2), interação grupo × tempo e valor de HbA1c no baseline. Será incluído um efeito aleatório por participante, com estrutura de covariância autorregressiva de primeira ordem — AR(1).
+
+### Análises Secundárias
+
+1. **Análise por protocolo (PP):** incluirá apenas os participantes que completaram ≥ 80% do período de intervenção e todas as avaliações previstas.
+2. **Outcomes secundários contínuos** (glicemia em jejum, peso, DES-SF): modelos lineares mistos análogos ao descrito para o outcome primário.
+3. **Outcomes dicotómicos** (proporção que atinge HbA1c < 7,0% em T2): regressão logística com ajuste para o valor de baseline.
+4. **Adesão:** estatísticas descritivas (mediana, amplitude interquartil) da percentagem de dias com registo alimentar completo e do número semanal de medições glicémicas.
+5. **Análise de subgrupos exploratória:** por sexo, faixa etária (< 60 vs. ≥ 60 anos) e HbA1c no baseline (< 8,0% vs. ≥ 8,0%).
+
+### Dados em Falta
+
+Os modelos lineares mistos acomodam dados em falta sob o pressuposto de *missing at random* (MAR). Será realizada uma análise de sensibilidade com imputação múltipla (*multiple imputation*; 20 *datasets* imputados) para avaliar a robustez dos resultados face a diferentes mecanismos de dados em falta.
+
+### Software Estatístico
+
+As análises serão realizadas em R (versão 4.3 ou superior), utilizando os pacotes `lme4`, `lmerTest` e `mice`. O nível de significância será fixado em α = 0,05 (bilateral). Os resultados serão reportados com intervalos de confiança a 95%.
+
+## Ética e Disseminação
+
+### Aprovação Ética
+
+O protocolo será submetido para apreciação à Comissão de Ética para a Saúde da Administração Regional de Saúde do Norte (CES-ARS Norte) e à Comissão de Ética da Faculdade de Medicina da Universidade do Porto antes do início do recrutamento. Qualquer emenda substancial ao protocolo será comunicada às comissões de ética e documentada.
+
+### Consentimento Informado
+
+Todos os potenciais participantes receberão informação oral e escrita detalhada sobre os objectivos, procedimentos, riscos, benefícios e direitos no âmbito do estudo, bem como sobre o tratamento dos seus dados pessoais. O consentimento informado será obtido por escrito antes de qualquer procedimento. Os participantes serão informados do seu direito de retirar o consentimento a qualquer momento, sem necessidade de justificação e sem qualquer prejuízo no acompanhamento clínico habitual.
+
+### Proteção de Dados
+
+<!-- Conformidade com RGPD e legislação portuguesa -->
+
+Os dados pessoais serão tratados em conformidade com o Regulamento Geral sobre a Proteção de Dados (RGPD — Regulamento UE 2016/679) e a legislação nacional aplicável (Lei n.º 58/2019). Os dados serão pseudonimizados mediante atribuição de código alfanumérico; a chave de correspondência será armazenada em ficheiro encriptado separado, acessível apenas ao investigador principal. Os dados gerados pela aplicação GlucoCheck serão armazenados em servidores seguros com encriptação ponta-a-ponta.
+
+### Segurança e Monitorização de Eventos Adversos
+
+Não são expectáveis eventos adversos graves diretamente decorrentes da utilização de uma aplicação móvel. Contudo, dada a natureza da doença e o facto de a auto-monitorização intensiva poder ter efeitos psicológicos, serão monitorizados e registados sistematicamente:
+
+1. Episódios de hipoglicemia sintomática (glicemia capilar < 70 mg/dL).
+2. Episódios de hiperglicemia grave (glicemia > 400 mg/dL ou cetoacidose diabética).
+3. Necessidade de recurso ao serviço de urgência ou hospitalização por causa relacionada com diabetes.
+4. Efeitos psicológicos adversos associados à auto-monitorização intensiva (ansiedade, sobrecarga, *diabetes burnout*).
+
+Eventos adversos graves serão comunicados à comissão de ética no prazo de 24 horas.
+
+### Disseminação dos Resultados
+
+<!-- Os resultados seguirão as diretrizes CONSORT -->
+
+Os resultados serão disseminados através de:
+
+1. Publicação em revista científica indexada com revisão por pares, seguindo as diretrizes CONSORT para ensaios clínicos randomizados e a extensão CONSORT-EHEALTH para intervenções digitais.
+2. Apresentação em congressos nacionais e internacionais nas áreas de diabetologia e saúde digital.
+3. Comunicação resumida dos principais resultados a todos os participantes do estudo.
+4. Registo do ensaio numa plataforma internacional de registo de ensaios clínicos (ClinicalTrials.gov) antes do início do recrutamento.
+
+## Notas de Desenvolvimento
+
+<!-- ATENÇÃO: Esta secção NÃO vai para o protocolo final. É apenas para uso interno durante o desenvolvimento do documento. -->
+
+### Decisões Pendentes
+
+- Definir modelo e fornecedor do glucómetro Bluetooth a utilizar.
+- Confirmar a USF parceira para recrutamento.
+- Validar disponibilidade de versão portuguesa do DES-SF e do DKQ-24.
+- Definir orçamento para glucómetros e tiras-teste (estimativa: 336 tiras/participante).
+
+### Dúvidas para Esclarecer
+
+- Como registar e controlar ajustes de medicação antidiabética decididos pelo médico assistente durante o estudo (possível co-intervenção)?
+- Estratégias concretas para minimizar o *dropout* ao longo de 6 meses numa população com literacia digital potencialmente mais baixa.
+- Mudanças em HbA1c demoram semanas a refletir a intervenção — o ponto T1 (12 semanas) é suficiente para detetar diferenças intermédias?
+
+<!-- Placeholder para referências: quando o ficheiro .bib estiver pronto (via Zotero + Better BibTeX), adicionar a secção de referências aqui. -->
+
+**Versão:** 1.1
+**Data desta versão:** 2026-04-30
+**Autores desta versão:** Francisca Teixeira, Luísa Moreira, Mariana Dias, Rosarinho Barros
