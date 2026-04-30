@@ -1,0 +1,21 @@
+---
+title: "Equipa"
+subtitle: "Grupo 6 · Turma B"
+---
+
+## Membros
+
+- **Francisca Teixeira** — up202509787
+- **Luísa Moreira** — up202508306
+- **Mariana Dias** — up202506985
+- **Rosarinho Barros** — up202506983
+
+## Contacto institucional
+
+`up202506985@up.pt`
+
+## Afiliação
+
+**Faculdade de Medicina da Universidade do Porto**  
+Unidade Curricular de Ferramentas de Produtividade · 2025/2026
+
