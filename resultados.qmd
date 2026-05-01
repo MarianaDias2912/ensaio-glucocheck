@@ -3,3 +3,49 @@ title: "resultados"
 format: html
 ---
 
+##caracteristicas basais 
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(tidyverse)
+library(here)
+library(gtsummary)
+
+dados <- read_csv(here("data", "raw", "glucocheck.csv"))
+
+dados |>
+  select(-patient_id) |>
+  tbl_summary(by = grupo) |>
+  add_p() |>
+  bold_labels()
+```
+
+
+## Outcome primário - HbA1c aos 6 meses
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+ggplot(dados, aes(x = grupo, y = hba1c_6meses, fill = grupo)) +
+  geom_boxplot(alpha = 0.7) +
+  labs(
+    title = "HbA1c aos 6 meses por grupo",
+    x = "Grupo",
+    y = "HbA1c (%)",
+    fill = "Grupo"
+  ) +
+  theme_minimal() +
+  theme(legend.position = "none")
+```
+
+
+
+
+
+
+
