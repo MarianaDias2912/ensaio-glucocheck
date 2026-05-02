@@ -49,7 +49,7 @@ referência central no desenho da experiência de utilização da aplicação e
 
 ![Ficha de persona do utilizador-tipo da aplicação GlucoCheck.](images/persona_glucocheck.svg){width=85% fig-align="center"}
 
-### Protótipo interactivo
+### Protótipo interativo
 
 O protótipo da aplicação foi desenvolvido em Figma e inclui *login*
 funcional e quatro acções completas para além do *login*: registar uma
@@ -58,11 +58,6 @@ consultar o perfil do utilizador.
 
 [Aceder ao protótipo Figma](https://www.figma.com/proto/tbi7tGVLRPmISWLhuVj4zo/GlucoCheckG6?node-id=2-2&p=f&t=J0pLJvw4bjWKfGOB-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2&show-proto-sidebar=1){target="_blank"}
 
-::: {.callout-note appearance="minimal"}
-**Como navegar no protótipo:** o ecrã inicial é o *splash screen*. Após o
-*login*, a aplicação dirige o utilizador à *home*, a partir da qual é
-possível aceder às quatro acções principais.
-:::
 
 ### Apresentação
 
@@ -76,7 +71,7 @@ unidade curricular.
 ### Cumprimento dos requisitos da TP8
 
 A tabela seguinte mapeia os requisitos definidos no enunciado da TP8 para
-a respectiva evidência presente nesta página.
+a respetiva evidência presente nesta página.
 
 | Requisito do enunciado | Cumprimento | Evidência |
 |---|:---:|---|

@@ -60,19 +60,4 @@ percentuais**.
 - [Resultados](resultados.qmd) — características basais e *outcome* primário do piloto.
 - [Equipa](equipa.qmd) — membros, papéis e contactos.
 
-## Declaração de uso de Inteligência Artificial
 
-Este projecto utilizou ferramentas de IA generativa nas seguintes tarefas:
-
-- **Apoio téncnico à montagem do site Quarto** — configuração do ficheiro
-  `_quarto.yml`, estrutura de pastas do projecto RStudio. Ferramenta: Claude (Anthropic), Abril de 2026.
-- **Apoio à redacção das secções introdutórias do site**, com base no
-  protocolo SPIRIT desenvolvido pelo grupo na E1 e no cenário clínico
-  fornecido pela disciplina. Todo o texto foi revisto pelo grupo antes
-  de publicação.
-
-O **protocolo SPIRIT** (E1), os **materiais** (E2 — CRF, formulário REDCap
-e protótipos), o **desenho do estudo**, a **definição da intervenção e dos
-outcomes**, o **plano de análise estatística** e a **interpretação dos
-resultados** foram desenvolvidos integralmente pela equipa, sem recurso a
-IA generativa.

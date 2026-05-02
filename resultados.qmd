@@ -28,9 +28,10 @@ dados <- read_csv(
 
 ## Características basais
 
-A tabela apresenta as características basais dos participantes, estratificadas
-por grupo de aleatorização. Variáveis contínuas em mediana (Q1, Q3);
-categóricas em n (%).
+A tabela apresenta as características basais dos participantes,
+estratificadas por grupo de aleatorização, e permite verificar o
+balanceamento entre grupos — esperado num ensaio com aleatorização 1:1.
+Variáveis contínuas em mediana (Q1, Q3); categóricas em n (%).
 
 ```{r}
 #| echo: false
@@ -60,6 +61,10 @@ dados |>
 ```
 
 ## Outcome primário — HbA1c aos 6 meses
+
+A figura mostra a distribuição da hemoglobina glicada (HbA1c) aos 6 meses
+por grupo de aleatorização. Três participantes do grupo de intervenção
+não tinham follow-up disponível e foram excluídos da visualização.
 
 ```{r}
 #| echo: false

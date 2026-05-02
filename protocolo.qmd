@@ -555,24 +555,8 @@ Os resultados serão disseminados através de:
 3. Comunicação resumida dos principais resultados a todos os participantes do estudo.
 4. Registo do ensaio numa plataforma internacional de registo de ensaios clínicos (ClinicalTrials.gov) antes do início do recrutamento.
 
-## Notas de Desenvolvimento
 
-<!-- ATENÇÃO: Esta secção NÃO vai para o protocolo final. É apenas para uso interno durante o desenvolvimento do documento. -->
 
-### Decisões Pendentes
-
-- Definir modelo e fornecedor do glucómetro Bluetooth a utilizar.
-- Confirmar a USF parceira para recrutamento.
-- Validar disponibilidade de versão portuguesa do DES-SF e do DKQ-24.
-- Definir orçamento para glucómetros e tiras-teste (estimativa: 336 tiras/participante).
-
-### Dúvidas para Esclarecer
-
-- Como registar e controlar ajustes de medicação antidiabética decididos pelo médico assistente durante o estudo (possível co-intervenção)?
-- Estratégias concretas para minimizar o *dropout* ao longo de 6 meses numa população com literacia digital potencialmente mais baixa.
-- Mudanças em HbA1c demoram semanas a refletir a intervenção — o ponto T1 (12 semanas) é suficiente para detetar diferenças intermédias?
-
-<!-- Placeholder para referências: quando o ficheiro .bib estiver pronto (via Zotero + Better BibTeX), adicionar a secção de referências aqui. -->
 
 **Versão:** 1.1
 **Data desta versão:** 2026-04-30
