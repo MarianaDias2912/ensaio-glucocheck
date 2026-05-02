@@ -48,6 +48,16 @@ referência central no desenho da experiência de utilização da aplicação e
 é citada ao longo de toda a apresentação como fio condutor narrativo.
 
 ![Ficha de persona do utilizador-tipo da aplicação GlucoCheck.](images/persona_glucocheck.svg){width=85% fig-align="center"}
+### Fluxograma de navegação
+
+O fluxograma seguinte representa a estrutura de navegação da aplicação
+GlucoCheck, identificando os ecrãs principais e as ligações entre eles.
+Foi a referência usada no desenvolvimento dos *wireframes* e *mockups* em
+Figma, garantindo coerência entre o desenho da experiência e o protótipo
+final.
+
+![Fluxograma de navegação dos ecrãs da aplicação GlucoCheck.](images/fluxograma_app.svg){width=90% fig-align="center"}
+
 
 ### Protótipo interativo
 
