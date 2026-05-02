@@ -76,7 +76,7 @@ A apresentação foi desenhada para uma *Investigator's Meeting* de 10 a
 narrativo *Porquê? — Como? — E então?* recomendado nos materiais da
 unidade curricular.
 
-[Descarregar a apresentação (PDF)](docs/Investigator´s Meeting.pdf){target="_blank"}
+[Descarregar a apresentação (PDF)](images/InvestigatorsMeeting.pdf){target="_blank"}
 
 ### Cumprimento dos requisitos da TP8
 
