@@ -142,9 +142,9 @@
   {
     "objectID": "materiais.html",
     "href": "materiais.html",
-    "title": "material",
+    "title": "Materiais",
     "section": "",
-    "text": "Esta página apresenta os materiais desenvolvidos para o ensaio GlucoCheck."
+    "text": "Esta página reúne os materiais desenvolvidos no âmbito do ensaio GlucoCheck: o Case Report Form (CRF), o formulário electrónico em REDCap para a recolha de dados, e os materiais de apoio à Investigator’s Meeting — persona, fluxograma de navegação e protótipo da aplicação móvel — produzidos no contexto da TP8."
   },
   {
     "objectID": "materiais.html#crf",
@@ -156,9 +156,9 @@
   {
     "objectID": "materiais.html#formulário-redcap",
     "href": "materiais.html#formulário-redcap",
-    "title": "material",
+    "title": "Materiais",
     "section": "Formulário REDCap",
-    "text": "Formulário REDCap\nO formulário REDCap corresponde à versão electrónica do CRF, permitindo a recolha e gestão dos dados de forma segura.\nEm desenvolvimento."
+    "text": "Formulário REDCap\nO formulário REDCap corresponde à versão electrónica do CRF, implementada na plataforma institucional para garantir recolha segura, validação de tipos de dados e backup automático dos registos. O instrumento foi desenhado a partir do CRF e replica a estrutura modular dos três tempos de avaliação.\nA integrar — projeto REDCap e dicionário de dados."
   },
   {
     "objectID": "materiais.html#protótipos-da-intervenção",
@@ -180,5 +180,19 @@
     "title": "Resultados preliminares",
     "section": "Outcome primário — HbA1c aos 6 meses",
     "text": "Outcome primário — HbA1c aos 6 meses"
+  },
+  {
+    "objectID": "materiais.html#crf-case-report-form",
+    "href": "materiais.html#crf-case-report-form",
+    "title": "Materiais",
+    "section": "CRF — Case Report Form",
+    "text": "CRF — Case Report Form\nO CRF é o instrumento utilizado para registar os dados clínicos de cada participante ao longo do ensaio. Está organizado em três módulos correspondentes às avaliações do cronograma:\n\nInclusão e baseline (T0) — dados sociodemográficos, critérios de elegibilidade, HbA1c, glicemia em jejum, peso, DES-SF, DKQ-24.\nAvaliação intermédia (T1, semana 12) — HbA1c, glicemia em jejum, peso, adesão ao registo alimentar, DES-SF.\nAvaliação final (T2, semana 24) — HbA1c, glicemia em jejum, peso, DES-SF, DKQ-24, satisfação (DTSQ).\n\nA integrar — versão final do CRF em PDF ou imagens das secções."
+  },
+  {
+    "objectID": "materiais.html#material-de-apoio-à-investigators-meeting-tp8",
+    "href": "materiais.html#material-de-apoio-à-investigators-meeting-tp8",
+    "title": "Materiais",
+    "section": "Material de apoio à Investigator’s Meeting (TP8)",
+    "text": "Material de apoio à Investigator’s Meeting (TP8)\nOs materiais seguintes foram desenvolvidos no âmbito da TP8 — Suporte para Apresentações, Comunicações UX e Prototipagem — em apoio à simulação de uma Investigator’s Meeting dirigida a investigadores e equipa clínica, com duração de 10 a 15 minutos.\n\nFicha de persona\nA ficha de persona representa o utilizador-tipo da aplicação GlucoCheck — adultos entre 40 e 75 anos com Diabetes Mellitus Tipo 2 e controlo glicémico subótimo, seguidos em cuidados de saúde primários. Constitui a referência central no desenho da experiência de utilização da aplicação e é citada ao longo de toda a apresentação como fio condutor narrativo.\n\n\n\nFicha de persona do utilizador-tipo da aplicação GlucoCheck.\n\n\n\n\nProtótipo interactivo\nO protótipo da aplicação foi desenvolvido em Figma e inclui login funcional e quatro acções completas para além do login: registar uma nova medição, registar uma refeição, consultar o histórico de medições e consultar o perfil do utilizador.\nAceder ao protótipo Figma\n\n\n\n\n\n\nComo navegar no protótipo: o ecrã inicial é o splash screen. Após o login, a aplicação dirige o utilizador à home, a partir da qual é possível aceder às quatro acções principais.\n\n\n\n\n\nApresentação\nA apresentação foi desenhada para uma Investigator’s Meeting de 10 a 15 minutos dirigida a investigadores e equipa clínica, seguindo o arco narrativo Porquê? — Como? — E então? recomendado nos materiais da unidade curricular.\nDescarregar a apresentação (PDF)\n\n\nCumprimento dos requisitos da TP8\nA tabela seguinte mapeia os requisitos definidos no enunciado da TP8 para a respectiva evidência presente nesta página.\n\n\n\n\n\n\n\n\nRequisito do enunciado\nCumprimento\nEvidência\n\n\n\n\nMaterial de suporte à Investigator’s Meeting\n✓\nEsta secção\n\n\nApresentação do estudo\n✓\nSlides (PDF acima)\n\n\nDemonstração do protótipo\n✓\nLink Figma acima\n\n\nDirigida a investigadores e equipa clínica\n✓\nAudiência identificada\n\n\nDuração de 10 a 15 minutos\n✓\nDeck dimensionado para ≈ 14 min\n\n\nLink para o protótipo (obrigatório)\n✓\nLink Figma acima\n\n\nAcção completa para além do login (obrigatório)\n✓\nRegistar medição · Registar refeição · Histórico · Perfil"
   }
 ]
