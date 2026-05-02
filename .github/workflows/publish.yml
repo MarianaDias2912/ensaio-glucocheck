@@ -1,0 +1,69 @@
+name: Publish to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check style rules (no U+2014)
+        run: |
+          dash=$(printf '\xe2\x80\x94')
+          if grep -rn "$dash" --include="*.qmd" --include="*.R" --include="*.md" \
+               --exclude-dir=.github --exclude-dir=docs --exclude-dir=.quarto .; then
+            echo "Travessao longo encontrado. Usar virgulas, parenteses ou dois pontos."
+            exit 1
+          fi
+
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - name: Install R packages
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::tidyverse
+            any::here
+            any::gtsummary
+            any::gt
+            any::janitor
+            any::knitr
+            any::rmarkdown
+
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render Quarto Project
+        run: quarto render
+
+      - name: Bootstrap gh-pages branch if missing
+        run: |
+          if ! git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
+            git config user.email "actions@github.com"
+            git config user.name "github-actions"
+            tree=$(printf '' | git mktree)
+            commit=$(git commit-tree $tree -m "init gh-pages")
+            git push origin $commit:refs/heads/gh-pages
+          fi
+
+      - name: Deploy to GitHub Pages
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}file.exists(".github/workflows/publish.yml")
