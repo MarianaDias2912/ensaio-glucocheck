@@ -60,7 +60,7 @@
   <circle cx="190" cy="125" r="65" fill="none" stroke="#5A87B0" stroke-width="3"/>
 
   <!-- Name -->
-  <text x="190" y="225" text-anchor="middle" font-size="24" font-weight="700" fill="#1A2B3C">Maria Fernandes</text>
+  <text x="190" y="225" text-anchor="middle" font-size="24" font-weight="700" fill="#1A2B3C">Cláudia Pereira</text>
 
   <!-- Quote -->
   <text x="190" y="258" text-anchor="middle" font-size="13" font-style="italic" fill="#5A6B7C">&quot;Quero estar bem para</text>
@@ -99,9 +99,9 @@
   <g transform="translate(420, 80)">
     <circle cx="0" cy="-7" r="7" fill="none" stroke="#B8893A" stroke-width="2"/>
     <path d="M -10 12 Q 0 4 10 12" stroke="#B8893A" stroke-width="2" fill="none" stroke-linecap="round"/>
-    <text x="22" y="8" font-size="15" font-weight="700" fill="#B8893A" letter-spacing="0.6">CONTEXTO DA MARIA</text>
+    <text x="22" y="8" font-size="15" font-weight="700" fill="#B8893A" letter-spacing="0.6">CONTEXTO DA CLÁUDIA</text>
   </g>
-  <text x="420" y="125" font-size="12.5" fill="#1A2B3C">Maria foi diagnosticada com <tspan font-weight="700">Diabetes Mellitus</tspan></text>
+  <text x="420" y="125" font-size="12.5" fill="#1A2B3C">Cláudia foi diagnosticada com <tspan font-weight="700">Diabetes Mellitus</tspan></text>
   <text x="420" y="143" font-size="12.5" fill="#1A2B3C"><tspan font-weight="700">Tipo 2</tspan> há 4 anos. A sua HbA1c atual é <tspan font-weight="700">8,2%</tspan></text>
   <text x="420" y="161" font-size="12.5" fill="#1A2B3C">(controlo subótimo) e está medicada com</text>
   <text x="420" y="179" font-size="12.5" fill="#1A2B3C">metformina e gliclazida, sem insulinoterapia.</text>

@@ -2,9 +2,9 @@
   {
     "objectID": "resultados.html",
     "href": "resultados.html",
-    "title": "resultados",
+    "title": "Resultados preliminares",
     "section": "",
-    "text": "##caracteristicas basais\nCharacteristic\ncontrolo\nN = 151\nintervencao\nN = 151\np-value2\n\n\n\n\nidade\n59 (49, 69)\n57 (44, 67)\n0.4\n\n\nsexo\n\n\n\n\n0.5\n\n\n    F\n8 (53%)\n6 (40%)\n\n\n\n\n    M\n7 (47%)\n9 (60%)\n\n\n\n\nhba1c_baseline\n8.30 (7.90, 8.70)\n8.20 (7.80, 8.60)\n0.8\n\n\nhba1c_6meses\n8.10 (7.70, 8.70)\n7.55 (7.10, 8.20)\n0.11\n\n\n    Unknown\n0\n3\n\n\n\n\nglicemia_jejum_baseline\n163 (144, 179)\n158 (141, 186)\n&gt;0.9\n\n\nglicemia_jejum_6meses\n160 (140, 183)\n133 (112, 156)\n0.035\n\n\n    Unknown\n0\n3\n\n\n\n\npeso_baseline\n91 (85, 100)\n87 (78, 96)\n0.4\n\n\npeso_6meses\n90 (86, 98)\n85 (79, 94)\n0.3\n\n\n    Unknown\n0\n3\n\n\n\n\ndes_sf\n6.80 (5.80, 8.30)\n7.70 (6.90, 8.40)\n0.14\n\n\nsatisfacao\n\n\n\n\n0.053\n\n\n    1\n5 (33%)\n0 (0%)\n\n\n\n\n    2\n4 (27%)\n2 (13%)\n\n\n\n\n    3\n1 (6.7%)\n4 (27%)\n\n\n\n\n    4\n4 (27%)\n5 (33%)\n\n\n\n\n    5\n1 (6.7%)\n4 (27%)\n\n\n\n\n\n1 Median (Q1, Q3); n (%)\n\n\n2 Wilcoxon rank sum exact test; Pearson’s Chi-squared test; Fisher’s exact test"
+    "text": "A tabela apresenta as características basais dos participantes, estratificadas por grupo de aleatorização. Variáveis contínuas em mediana (Q1, Q3); categóricas em n (%).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nOverall\nN = 301\nControlo\nN = 151\nIntervenção\nN = 151\n\n\n\n\nIdade (anos)\n57.0 (45.5, 67.2)\n59.2 (48.7, 69.4)\n56.5 (43.7, 67.2)\n\n\nSexo\n\n\n\n\n\n\n\n\n    Feminino\n14 (47%)\n8 (53%)\n6 (40%)\n\n\n    Masculino\n16 (53%)\n7 (47%)\n9 (60%)\n\n\nHbA1c basal (%)\n8.3 (7.9, 8.6)\n8.3 (7.9, 8.7)\n8.2 (7.8, 8.6)\n\n\nGlicemia em jejum basal (mg/dL)\n160.1 (141.8, 183.4)\n162.7 (143.7, 178.6)\n157.5 (141.2, 185.9)\n\n\nPeso basal (kg)\n88.0 (80.8, 96.1)\n90.5 (85.1, 99.5)\n86.8 (77.6, 96.1)\n\n\nDES-SF basal\n7.2 (6.2, 8.3)\n6.8 (5.8, 8.3)\n7.7 (6.9, 8.4)\n\n\n\n1 Median (Q1, Q3); n (%)"
   },
   {
     "objectID": "resultados.html#outcome-primário---hba1c-aos-6-meses",
@@ -138,5 +138,47 @@
     "title": "Protocolo",
     "section": "",
     "text": "Definir modelo e fornecedor do glucómetro Bluetooth a utilizar.\nConfirmar a USF parceira para recrutamento.\nValidar disponibilidade de versão portuguesa do DES-SF e do DKQ-24.\nDefinir orçamento para glucómetros e tiras-teste (estimativa: 336 tiras/participante).\n\n\n\n\n\nComo registar e controlar ajustes de medicação antidiabética decididos pelo médico assistente durante o estudo (possível co-intervenção)?\nEstratégias concretas para minimizar o dropout ao longo de 6 meses numa população com literacia digital potencialmente mais baixa.\nMudanças em HbA1c demoram semanas a refletir a intervenção — o ponto T1 (12 semanas) é suficiente para detetar diferenças intermédias?\n\n\nVersão: 1.1 Data desta versão: 2026-04-30 Autores desta versão: Francisca Teixeira, Luísa Moreira, Mariana Dias, Rosarinho Barros"
+  },
+  {
+    "objectID": "materiais.html",
+    "href": "materiais.html",
+    "title": "material",
+    "section": "",
+    "text": "Esta página apresenta os materiais desenvolvidos para o ensaio GlucoCheck."
+  },
+  {
+    "objectID": "materiais.html#crf",
+    "href": "materiais.html#crf",
+    "title": "material",
+    "section": "CRF",
+    "text": "CRF\nO Caderno de Recolha de Dados (CRF) é o instrumento utilizado para registar os dados clínicos de cada participante ao longo do ensaio.\nEm desenvolvimento."
+  },
+  {
+    "objectID": "materiais.html#formulário-redcap",
+    "href": "materiais.html#formulário-redcap",
+    "title": "material",
+    "section": "Formulário REDCap",
+    "text": "Formulário REDCap\nO formulário REDCap corresponde à versão electrónica do CRF, permitindo a recolha e gestão dos dados de forma segura.\nEm desenvolvimento."
+  },
+  {
+    "objectID": "materiais.html#protótipos-da-intervenção",
+    "href": "materiais.html#protótipos-da-intervenção",
+    "title": "material",
+    "section": "Protótipos da intervenção",
+    "text": "Protótipos da intervenção\nMockups e protótipos da aplicação digital testada no ensaio GlucoCheck.\nEm desenvolvimento."
+  },
+  {
+    "objectID": "resultados.html#características-basais",
+    "href": "resultados.html#características-basais",
+    "title": "Resultados preliminares",
+    "section": "",
+    "text": "A tabela apresenta as características basais dos participantes, estratificadas por grupo de aleatorização. Variáveis contínuas em mediana (Q1, Q3); categóricas em n (%).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nOverall\nN = 301\nControlo\nN = 151\nIntervenção\nN = 151\n\n\n\n\nIdade (anos)\n57.0 (45.5, 67.2)\n59.2 (48.7, 69.4)\n56.5 (43.7, 67.2)\n\n\nSexo\n\n\n\n\n\n\n\n\n    Feminino\n14 (47%)\n8 (53%)\n6 (40%)\n\n\n    Masculino\n16 (53%)\n7 (47%)\n9 (60%)\n\n\nHbA1c basal (%)\n8.3 (7.9, 8.6)\n8.3 (7.9, 8.7)\n8.2 (7.8, 8.6)\n\n\nGlicemia em jejum basal (mg/dL)\n160.1 (141.8, 183.4)\n162.7 (143.7, 178.6)\n157.5 (141.2, 185.9)\n\n\nPeso basal (kg)\n88.0 (80.8, 96.1)\n90.5 (85.1, 99.5)\n86.8 (77.6, 96.1)\n\n\nDES-SF basal\n7.2 (6.2, 8.3)\n6.8 (5.8, 8.3)\n7.7 (6.9, 8.4)\n\n\n\n1 Median (Q1, Q3); n (%)"
+  },
+  {
+    "objectID": "resultados.html#outcome-primário-hba1c-aos-6-meses",
+    "href": "resultados.html#outcome-primário-hba1c-aos-6-meses",
+    "title": "Resultados preliminares",
+    "section": "Outcome primário — HbA1c aos 6 meses",
+    "text": "Outcome primário — HbA1c aos 6 meses"
   }
 ]
