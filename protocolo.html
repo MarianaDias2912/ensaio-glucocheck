@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Protocolo – Ensaio GlucoCheck</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-4897d45d2f75ed4f519693be625836c5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Ensaio GlucoCheck</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Início</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./protocolo.html" aria-current="page"> 
+<span class="menu-text">Protocolo</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./materiais.html"> 
+<span class="menu-text">Materiais</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./resultados.html"> 
+<span class="menu-text">Resultados</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./equipa.html"> 
+<span class="menu-text">Equipa</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Nesta página</h2>
+   
+  <ul>
+  <li><a href="#protocolo-de-ensaio-clínico" id="toc-protocolo-de-ensaio-clínico" class="nav-link active" data-scroll-target="#protocolo-de-ensaio-clínico">Protocolo de Ensaio Clínico</a>
+  <ul class="collapse">
+  <li><a href="#informação-administrativa" id="toc-informação-administrativa" class="nav-link" data-scroll-target="#informação-administrativa">Informação Administrativa</a>
+  <ul class="collapse">
+  <li><a href="#título-do-estudo" id="toc-título-do-estudo" class="nav-link" data-scroll-target="#título-do-estudo">Título do Estudo</a></li>
+  <li><a href="#título-abreviado" id="toc-título-abreviado" class="nav-link" data-scroll-target="#título-abreviado">Título Abreviado</a></li>
+  <li><a href="#autores-e-afiliações" id="toc-autores-e-afiliações" class="nav-link" data-scroll-target="#autores-e-afiliações">Autores e Afiliações</a></li>
+  <li><a href="#identificação-do-ensaio" id="toc-identificação-do-ensaio" class="nav-link" data-scroll-target="#identificação-do-ensaio">Identificação do Ensaio</a></li>
+  </ul></li>
+  <li><a href="#introdução" id="toc-introdução" class="nav-link" data-scroll-target="#introdução">Introdução</a>
+  <ul class="collapse">
+  <li><a href="#racional" id="toc-racional" class="nav-link" data-scroll-target="#racional">Racional</a></li>
+  <li><a href="#objetivos" id="toc-objetivos" class="nav-link" data-scroll-target="#objetivos">Objetivos</a></li>
+  </ul></li>
+  <li><a href="#métodos" id="toc-métodos" class="nav-link" data-scroll-target="#métodos">Métodos</a>
+  <ul class="collapse">
+  <li><a href="#desenho-do-estudo" id="toc-desenho-do-estudo" class="nav-link" data-scroll-target="#desenho-do-estudo">Desenho do Estudo</a></li>
+  <li><a href="#fluxograma-do-estudo-consort" id="toc-fluxograma-do-estudo-consort" class="nav-link" data-scroll-target="#fluxograma-do-estudo-consort">Fluxograma do Estudo (CONSORT)</a></li>
+  <li><a href="#população-do-estudo" id="toc-população-do-estudo" class="nav-link" data-scroll-target="#população-do-estudo">População do Estudo</a></li>
+  <li><a href="#intervenções" id="toc-intervenções" class="nav-link" data-scroll-target="#intervenções">Intervenções</a></li>
+  </ul></li>
+  <li><a href="#avaliações-e-outcomes" id="toc-avaliações-e-outcomes" class="nav-link" data-scroll-target="#avaliações-e-outcomes">Avaliações e Outcomes</a>
+  <ul class="collapse">
+  <li><a href="#outcome-primário" id="toc-outcome-primário" class="nav-link" data-scroll-target="#outcome-primário">Outcome Primário</a></li>
+  <li><a href="#outcomes-secundários" id="toc-outcomes-secundários" class="nav-link" data-scroll-target="#outcomes-secundários">Outcomes Secundários</a></li>
+  <li><a href="#cronograma-de-avaliações-spirit-figure" id="toc-cronograma-de-avaliações-spirit-figure" class="nav-link" data-scroll-target="#cronograma-de-avaliações-spirit-figure">Cronograma de Avaliações (SPIRIT Figure)</a></li>
+  </ul></li>
+  <li><a href="#análise-estatística" id="toc-análise-estatística" class="nav-link" data-scroll-target="#análise-estatística">Análise Estatística</a>
+  <ul class="collapse">
+  <li><a href="#dimensão-da-amostra" id="toc-dimensão-da-amostra" class="nav-link" data-scroll-target="#dimensão-da-amostra">Dimensão da Amostra</a></li>
+  <li><a href="#análise-principal" id="toc-análise-principal" class="nav-link" data-scroll-target="#análise-principal">Análise Principal</a></li>
+  <li><a href="#análises-secundárias" id="toc-análises-secundárias" class="nav-link" data-scroll-target="#análises-secundárias">Análises Secundárias</a></li>
+  <li><a href="#dados-em-falta" id="toc-dados-em-falta" class="nav-link" data-scroll-target="#dados-em-falta">Dados em Falta</a></li>
+  <li><a href="#software-estatístico" id="toc-software-estatístico" class="nav-link" data-scroll-target="#software-estatístico">Software Estatístico</a></li>
+  </ul></li>
+  <li><a href="#ética-e-disseminação" id="toc-ética-e-disseminação" class="nav-link" data-scroll-target="#ética-e-disseminação">Ética e Disseminação</a>
+  <ul class="collapse">
+  <li><a href="#aprovação-ética" id="toc-aprovação-ética" class="nav-link" data-scroll-target="#aprovação-ética">Aprovação Ética</a></li>
+  <li><a href="#consentimento-informado" id="toc-consentimento-informado" class="nav-link" data-scroll-target="#consentimento-informado">Consentimento Informado</a></li>
+  <li><a href="#proteção-de-dados" id="toc-proteção-de-dados" class="nav-link" data-scroll-target="#proteção-de-dados">Proteção de Dados</a></li>
+  <li><a href="#segurança-e-monitorização-de-eventos-adversos" id="toc-segurança-e-monitorização-de-eventos-adversos" class="nav-link" data-scroll-target="#segurança-e-monitorização-de-eventos-adversos">Segurança e Monitorização de Eventos Adversos</a></li>
+  <li><a href="#disseminação-dos-resultados" id="toc-disseminação-dos-resultados" class="nav-link" data-scroll-target="#disseminação-dos-resultados">Disseminação dos Resultados</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Protocolo</h1>
+<p class="subtitle lead">GlucoCheck — Ensaio Clínico Randomizado · Grupo 6, Turma B</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Data de Publicação</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">6 de março de 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<!-- Este documento é a versão Quarto do protocolo de ensaio clínico GlucoCheck. -->
+<section id="protocolo-de-ensaio-clínico" class="level1">
+<h1>Protocolo de Ensaio Clínico</h1>
+<section id="informação-administrativa" class="level2">
+<h2 class="anchored" data-anchor-id="informação-administrativa">Informação Administrativa</h2>
+<section id="título-do-estudo" class="level3">
+<h3 class="anchored" data-anchor-id="título-do-estudo">Título do Estudo</h3>
+<!-- O título deve ser completo e descritivo (50–100 palavras), incluindo: População, Intervenção, Comparador e Outcome (formato PICO). -->
+<p>Eficácia de uma Aplicação Móvel de Monitorização Glicémica e Registo Alimentar com Feedback Nutricional Automatizado (GlucoCheck) versus Consulta Habitual Isolada na Redução da Hemoglobina Glicada (HbA1c) em Adultos entre 40 e 75 Anos com Diabetes Mellitus Tipo 2 e Controlo Glicémico Subótimo, Sem Insulinoterapia, em Seguimento em Cuidados de Saúde Primários: Um Ensaio Clínico Randomizado, Controlado e de Grupos Paralelos.</p>
+</section>
+<section id="título-abreviado" class="level3">
+<h3 class="anchored" data-anchor-id="título-abreviado">Título Abreviado</h3>
+<p>GlucoCheck: App móvel para controlo da DM2</p>
+</section>
+<section id="autores-e-afiliações" class="level3">
+<h3 class="anchored" data-anchor-id="autores-e-afiliações">Autores e Afiliações</h3>
+<p><strong>Investigadores Principais:</strong></p>
+<ul>
+<li>Francisca Teixeira, Faculdade de Medicina da Universidade do Porto (FMUP)</li>
+<li>Luísa Moreira, Faculdade de Medicina da Universidade do Porto (FMUP)</li>
+<li>Mariana Dias, Faculdade de Medicina da Universidade do Porto (FMUP)</li>
+<li>Rosarinho Barros, Faculdade de Medicina da Universidade do Porto (FMUP)</li>
+</ul>
+<p><strong>Instituição:</strong> Faculdade de Medicina da Universidade do Porto</p>
+<p><strong>Contacto:</strong> Email: up202506985@up.pt</p>
+</section>
+<section id="identificação-do-ensaio" class="level3">
+<h3 class="anchored" data-anchor-id="identificação-do-ensaio">Identificação do Ensaio</h3>
+<p><strong>Tipo de estudo:</strong> Ensaio clínico randomizado, controlado, paralelo</p>
+<p><strong>Data de início prevista:</strong> Setembro 2026</p>
+<p><strong>Data de conclusão prevista:</strong> Junho 2027</p>
+</section>
+</section>
+<section id="introdução" class="level2">
+<h2 class="anchored" data-anchor-id="introdução">Introdução</h2>
+<section id="racional" class="level3">
+<h3 class="anchored" data-anchor-id="racional">Racional</h3>
+<!-- O racional deve ter 300–400 palavras e seguir a estrutura: (1) magnitude do problema, (2) limitações do cuidado atual, (3) evidência sobre intervenções digitais, (4) gap que o estudo preenche, (5) justificação do comparador, (6) relevância clínica e impacto esperado. -->
+<p>A Diabetes Mellitus Tipo 2 (DM2) é uma das doenças crónicas com maior impacto nos sistemas de saúde a nível global. Segundo a 11.ª edição do IDF Diabetes Atlas, estima-se que cerca de 589 milhões de adultos vivam atualmente com diabetes, com projeções que apontam para 853 milhões em 2050. Em Portugal, o Relatório Anual do Observatório Nacional da Diabetes (dados de 2024) estima uma prevalência de DM2 na ordem dos 14,2% na população adulta (20–79 anos), o valor mais elevado de sempre, correspondendo a cerca de 1,1 milhões de portugueses. Os custos diretos associados à doença representam entre 0,5% e 0,6% do PIB nacional (1 500 a 1 800 milhões de euros anuais), e as complicações microvasculares (retinopatia, nefropatia, neuropatia) e macrovasculares (doença cardiovascular) são responsáveis por uma proporção substancial da morbilidade e mortalidade nestes doentes.</p>
+<p>O controlo glicémico adequado, avaliado pela hemoglobina glicada (HbA1c), constitui o pilar central da prevenção destas complicações. Contudo, uma proporção significativa dos doentes seguidos em cuidados de saúde primários (CSP) não atinge os alvos terapêuticos recomendados (HbA1c &lt; 7,0%). Os principais obstáculos incluem a baixa adesão às recomendações nutricionais, a auto-monitorização glicémica irregular, a dificuldade na interpretação dos valores obtidos e o contacto limitado com os profissionais de saúde entre consultas trimestrais. O modelo de consulta habitual, embora fundamental, não proporciona feedback contínuo nem apoio à decisão do doente no quotidiano.</p>
+<p>As aplicações móveis de saúde (<em>mHealth</em>) emergiram como intervenções promissoras para complementar o cuidado convencional na gestão da DM2. Meta-análises recentes demonstram que intervenções digitais estão associadas a reduções clinicamente relevantes da HbA1c, tipicamente entre 0,3 e 0,5 pontos percentuais. Os mecanismos de acção propostos incluem: (a) aumento da frequência e qualidade da auto-monitorização glicémica; (b) promoção de escolhas alimentares mais adequadas através de feedback nutricional imediato; (c) reforço da autoeficácia e motivação mediante objectivos personalizados e mensagens de progresso; e (d) deteção precoce de padrões glicémicos problemáticos. As funcionalidades com maior evidência incluem o registo alimentar automatizado, a integração com glucómetros e a definição de metas individualizadas.</p>
+<p>Apesar destes resultados promissores, a evidência permanece heterogénea: muitos estudos apresentam amostras pequenas, ausência de grupo controlo adequado e seguimentos curtos, tendo sido conduzidos fora do contexto europeu de cuidados primários. Em Portugal, são escassos os ensaios que avaliem a eficácia de aplicações móveis integradas com glucómetros na gestão da DM2 em Unidades de Saúde Familiar (USF). O presente estudo pretende preencher esta lacuna, avaliando a eficácia da aplicação GlucoCheck comparada com a consulta habitual isolada — o <em>standard of care</em> atual em CSP — num grupo de adultos com controlo glicémico subótimo. Os resultados poderão fundamentar a implementação de ferramentas digitais na prática clínica corrente e informar o desenho de ensaios multicêntricos de maior escala.</p>
+</section>
+<section id="objetivos" class="level3">
+<h3 class="anchored" data-anchor-id="objetivos">Objetivos</h3>
+<!-- Os objetivos devem ter 100–150 palavras. Dividir em: objetivo primário (1 frase clara) e objetivos secundários (3–5 objetivos em lista). -->
+<section id="objetivo-primário" class="level4">
+<h4 class="anchored" data-anchor-id="objetivo-primário">Objetivo Primário</h4>
+<p>Avaliar a eficácia da aplicação móvel GlucoCheck, em comparação com a consulta habitual isolada, na redução da hemoglobina glicada (HbA1c) aos 6 meses (24 semanas), em adultos entre 40 e 75 anos com Diabetes Mellitus Tipo 2 e controlo glicémico subótimo (HbA1c 7,0–9,5%), sem insulinoterapia, seguidos em cuidados de saúde primários.</p>
+</section>
+<section id="objetivos-secundários" class="level4">
+<h4 class="anchored" data-anchor-id="objetivos-secundários">Objetivos Secundários</h4>
+<p>Os objetivos secundários deste estudo são:</p>
+<ol type="1">
+<li>Avaliar o efeito da intervenção na glicemia em jejum aos 3 e 6 meses.</li>
+<li>Avaliar o impacto da intervenção no peso corporal aos 3 e 6 meses.</li>
+<li>Determinar a adesão ao registo alimentar diário e a frequência de auto-monitorização glicémica ao longo das 24 semanas.</li>
+<li>Avaliar a autoeficácia dos participantes, medida pela <em>Diabetes Empowerment Scale — Short Form</em> (DES-SF), aos 3 e 6 meses.</li>
+<li>Comparar o nível de conhecimento sobre diabetes e a satisfação com os cuidados recebidos entre os dois grupos aos 6 meses.</li>
+</ol>
+</section>
+</section>
+</section>
+<section id="métodos" class="level2">
+<h2 class="anchored" data-anchor-id="métodos">Métodos</h2>
+<section id="desenho-do-estudo" class="level3">
+<h3 class="anchored" data-anchor-id="desenho-do-estudo">Desenho do Estudo</h3>
+<!-- Esta secção deve ter 150–200 palavras e incluir: tipo de ensaio (RCT, paralelo), razão de randomização (1:1), duração total, número de centros, fase do estudo e período de follow-up. -->
+<p>Este é um ensaio clínico randomizado, controlado, de grupos paralelos.</p>
+<p><strong>Características do desenho:</strong></p>
+<ul>
+<li>Randomização 1:1 (intervenção : controlo)</li>
+<li>Duração: 24 semanas (6 meses) por participante</li>
+<li>Setting: 1 Unidade de Saúde Familiar (USF) da região norte de Portugal</li>
+<li>Fase: Estudo piloto (pré-teste)</li>
+<li>Tamanho da amostra: 30 participantes (15 por braço)</li>
+</ul>
+<p>A randomização será estratificada por sexo e valor de HbA1c no baseline (&lt;8,0% vs.&nbsp;≥8,0%), utilizando blocos permutados de dimensão 4 gerados por computador. A sequência será produzida por um investigador independente e a alocação ocultada em envelopes opacos, selados e numerados sequencialmente. Dado que a intervenção envolve o uso de uma aplicação móvel, o estudo é aberto (<em>open-label</em>) para participantes e clínicos; contudo, os avaliadores dos outcomes laboratoriais serão cegos à alocação.</p>
+<p><strong>Timeline:</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 34%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Fase</th>
+<th>Duração</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Recrutamento</td>
+<td>8 semanas</td>
+<td>Identificação e seleção de participantes na USF</td>
+</tr>
+<tr class="even">
+<td>Baseline (T0)</td>
+<td>1 semana</td>
+<td>Avaliação inicial, consentimento informado e randomização</td>
+</tr>
+<tr class="odd">
+<td>Intervenção</td>
+<td>24 semanas</td>
+<td>Período ativo de uso da app ou cuidado habitual</td>
+</tr>
+<tr class="even">
+<td>Follow-up T1</td>
+<td>Semana 12</td>
+<td>Avaliação intermédia (outcomes primário e secundários)</td>
+</tr>
+<tr class="odd">
+<td>Follow-up T2</td>
+<td>Semana 24</td>
+<td>Avaliação final (outcomes primário e secundários)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="fluxograma-do-estudo-consort" class="level3">
+<h3 class="anchored" data-anchor-id="fluxograma-do-estudo-consort">Fluxograma do Estudo (CONSORT)</h3>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    %% ===== FASE 1: INCLUSÃO =====
+    A["Avaliados para elegibilidade (n= ?)&lt;br&gt;Adultos 40-75a, DM Tipo 2, cuidados primários"]
+    A --&gt; B["Excluídos (n= ?)&lt;br&gt;HbA1c fora 7.0-9.5% (n= ?)&lt;br&gt;Insulinoterapia (n= ?)&lt;br&gt;Idade fora intervalo (n= ?)&lt;br&gt;Desistiram (n= ?)&lt;br&gt;Outras razões (n= ?)"]
+    A --&gt; C["Randomizados: n=30&lt;br&gt;(15 intervenção + 15 controlo)"]
+
+    %% ===== FASE 2: ALOCAÇÃO =====
+    C --&gt; D["Alocados intervenção (n=15)&lt;br&gt;Receberam: n=15&lt;br&gt;(App GlucoCheck + glucómetro Bluetooth)&lt;br&gt;Não receberam: n=0"]
+    C --&gt; E["Alocados controlo (n=15)&lt;br&gt;Receberam: n=15&lt;br&gt;(Consultas trimestrais +&lt;br&gt;aconselhamento nutricional standard)&lt;br&gt;Não receberam: n=0"]
+
+    %% ===== FASE 3a: SEGUIMENTO 3 MESES =====
+    D --&gt; F["Seguimento 3m — Intervenção&lt;br&gt;Perda de seguimento (dar razões): n= ?&lt;br&gt;Intervenção descontinuada (dar razões): n= ?"]
+    E --&gt; G["Seguimento 3m — Controlo&lt;br&gt;Perda de seguimento (dar razões): n= ?&lt;br&gt;Intervenção descontinuada (dar razões): n= ?"]
+
+    %% ===== FASE 3b: SEGUIMENTO 6 MESES =====
+    F --&gt; H["Seguimento 6m — Intervenção&lt;br&gt;Perda de seguimento (dar razões): n= ?&lt;br&gt;Intervenção descontinuada (dar razões): n= ?"]
+    G --&gt; I["Seguimento 6m — Controlo&lt;br&gt;Perda de seguimento (dar razões): n= ?&lt;br&gt;Intervenção descontinuada (dar razões): n= ?"]
+
+    %% ===== FASE 4: ANÁLISE =====
+    H --&gt; J["Analisados (n= ?)&lt;br&gt;Excluídos da análise (dar razões): n= ?&lt;br&gt;Intention-to-treat"]
+    I --&gt; K["Analisados (n= ?)&lt;br&gt;Excluídos da análise (dar razões): n= ?&lt;br&gt;Intention-to-treat"]
+
+    %% ===== LABELS DE FASE (à esquerda, ligados invisivelmente) =====
+    L1(["Inclusão"])
+    L2(["Alocação"])
+    L3(["Seguimento&lt;br&gt;3 meses"])
+    L4(["Seguimento&lt;br&gt;6 meses"])
+    L5(["Análise"])
+
+    L1 ~~~ A
+    L2 ~~~ D
+    L3 ~~~ F
+    L4 ~~~ H
+    L5 ~~~ J
+
+    %% ===== ALINHAMENTO: forçar pares lado a lado =====
+    D ~~~ E
+    F ~~~ G
+    H ~~~ I
+    J ~~~ K
+
+    %% ===== ESTILOS =====
+    classDef phase fill:#dce6f1,stroke:#4472c4,color:#1a3a5c,font-weight:bold
+    classDef intervention fill:#e1f5ee,stroke:#0f6e56,color:#04342c
+    classDef control fill:#faece7,stroke:#993c1d,color:#4a1b0c
+    classDef exclude fill:#fcebeb,stroke:#a32d2d,color:#501313
+    classDef neutral fill:#f1efe8,stroke:#5f5e5a,color:#2c2c2a
+    classDef analysis fill:#eeedfe,stroke:#534ab7,color:#26215c
+
+    class L1,L2,L3,L4,L5 phase
+    class A,C neutral
+    class B exclude
+    class D,F,H intervention
+    class E,G,I control
+    class J,K analysis
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="população-do-estudo" class="level3">
+<h3 class="anchored" data-anchor-id="população-do-estudo">População do Estudo</h3>
+<!-- Esta secção deve ter 200–300 palavras. Cada critério deve ser específico e verificável/mensurável. -->
+<section id="critérios-de-inclusão" class="level4">
+<h4 class="anchored" data-anchor-id="critérios-de-inclusão">Critérios de Inclusão</h4>
+<p>Serão elegíveis para participação neste estudo indivíduos que cumpram <strong>todos</strong> os seguintes critérios:</p>
+<ol type="1">
+<li>Idade entre 40 e 75 anos.</li>
+<li>Diagnóstico de Diabetes Mellitus Tipo 2 documentado no processo clínico (código ICPC-2: T90), há pelo menos 6 meses.</li>
+<li>HbA1c entre 7,0% e 9,5% (controlo glicémico subótimo), determinada por análise laboratorial nos últimos 3 meses.</li>
+<li>Em seguimento ativo numa USF, com pelo menos uma consulta nos últimos 12 meses.</li>
+<li>Regime terapêutico sem insulinoterapia (antidiabéticos orais e/ou agonistas do recetor GLP-1 são permitidos).</li>
+<li>Posse de <em>smartphone</em> Android (versão 9.0+) ou iOS (versão 14.0+), com acesso à Internet.</li>
+<li>Literacia suficiente para ler e compreender informação escrita em português europeu.</li>
+<li>Capacidade e disponibilidade para fornecer consentimento informado por escrito.</li>
+<li>Disponibilidade para participar durante 24 semanas e comparecer a todas as visitas programadas.</li>
+</ol>
+</section>
+<section id="critérios-de-exclusão" class="level4">
+<h4 class="anchored" data-anchor-id="critérios-de-exclusão">Critérios de Exclusão</h4>
+<p>Serão excluídos do estudo indivíduos que apresentem <strong>qualquer</strong> dos seguintes critérios:</p>
+<ol type="1">
+<li>Diabetes Mellitus Tipo 1, diabetes gestacional ou diabetes secundária.</li>
+<li>Uso atual de insulinoterapia ou previsão clínica de início de insulina nos próximos 6 meses.</li>
+<li>HbA1c &lt; 7,0% ou &gt; 9,5% na avaliação de rastreio.</li>
+<li>Doença renal crónica avançada (TFGe &lt; 30 mL/min/1,73 m²).</li>
+<li>Doença hepática grave (cirrose Child-Pugh B ou C).</li>
+<li>Doença psiquiátrica grave não controlada (esquizofrenia, perturbação bipolar descompensada, depressão major com ideação suicida ativa).</li>
+<li>Défice cognitivo clinicamente significativo (diagnóstico de demência ou MMSE &lt; 24).</li>
+<li>Participação simultânea noutro ensaio clínico ou programa estruturado de intervenção para diabetes.</li>
+<li>Gravidez, lactação ou planeamento de gravidez durante o período do estudo.</li>
+<li>Incapacidade de utilizar um <em>smartphone</em> de forma autónoma, mesmo após sessão de formação.</li>
+<li>Sem acesso a <em>smartphone</em> compatível ou sem ligação à Internet.</li>
+<li>Doença terminal ou esperança de vida inferior a 12 meses.</li>
+</ol>
+</section>
+<section id="processo-de-recrutamento" class="level4">
+<h4 class="anchored" data-anchor-id="processo-de-recrutamento">Processo de Recrutamento</h4>
+<p>O recrutamento será realizado na USF selecionada, através de duas vias: (1) revisão sistemática das listas de utentes com diagnóstico codificado de DM2 (ICPC-2: T90) e HbA1c recente entre 7,0% e 9,5%, realizada pelo investigador principal em articulação com os médicos de família; e (2) referenciação direta por médicos de família durante consultas de rotina. Os potenciais participantes serão contactados telefonicamente para apresentação sumária do estudo e, caso manifestem interesse, será agendada uma visita presencial de rastreio para verificação de elegibilidade e obtenção de consentimento informado.</p>
+</section>
+</section>
+<section id="intervenções" class="level3">
+<h3 class="anchored" data-anchor-id="intervenções">Intervenções</h3>
+<!-- Esta secção deve ter 300–400 palavras no total (ambos os braços). Deve detalhar o que EXATAMENTE os participantes vão fazer/receber. -->
+<section id="grupo-de-intervenção" class="level4">
+<h4 class="anchored" data-anchor-id="grupo-de-intervenção">Grupo de Intervenção</h4>
+<p>Os participantes randomizados para o grupo de intervenção receberão, para além do cuidado habitual, acesso à aplicação móvel GlucoCheck durante 24 semanas.</p>
+<p><strong>Aplicação GlucoCheck:</strong></p>
+<p>A GlucoCheck é uma aplicação móvel desenhada para apoiar a autogestão da DM2, combinando monitorização glicémica integrada, registo alimentar com feedback automatizado e educação terapêutica personalizada.</p>
+</section>
+<section id="figura-1-diagrama-de-casos-de-uso" class="level4">
+<h4 class="anchored" data-anchor-id="figura-1-diagrama-de-casos-de-uso">Figura 1: Diagrama de Casos de Uso</h4>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    subgraph GlucoCheck["App GlucoCheck"]
+        UC1("Registar alimentação")
+        UC2("Sincronizar glucómetro")
+        UC3("Consultar objetivos glicémicos")
+        UC4("Receber mensagens motivacionais")
+        UC5("Educação nutricional")
+        UC6("Visualizar gráficos de evolução")
+        UC7("Receber alertas glicémicos")
+        UC8("Monitorizar adesão")
+        UC9("Visualizar dados do participante")
+        UC10("Exportar dados do estudo")
+        UC11("Validar dados")
+        UC12("Feedback nutricional automatizado")
+        UC13("Transferir dados via Bluetooth")
+    end
+
+    Participante(["Participante"]) --- UC1 &amp; UC2 &amp; UC3 &amp; UC4 &amp; UC5 &amp; UC6 &amp; UC7
+    Investigador(["Investigador"]) --- UC8 &amp; UC9 &amp; UC10
+    Glucometro(["Glucómetro BT"]) --- UC2
+
+    UC1 -.-&gt; UC11 &amp; UC12
+    UC2 -.-&gt; UC13
+    UC7 -.-&gt; UC8
+    UC9 -.-&gt; UC10
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p><strong>Funcionalidades principais:</strong></p>
+<!-- Cada funcionalidade é descrita com: o que faz, tipo de interação do participante e frequência esperada de utilização. -->
+<ol type="1">
+<li><strong>Registo alimentar com feedback nutricional automatizado</strong>
+<ul>
+<li><em>O que faz:</em> O participante fotografa ou descreve textualmente cada refeição; o sistema analisa automaticamente a composição nutricional (hidratos de carbono, calorias, índice glicémico estimado) e gera sugestões de melhoria personalizadas.</li>
+<li><em>Interação:</em> Registo manual pelo participante após cada refeição.</li>
+<li><em>Frequência esperada:</em> Pelo menos 2 refeições por dia.</li>
+</ul></li>
+<li><strong>Integração com glucómetro via Bluetooth</strong>
+<ul>
+<li><em>O que faz:</em> Sincroniza automaticamente os valores de glicemia capilar obtidos por um glucómetro certificado com conectividade Bluetooth, eliminando a transcrição manual.</li>
+<li><em>Interação:</em> Após a medição no glucómetro, o valor é transferido automaticamente para a app.</li>
+<li><em>Frequência esperada:</em> Pelo menos 2 medições diárias (jejum e pós-prandial).</li>
+</ul></li>
+</ol>
+</section>
+<section id="figura-2-diagrama-de-sequência-sincronização-do-glucómetro" class="level4">
+<h4 class="anchored" data-anchor-id="figura-2-diagrama-de-sequência-sincronização-do-glucómetro">Figura 2: Diagrama de Sequência (Sincronização do Glucómetro)</h4>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">sequenceDiagram
+    participant P as Participante (DM tipo 2)
+    participant G as Glucómetro (Bluetooth)
+    participant A as App Glucocheck
+    participant S as Servidor Glucocheck
+    participant B as Base de Dados
+    participant M as Médico USF
+
+    P -&gt;&gt; A: iniciar sincronização
+    A -&gt;&gt; G: ligar via Bluetooth
+    G -&gt;&gt; A: ligação estabelecida
+    A -&gt;&gt; G: pedir leituras
+    G --&gt;&gt; A: glicemia + timestamp
+    A -&gt;&gt; S: enviar dados validados
+    S -&gt;&gt; B: guardar leituras
+    B --&gt;&gt; S: confirmação
+    S --&gt;&gt; A: resultado da análise
+    A --&gt;&gt; P: alerta + objetivos semanais
+    A --&gt;&gt; M: notificar padrão problemático
+    A --&gt;&gt; P: sincronização concluída
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<ol start="3" type="1">
+<li><strong>Objectivos glicémicos semanais personalizados</strong>
+<ul>
+<li><em>O que faz:</em> Com base nos valores registados, a app define metas glicémicas progressivas, ajustadas automaticamente ao perfil e evolução do participante.</li>
+<li><em>Interação:</em> Visualização do objectivo na página inicial; notificação semanal com nova meta.</li>
+<li><em>Frequência:</em> Actualização semanal automática.</li>
+</ul></li>
+<li><strong>Mensagens motivacionais baseadas no progresso</strong>
+<ul>
+<li><em>O que faz:</em> Envia notificações <em>push</em> com mensagens de reforço positivo, adaptadas ao comportamento recente (adesão ao registo, evolução dos valores).</li>
+<li><em>Interação:</em> Notificação recebida passivamente; o participante pode abrir e ler.</li>
+<li><em>Frequência:</em> 1 a 2 notificações diárias.</li>
+</ul></li>
+<li><strong>Educação nutricional adaptativa</strong>
+<ul>
+<li><em>O que faz:</em> Disponibiliza módulos educativos breves (<em>microlearning</em>) sobre temas adaptados às necessidades identificadas no registo alimentar (contagem de hidratos de carbono, leitura de rótulos, gestão de lanches).</li>
+<li><em>Interação:</em> Leitura e quiz interativo no final de cada módulo.</li>
+<li><em>Frequência:</em> 1 módulo novo por semana.</li>
+</ul></li>
+<li><strong>Gráficos de evolução de HbA1c estimada</strong>
+<ul>
+<li><em>O que faz:</em> Apresenta gráficos da tendência glicémica e estimativa da HbA1c com base na média glicémica (fórmula ADAG), permitindo ao participante visualizar o impacto das suas escolhas.</li>
+<li><em>Interação:</em> Consulta voluntária na secção “Progresso” da app.</li>
+<li><em>Frequência:</em> Actualização contínua, disponível a qualquer momento.</li>
+</ul></li>
+<li><strong>Alertas para padrões glicémicos problemáticos</strong>
+<ul>
+<li><em>O que faz:</em> Deteta padrões recorrentes de hiperglicemia ou hipoglicemia e envia alertas automáticos, com sugestão de contacto com o médico assistente.</li>
+<li><em>Interação:</em> Notificação <em>push</em> com recomendação.</li>
+<li><em>Frequência:</em> Sempre que um padrão for detetado pelo algoritmo.</li>
+</ul></li>
+</ol>
+</section>
+<section id="figura-3-percurso-do-utilizador-na-aplicação-glucocheck" class="level4">
+<h4 class="anchored" data-anchor-id="figura-3-percurso-do-utilizador-na-aplicação-glucocheck">Figura 3: Percurso do Utilizador na Aplicação GlucoCheck</h4>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    START(( )) --&gt; A["Download da app"]
+    A --&gt; B["Abertura da app"]
+    B --&gt; C{"Utilizador registado?"}
+    C -- Não --&gt; D["Registo (dados pessoais e clínicos)"]
+    C -- Sim --&gt; E["Login"]
+    D --&gt; F["Introdução de dados úteis (idade, peso, HbA1c atual, medicação, objetivos)"]
+    E --&gt; F
+    F --&gt; G["Ligação ao glucómetro via Bluetooth"]
+    G --&gt; H["Visualização do painel principal"]
+    H --&gt; I["Seleção de funcionalidade"]
+    I --&gt; J["Medição glicémica"]
+    I --&gt; K["Registo alimentar"]
+    I --&gt; L["Conteúdos educativos (educação nutricional adaptativa)"]
+    I --&gt; M["Consulta de objetivos glicémicos semanais"]
+    J --&gt; J1["Sincronização automática com glucómetro (Bluetooth)"]
+    J1 --&gt; N["Armazenamento de dados"]
+    K --&gt; N
+    N --&gt; O["Visualização do dashboard"]
+    N --&gt; P["Análise de padrões glicémicos"]
+    O --&gt; O1["Gráficos de evolução e HbA1c estimada"]
+    P --&gt; P1["Feedback nutricional automático"]
+    P --&gt; P2["Alertas para padrões glicémicos problemáticos"]
+    P --&gt; P3["Mensagens motivacionais baseadas em progresso"]
+    O1 --&gt; Q["Geração de feedback personalizado"]
+    P1 --&gt; Q
+    P2 --&gt; Q
+    P3 --&gt; Q
+    Q --&gt; R["Continuação do uso diário"]
+    L --&gt; R
+    M --&gt; R
+    R --&gt; ENDNODE(( ))
+
+    style START fill:#000,stroke:#000,color:#000
+    style ENDNODE fill:#000,stroke:#fff,color:#000
+    style C fill:#fff3cd,stroke:#856404,color:#000
+    style N fill:#d4edda,stroke:#155724,color:#000
+    style Q fill:#cce5ff,stroke:#004085,color:#000
+    style R fill:#d1ecf1,stroke:#0c5460,color:#000
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="figura-4-fluxo-de-utilização-da-aplicação-glucocheck" class="level4">
+<h4 class="anchored" data-anchor-id="figura-4-fluxo-de-utilização-da-aplicação-glucocheck">Figura 4: Fluxo de Utilização da Aplicação GlucoCheck</h4>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    START(( )) --&gt; A["Download da app"]
+    A --&gt; B["Abertura da app"]
+    B --&gt; C{"Utilizador\nregistado?"}
+    C -- Não --&gt; D["Registo\n(dados pessoais e clínicos)"]
+    C -- Sim --&gt; E["Login"]
+    D --&gt; F["Introdução de dados úteis\n(idade, peso, HbA1c atual,\nmedicação, objetivos)"]
+    E --&gt; F
+    F --&gt; G["Ligação ao glucómetro\nvia Bluetooth"]
+    G --&gt; H["Visualização do\npainel principal"]
+    H --&gt; I["Seleção de funcionalidade"]
+    I --&gt; J["Medição glicémica"]
+    I --&gt; K["Registo alimentar"]
+    I --&gt; L["Conteúdos educativos\n(educação nutricional adaptativa)"]
+    I --&gt; M["Consulta de objetivos\nglicémicos semanais"]
+    J --&gt; J1["Sincronização automática\ncom glucómetro (Bluetooth)"]
+    J1 --&gt; N["Armazenamento de dados"]
+    K --&gt; N
+    N --&gt; O["Visualização do dashboard"]
+    N --&gt; P["Análise de padrões\nglicémicos"]
+    O --&gt; O1["Gráficos de evolução\ne HbA1c estimada"]
+    P --&gt; P1["Feedback nutricional\nautomático"]
+    P --&gt; P2["Alertas para padrões\nglicémicos problemáticos"]
+    P --&gt; P3["Mensagens motivacionais\nbaseadas em progresso"]
+    O1 --&gt; Q["Geração de feedback\npersonalizado"]
+    P1 --&gt; Q
+    P2 --&gt; Q
+    P3 --&gt; Q
+    Q --&gt; R["Continuação do uso diário"]
+    L --&gt; R
+    M --&gt; R
+    R --&gt; ENDNODE(( ))
+
+    style START fill:#000,stroke:#000,color:#000
+    style ENDNODE fill:#000,stroke:#fff,color:#000
+    style C fill:#fff3cd,stroke:#856404,color:#000
+    style N fill:#d4edda,stroke:#155724,color:#000
+    style Q fill:#cce5ff,stroke:#004085,color:#000
+    style R fill:#d1ecf1,stroke:#0c5460,color:#000
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p><strong>Instalação e Onboarding:</strong></p>
+<p>A aplicação será instalada no <em>smartphone</em> do participante durante a visita de baseline (T0). Cada participante receberá uma sessão de formação presencial de aproximadamente 30 minutos, conduzida por um membro da equipa de investigação, que incluirá: criação de conta, emparelhamento do glucómetro Bluetooth fornecido pelo estudo, demonstração prática de todas as funcionalidades e realização de um registo alimentar de teste. Será entregue um guia resumido de utilização em formato impresso.</p>
+<p><strong>Suporte técnico:</strong></p>
+<p>Será disponibilizada uma linha de apoio (telefone e WhatsApp), ativa em dias úteis das 9h00 às 18h00, para resolução de dificuldades técnicas com a app ou o glucómetro.</p>
+<p><strong>Cuidado concomitante:</strong></p>
+<p>Os participantes mantêm o seu cuidado médico habitual, incluindo consultas trimestrais com o médico de família, aconselhamento nutricional <em>standard</em> e medicação antidiabética prescrita. Ajustes terapêuticos decididos pelo médico assistente são permitidos e serão registados.</p>
+</section>
+<section id="grupo-controlo" class="level4">
+<h4 class="anchored" data-anchor-id="grupo-controlo">Grupo Controlo</h4>
+<p>Os participantes randomizados para o grupo controlo receberão exclusivamente o cuidado habitual prestado na USF.</p>
+<p><strong>Cuidado habitual isolado:</strong></p>
+<ul>
+<li>Consultas médicas programadas com frequência trimestral.</li>
+<li>Aconselhamento nutricional <em>standard</em>, quando clinicamente indicado.</li>
+<li>Auto-monitorização glicémica conforme prescrito pelo médico assistente (frequência e método habituais do participante).</li>
+<li>Material educativo <em>standard</em> sobre gestão da diabetes (folhetos informativos da USF).</li>
+<li>Contactos com a equipa de investigação limitados às visitas de avaliação em T0, T1 e T2.</li>
+<li>Sem acesso à aplicação GlucoCheck durante o período do estudo.</li>
+</ul>
+<p>Após a conclusão do ensaio, será oferecido acesso à aplicação a todos os participantes do grupo controlo que o desejem (abordagem de lista de espera ética).</p>
+<p><strong>Justificação do comparador:</strong></p>
+<p>A consulta habitual isolada representa o <em>standard of care</em> atual na gestão da DM2 em cuidados de saúde primários em Portugal. Não existem, à data, ferramentas digitais integradas de forma rotineira neste contexto assistencial, o que torna este comparador pragmático, ético e clinicamente relevante.</p>
+</section>
+<section id="critérios-de-descontinuação" class="level4">
+<h4 class="anchored" data-anchor-id="critérios-de-descontinuação">Critérios de Descontinuação</h4>
+<p>Participantes serão retirados do estudo se:</p>
+<ol type="1">
+<li>Retirarem voluntariamente o consentimento informado.</li>
+<li>Desenvolverem condição médica que torne a participação insegura (e.g., início de insulinoterapia, internamento prolongado, diagnóstico de neoplasia).</li>
+<li>Cometerem violação grave do protocolo (e.g., partilha da aplicação com terceiros, falsificação de registos).</li>
+<li>Não comparecerem a duas avaliações consecutivas sem justificação.</li>
+<li>Engravidarem durante o período do estudo.</li>
+</ol>
+<p>Os participantes que descontinuem serão convidados a realizar uma avaliação final e os seus dados serão incluídos na análise por intenção-de-tratar.</p>
+</section>
+</section>
+</section>
+<section id="avaliações-e-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="avaliações-e-outcomes">Avaliações e Outcomes</h2>
+<section id="outcome-primário" class="level3">
+<h3 class="anchored" data-anchor-id="outcome-primário">Outcome Primário</h3>
+<!-- O outcome primário deve ser único, mensurável e claramente definido. -->
+<p>Hemoglobina glicada (HbA1c)</p>
+<ul>
+<li><strong>Instrumento:</strong> Análise laboratorial por cromatografia líquida de alta eficiência (HPLC), método certificado pelo NGSP (<em>National Glycohemoglobin Standardization Program</em>).</li>
+<li><strong>Momento de avaliação:</strong> Baseline (T0), 12 semanas (T1) e 24 semanas (T2).</li>
+<li><strong>Definição de sucesso:</strong> Redução estatisticamente significativa da HbA1c entre T0 e T2 no grupo de intervenção comparativamente ao grupo controlo; diferença mínima clinicamente relevante considerada: ≥ 0,4 pontos percentuais.</li>
+</ul>
+</section>
+<section id="outcomes-secundários" class="level3">
+<h3 class="anchored" data-anchor-id="outcomes-secundários">Outcomes Secundários</h3>
+<!-- Cada outcome secundário indica o instrumento de medição, unidade e momentos de avaliação. -->
+<ol type="1">
+<li><strong>Glicemia em jejum</strong> — Análise laboratorial (mg/dL); avaliação em T0, T1 e T2.</li>
+<li><strong>Peso corporal</strong> — Balança calibrada (kg), com o participante descalço e em roupa leve; avaliação em T0, T1 e T2.</li>
+<li><strong>Adesão ao registo alimentar</strong> — <em>Logs</em> da aplicação GlucoCheck: percentagem de dias com ≥2 refeições registadas; medição contínua ao longo das 24 semanas (apenas grupo de intervenção).</li>
+<li><strong>Frequência de auto-monitorização glicémica</strong> — Número de medições por semana; obtido pelos <em>logs</em> da app (grupo de intervenção) ou por auto-relato (grupo controlo); medição contínua.</li>
+<li><strong>Autoeficácia</strong> — <em>Diabetes Empowerment Scale — Short Form</em> (DES-SF), questionário validado de 8 itens, escala de Likert 1–5; avaliação em T0, T1 e T2.</li>
+<li><strong>Conhecimento sobre diabetes</strong> — <em>Diabetes Knowledge Questionnaire</em> (DKQ-24), 24 itens com resposta sim/não/não sei; avaliação em T0 e T2.</li>
+<li><strong>Satisfação com os cuidados</strong> — <em>Diabetes Treatment Satisfaction Questionnaire</em> (DTSQ), 8 itens com escala 0–6; avaliação em T0 e T2.</li>
+</ol>
+</section>
+<section id="cronograma-de-avaliações-spirit-figure" class="level3">
+<h3 class="anchored" data-anchor-id="cronograma-de-avaliações-spirit-figure">Cronograma de Avaliações (SPIRIT Figure)</h3>
+<!-- Tabela baseada nas recomendações SPIRIT (Standard Protocol Items: Recommendations for Interventional Trials). O × indica os momentos em que cada avaliação é realizada. -->
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Avaliação</th>
+<th>Rastreio</th>
+<th>T0 (Baseline)</th>
+<th>T1 (12 sem)</th>
+<th>T2 (24 sem)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Consentimento informado</td>
+<td>×</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Critérios de elegibilidade</td>
+<td>×</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Dados demográficos</td>
+<td></td>
+<td>×</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>História clínica</td>
+<td></td>
+<td>×</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Medicação concomitante</td>
+<td></td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+</tr>
+<tr class="even">
+<td>HbA1c</td>
+<td></td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+</tr>
+<tr class="odd">
+<td>Glicemia em jejum</td>
+<td></td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+</tr>
+<tr class="even">
+<td>Peso corporal</td>
+<td></td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+</tr>
+<tr class="odd">
+<td>DES-SF (autoeficácia)</td>
+<td></td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+</tr>
+<tr class="even">
+<td>DKQ-24 (conhecimento)</td>
+<td></td>
+<td>×</td>
+<td></td>
+<td>×</td>
+</tr>
+<tr class="odd">
+<td>DTSQ (satisfação)</td>
+<td></td>
+<td>×</td>
+<td></td>
+<td>×</td>
+</tr>
+<tr class="even">
+<td>Eventos adversos</td>
+<td></td>
+<td></td>
+<td>×</td>
+<td>×</td>
+</tr>
+<tr class="odd">
+<td>Adesão à app (grupo interv.)</td>
+<td></td>
+<td></td>
+<td>contínua</td>
+<td>contínua</td>
+</tr>
+</tbody>
+</table>
+<p><em>Cronograma de avaliações segundo as recomendações SPIRIT.</em></p>
+</section>
+</section>
+<section id="análise-estatística" class="level2">
+<h2 class="anchored" data-anchor-id="análise-estatística">Análise Estatística</h2>
+<section id="dimensão-da-amostra" class="level3">
+<h3 class="anchored" data-anchor-id="dimensão-da-amostra">Dimensão da Amostra</h3>
+<!-- A dimensão da amostra não foi calculada por poder estatístico formal porque se trata de um estudo piloto. A justificação segue as recomendações da literatura para estudos piloto (mínimo 12 por braço). -->
+<p>Tratando-se de um estudo piloto (pré-teste), a dimensão da amostra (n = 30; 15 por braço) não foi calculada com base em poder estatístico formal, mas segue as recomendações da literatura para estudos piloto, que sugerem pelo menos 12 participantes por braço. O valor de 15 por braço permite acomodar uma taxa de <em>dropout</em> estimada de 20%, particularmente relevante neste estudo dada a duração de 6 meses e a faixa etária da população-alvo (40–75 anos), que pode apresentar literacia digital mais baixa e maior risco de abandono.</p>
+<p>Os resultados deste estudo piloto serão utilizados para estimar o tamanho de efeito e a variabilidade da diferença em HbA1c entre grupos — parâmetros necessários para o cálculo formal da dimensão amostral de um futuro ensaio definitivo.</p>
+</section>
+<section id="análise-principal" class="level3">
+<h3 class="anchored" data-anchor-id="análise-principal">Análise Principal</h3>
+<!-- A análise principal segue o princípio ITT e utiliza modelos lineares mistos, adequados para medidas repetidas e dados em falta sob o pressuposto MAR. -->
+<p>A análise primária será conduzida segundo o princípio de <strong>intenção-de-tratar</strong> (ITT), incluindo todos os participantes randomizados independentemente do grau de adesão ao protocolo.</p>
+<p>A diferença entre grupos no outcome primário (variação da HbA1c) será analisada com um <strong>modelo linear misto</strong> (<em>linear mixed model</em>) para medidas repetidas, incluindo como efeitos fixos: grupo de alocação (intervenção vs.&nbsp;controlo), tempo (T0, T1, T2), interação grupo × tempo e valor de HbA1c no baseline. Será incluído um efeito aleatório por participante, com estrutura de covariância autorregressiva de primeira ordem — AR(1).</p>
+</section>
+<section id="análises-secundárias" class="level3">
+<h3 class="anchored" data-anchor-id="análises-secundárias">Análises Secundárias</h3>
+<ol type="1">
+<li><strong>Análise por protocolo (PP):</strong> incluirá apenas os participantes que completaram ≥ 80% do período de intervenção e todas as avaliações previstas.</li>
+<li><strong>Outcomes secundários contínuos</strong> (glicemia em jejum, peso, DES-SF): modelos lineares mistos análogos ao descrito para o outcome primário.</li>
+<li><strong>Outcomes dicotómicos</strong> (proporção que atinge HbA1c &lt; 7,0% em T2): regressão logística com ajuste para o valor de baseline.</li>
+<li><strong>Adesão:</strong> estatísticas descritivas (mediana, amplitude interquartil) da percentagem de dias com registo alimentar completo e do número semanal de medições glicémicas.</li>
+<li><strong>Análise de subgrupos exploratória:</strong> por sexo, faixa etária (&lt; 60 vs.&nbsp;≥ 60 anos) e HbA1c no baseline (&lt; 8,0% vs.&nbsp;≥ 8,0%).</li>
+</ol>
+</section>
+<section id="dados-em-falta" class="level3">
+<h3 class="anchored" data-anchor-id="dados-em-falta">Dados em Falta</h3>
+<p>Os modelos lineares mistos acomodam dados em falta sob o pressuposto de <em>missing at random</em> (MAR). Será realizada uma análise de sensibilidade com imputação múltipla (<em>multiple imputation</em>; 20 <em>datasets</em> imputados) para avaliar a robustez dos resultados face a diferentes mecanismos de dados em falta.</p>
+</section>
+<section id="software-estatístico" class="level3">
+<h3 class="anchored" data-anchor-id="software-estatístico">Software Estatístico</h3>
+<p>As análises serão realizadas em R (versão 4.3 ou superior), utilizando os pacotes <code>lme4</code>, <code>lmerTest</code> e <code>mice</code>. O nível de significância será fixado em α = 0,05 (bilateral). Os resultados serão reportados com intervalos de confiança a 95%.</p>
+</section>
+</section>
+<section id="ética-e-disseminação" class="level2">
+<h2 class="anchored" data-anchor-id="ética-e-disseminação">Ética e Disseminação</h2>
+<section id="aprovação-ética" class="level3">
+<h3 class="anchored" data-anchor-id="aprovação-ética">Aprovação Ética</h3>
+<p>O protocolo será submetido para apreciação à Comissão de Ética para a Saúde da Administração Regional de Saúde do Norte (CES-ARS Norte) e à Comissão de Ética da Faculdade de Medicina da Universidade do Porto antes do início do recrutamento. Qualquer emenda substancial ao protocolo será comunicada às comissões de ética e documentada.</p>
+</section>
+<section id="consentimento-informado" class="level3">
+<h3 class="anchored" data-anchor-id="consentimento-informado">Consentimento Informado</h3>
+<p>Todos os potenciais participantes receberão informação oral e escrita detalhada sobre os objectivos, procedimentos, riscos, benefícios e direitos no âmbito do estudo, bem como sobre o tratamento dos seus dados pessoais. O consentimento informado será obtido por escrito antes de qualquer procedimento. Os participantes serão informados do seu direito de retirar o consentimento a qualquer momento, sem necessidade de justificação e sem qualquer prejuízo no acompanhamento clínico habitual.</p>
+</section>
+<section id="proteção-de-dados" class="level3">
+<h3 class="anchored" data-anchor-id="proteção-de-dados">Proteção de Dados</h3>
+<!-- Conformidade com RGPD e legislação portuguesa -->
+<p>Os dados pessoais serão tratados em conformidade com o Regulamento Geral sobre a Proteção de Dados (RGPD — Regulamento UE 2016/679) e a legislação nacional aplicável (Lei n.º 58/2019). Os dados serão pseudonimizados mediante atribuição de código alfanumérico; a chave de correspondência será armazenada em ficheiro encriptado separado, acessível apenas ao investigador principal. Os dados gerados pela aplicação GlucoCheck serão armazenados em servidores seguros com encriptação ponta-a-ponta.</p>
+</section>
+<section id="segurança-e-monitorização-de-eventos-adversos" class="level3">
+<h3 class="anchored" data-anchor-id="segurança-e-monitorização-de-eventos-adversos">Segurança e Monitorização de Eventos Adversos</h3>
+<p>Não são expectáveis eventos adversos graves diretamente decorrentes da utilização de uma aplicação móvel. Contudo, dada a natureza da doença e o facto de a auto-monitorização intensiva poder ter efeitos psicológicos, serão monitorizados e registados sistematicamente:</p>
+<ol type="1">
+<li>Episódios de hipoglicemia sintomática (glicemia capilar &lt; 70 mg/dL).</li>
+<li>Episódios de hiperglicemia grave (glicemia &gt; 400 mg/dL ou cetoacidose diabética).</li>
+<li>Necessidade de recurso ao serviço de urgência ou hospitalização por causa relacionada com diabetes.</li>
+<li>Efeitos psicológicos adversos associados à auto-monitorização intensiva (ansiedade, sobrecarga, <em>diabetes burnout</em>).</li>
+</ol>
+<p>Eventos adversos graves serão comunicados à comissão de ética no prazo de 24 horas.</p>
+</section>
+<section id="disseminação-dos-resultados" class="level3">
+<h3 class="anchored" data-anchor-id="disseminação-dos-resultados">Disseminação dos Resultados</h3>
+<!-- Os resultados seguirão as diretrizes CONSORT -->
+<p>Os resultados serão disseminados através de:</p>
+<ol type="1">
+<li>Publicação em revista científica indexada com revisão por pares, seguindo as diretrizes CONSORT para ensaios clínicos randomizados e a extensão CONSORT-EHEALTH para intervenções digitais.</li>
+<li>Apresentação em congressos nacionais e internacionais nas áreas de diabetologia e saúde digital.</li>
+<li>Comunicação resumida dos principais resultados a todos os participantes do estudo.</li>
+<li>Registo do ensaio numa plataforma internacional de registo de ensaios clínicos (ClinicalTrials.gov) antes do início do recrutamento.</li>
+</ol>
+<p><strong>Versão:</strong> 1.1 <strong>Data desta versão:</strong> 2026-04-30 <strong>Autores desta versão:</strong> Francisca Teixeira, Luísa Moreira, Mariana Dias, Rosarinho Barros</p>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiada");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiada");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/MarianaDias2912\.github\.io\/ensaio-glucocheck\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
