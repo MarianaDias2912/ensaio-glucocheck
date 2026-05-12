@@ -1,0 +1,112 @@
+<svg viewBox="0 0 1600 1220" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif">
+<rect width="1600" height="1220" fill="#FFFFFF"/>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#5A6B7C"/>
+  </marker>
+  <marker id="arrowGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#5DA85A"/>
+  </marker>
+</defs>
+<text x="800" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="#1A2B3C">Fluxograma de Navega&#231;&#227;o &#8212; App GlucoCheck</text>
+<text x="800" y="68" text-anchor="middle" font-size="13" fill="#5A6B7C">Persona: Cl&#225;udia Pereira, 62 anos &#183; DM Tipo 2 &#183; HbA1c basal 7,7%</text>
+<text x="40" y="115" font-size="13" font-weight="700" fill="#5A87B0" letter-spacing="1.5">A &#183; ENTRADA</text>
+<line x1="40" y1="125" x2="1560" y2="125" stroke="#D3E1EC" stroke-width="1"/>
+<rect x="40" y="150" width="145" height="56" rx="8" fill="#E8F0F7" stroke="#5A87B0" stroke-width="1.5"/>
+<text x="112.5" y="184" text-anchor="middle" font-size="14" font-weight="400" fill="#1A2B3C">Login</text>
+<line x1="185" y1="178" x2="225" y2="178" stroke="#5A6B7C" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="225" y="150" width="145" height="56" rx="8" fill="#D9F0DA" stroke="#5DA85A" stroke-width="2"/>
+<text x="297.5" y="173" text-anchor="middle" font-size="13" font-weight="700" fill="#1A2B3C">Home</text>
+<text x="297.5" y="192" text-anchor="middle" font-size="11" fill="#5A6B7C">ecr&#227; principal</text>
+<text x="400" y="184" font-size="11" fill="#A0AAB5" font-style="italic">&#8212; estados de erro (password errada) n&#227;o modelados nos ecr&#227;s atuais</text>
+<text x="40" y="250" font-size="13" font-weight="700" fill="#5A87B0" letter-spacing="1.5">B &#183; REGISTAR REFEI&#199;&#195;O  (ac&#231;&#227;o completa do quotidiano)</text>
+<line x1="40" y1="260" x2="1560" y2="260" stroke="#D3E1EC" stroke-width="1"/>
+<rect x="40" y="330" width="195" height="56" rx="8" fill="#D9F0DA" stroke="#5DA85A" stroke-width="2"/>
+<text x="137.5" y="353" text-anchor="middle" font-size="13" font-weight="700" fill="#1A2B3C">Home</text>
+<text x="137.5" y="372" text-anchor="middle" font-size="11" fill="#5A6B7C">2/3 refei&#231;&#245;es</text>
+<rect x="290" y="330" width="195" height="56" rx="8" fill="#E8F0F7" stroke="#5A87B0" stroke-width="1.5"/>
+<text x="387.5" y="353" text-anchor="middle" font-size="13" font-weight="400" fill="#1A2B3C">Alimenta&#231;&#227;o Hoje</text>
+<text x="387.5" y="372" text-anchor="middle" font-size="11" fill="#5A6B7C">alerta pico glic&#233;mico</text>
+<line x1="235" y1="358" x2="290" y2="358" stroke="#5A6B7C" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="540" y="330" width="195" height="56" rx="8" fill="#E8F0F7" stroke="#5A87B0" stroke-width="1.5"/>
+<text x="637.5" y="353" text-anchor="middle" font-size="13" font-weight="400" fill="#1A2B3C">Nova refei&#231;&#227;o</text>
+<text x="637.5" y="372" text-anchor="middle" font-size="11" fill="#5A6B7C">jantar &#183; 19:30</text>
+<line x1="485" y1="358" x2="540" y2="358" stroke="#5A6B7C" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="512.5" y="322" text-anchor="middle" font-size="11" fill="#5A6B7C" font-style="italic">Registar refei&#231;&#227;o</text>
+<rect x="790" y="330" width="195" height="56" rx="8" fill="#E8F0F7" stroke="#5A87B0" stroke-width="1.5"/>
+<text x="887.5" y="353" text-anchor="middle" font-size="13" font-weight="400" fill="#1A2B3C">Alimenta&#231;&#227;o Hoje</text>
+<text x="887.5" y="372" text-anchor="middle" font-size="11" fill="#5A6B7C">3/3 atualizadas</text>
+<line x1="735" y1="358" x2="790" y2="358" stroke="#5A6B7C" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="762.5" y="322" text-anchor="middle" font-size="11" fill="#5A6B7C" font-style="italic">Guardar refei&#231;&#227;o</text>
+<rect x="1040" y="330" width="195" height="56" rx="8" fill="#D9F0DA" stroke="#5DA85A" stroke-width="2"/>
+<text x="1137.5" y="353" text-anchor="middle" font-size="13" font-weight="700" fill="#1A2B3C">Home</text>
+<text x="1137.5" y="372" text-anchor="middle" font-size="11" fill="#5A6B7C">3/3 refei&#231;&#245;es &#10003;</text>
+<line x1="985" y1="358" x2="1040" y2="358" stroke="#5DA85A" stroke-width="1.5" marker-end="url(#arrowGreen)"/>
+<text x="1012.5" y="322" text-anchor="middle" font-size="11" fill="#5DA85A" font-style="italic">nav inferior &#8962;</text>
+<rect x="290" y="415" width="490" height="40" rx="6" fill="#FFF8E1" stroke="#C19A4A" stroke-width="1" stroke-dasharray="4,3"/>
+<text x="307" y="435" font-size="11" font-style="italic" fill="#5A6B7C">Alerta de pico glic&#233;mico p&#243;s-prandial gerado automaticamente pelo sistema</text>
+<text x="307" y="450" font-size="11" font-style="italic" fill="#5A6B7C">(almo&#231;o de ontem: 178 mg/dL &#8594; sugest&#227;o de redu&#231;&#227;o de hidratos refinados)</text>
+<text x="40" y="510" font-size="13" font-weight="700" fill="#5A87B0" letter-spacing="1.5">C &#183; REGISTAR MEDI&#199;&#195;O  (com sincroniza&#231;&#227;o autom&#225;tica via Bluetooth)</text>
+<line x1="40" y1="520" x2="1560" y2="520" stroke="#D3E1EC" stroke-width="1"/>
+<rect x="40" y="590" width="195" height="56" rx="8" fill="#D9F0DA" stroke="#5DA85A" stroke-width="2"/>
+<text x="137.5" y="613" text-anchor="middle" font-size="13" font-weight="700" fill="#1A2B3C">Home</text>
+<text x="137.5" y="632" text-anchor="middle" font-size="11" fill="#5A6B7C">ap&#243;s registo refei&#231;&#227;o</text>
+<rect x="290" y="590" width="195" height="56" rx="8" fill="#E8F0F7" stroke="#5A87B0" stroke-width="1.5"/>
+<text x="387.5" y="613" text-anchor="middle" font-size="13" font-weight="400" fill="#1A2B3C">Medi&#231;&#245;es</text>
+<text x="387.5" y="632" text-anchor="middle" font-size="11" fill="#5A6B7C">4 leituras de hoje</text>
+<line x1="235" y1="618" x2="290" y2="618" stroke="#5A6B7C" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="540" y="590" width="195" height="56" rx="8" fill="#E8F0F7" stroke="#5A87B0" stroke-width="1.5"/>
+<text x="637.5" y="613" text-anchor="middle" font-size="13" font-weight="400" fill="#1A2B3C">Nova medi&#231;&#227;o</text>
+<text x="637.5" y="632" text-anchor="middle" font-size="11" fill="#5A6B7C">BT auto: 145 mg/dL</text>
+<line x1="485" y1="618" x2="540" y2="618" stroke="#5A6B7C" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="512.5" y="582" text-anchor="middle" font-size="11" fill="#5A6B7C" font-style="italic">Registar medi&#231;&#227;o</text>
+<rect x="790" y="590" width="195" height="56" rx="8" fill="#E8F0F7" stroke="#5A87B0" stroke-width="1.5"/>
+<text x="887.5" y="613" text-anchor="middle" font-size="13" font-weight="400" fill="#1A2B3C">Medi&#231;&#245;es</text>
+<text x="887.5" y="632" text-anchor="middle" font-size="11" fill="#5A6B7C">5 leituras (com 21:00)</text>
+<line x1="735" y1="618" x2="790" y2="618" stroke="#5A6B7C" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="762.5" y="582" text-anchor="middle" font-size="11" fill="#5A6B7C" font-style="italic">Guardar medi&#231;&#227;o</text>
+<rect x="1040" y="590" width="195" height="56" rx="8" fill="#D9F0DA" stroke="#5DA85A" stroke-width="2"/>
+<text x="1137.5" y="613" text-anchor="middle" font-size="13" font-weight="700" fill="#1A2B3C">Home</text>
+<text x="1137.5" y="632" text-anchor="middle" font-size="11" fill="#5A6B7C">atualizado: 145 mg/dL</text>
+<line x1="985" y1="618" x2="1040" y2="618" stroke="#5DA85A" stroke-width="1.5" marker-end="url(#arrowGreen)"/>
+<text x="1012.5" y="582" text-anchor="middle" font-size="11" fill="#5DA85A" font-style="italic">nav inferior &#8962;</text>
+<rect x="540" y="675" width="450" height="40" rx="6" fill="#E8F5EC" stroke="#5DA85A" stroke-width="1" stroke-dasharray="4,3"/>
+<text x="557" y="695" font-size="11" font-style="italic" fill="#5A6B7C">Glucos&#237;metro <tspan font-weight="700">GlucoSens Pro</tspan> sincroniza valor automaticamente via Bluetooth</text>
+<text x="557" y="710" font-size="11" font-style="italic" fill="#5A6B7C">&#8212; o utilizador apenas confirma o contexto (jejum / pr&#233;-refei&#231;&#227;o / p&#243;s-refei&#231;&#227;o)</text>
+<text x="40" y="770" font-size="13" font-weight="700" fill="#5A87B0" letter-spacing="1.5">D &#183; NAVEGA&#199;&#195;O SECUND&#193;RIA  (consulta de informa&#231;&#227;o sem ac&#231;&#227;o)</text>
+<line x1="40" y1="780" x2="1560" y2="780" stroke="#D3E1EC" stroke-width="1"/>
+<rect x="80" y="905" width="175" height="56" rx="8" fill="#D9F0DA" stroke="#5DA85A" stroke-width="2"/>
+<text x="167.5" y="928" text-anchor="middle" font-size="13" font-weight="700" fill="#1A2B3C">Home</text>
+<text x="167.5" y="947" text-anchor="middle" font-size="11" fill="#5A6B7C">ecr&#227; principal</text>
+<rect x="580" y="845" width="320" height="64" rx="8" fill="#E8F0F7" stroke="#5A87B0" stroke-width="1.5"/>
+<text x="595" y="870" font-size="14" font-weight="700" fill="#1A2B3C">Hist&#243;rico (calend&#225;rio)</text>
+<text x="595" y="890" font-size="11" fill="#5A6B7C">vis&#227;o anual com dias de refei&#231;&#245;es registadas</text>
+<rect x="580" y="925" width="320" height="64" rx="8" fill="#E8F0F7" stroke="#5A87B0" stroke-width="1.5"/>
+<text x="595" y="950" font-size="14" font-weight="700" fill="#1A2B3C">A minha evolu&#231;&#227;o</text>
+<text x="595" y="970" font-size="11" fill="#5A6B7C">HbA1c estimada &#183; gr&#225;fico semanal &#183; objetivos &#183; pontua&#231;&#227;o</text>
+<rect x="580" y="1005" width="320" height="64" rx="8" fill="#E8F0F7" stroke="#5A87B0" stroke-width="1.5"/>
+<text x="595" y="1030" font-size="14" font-weight="700" fill="#1A2B3C">Perfil</text>
+<text x="595" y="1050" font-size="11" fill="#5A6B7C">dados cl&#237;nicos &#183; m&#233;dico assistente &#183; pr&#243;xima consulta</text>
+<path d="M 255 933 Q 420 905.0 580 877.0" stroke="#5A6B7C" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<line x1="255" y1="933" x2="580" y2="957.0" stroke="#5A6B7C" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M 255 933 Q 420 985.0 580 1037.0" stroke="#5A6B7C" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<text x="380" y="867.0" text-anchor="middle" font-size="11" fill="#5A6B7C" font-style="italic">via tab Hist&#243;rico (Alimenta&#231;&#227;o)</text>
+<text x="380" y="947.0" text-anchor="middle" font-size="11" fill="#5A6B7C" font-style="italic">via &#237;cone na barra inferior</text>
+<text x="380" y="1061.0" text-anchor="middle" font-size="11" fill="#5A6B7C" font-style="italic">via avatar (canto sup. direito)</text>
+<rect x="40" y="1080" width="1520" height="125" rx="8" fill="#FAFBFC" stroke="#D3E1EC" stroke-width="1"/>
+<text x="60" y="1105" font-size="13" font-weight="700" fill="#1A2B3C">Legenda</text>
+<rect x="60" y="1120" width="22" height="16" rx="3" fill="#E8F0F7" stroke="#5A87B0" stroke-width="1.5"/>
+<text x="92" y="1133" font-size="11.5" fill="#1A2B3C">Ecr&#227; de uso</text>
+<rect x="220" y="1120" width="22" height="16" rx="3" fill="#D9F0DA" stroke="#5DA85A" stroke-width="2"/>
+<text x="252" y="1133" font-size="11.5" fill="#1A2B3C">Ecr&#227; principal (Home)</text>
+<line x1="450" y1="1128" x2="475" y2="1128" stroke="#5A6B7C" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="485" y="1133" font-size="11.5" fill="#1A2B3C">Caminho de navega&#231;&#227;o</text>
+<line x1="680" y1="1128" x2="705" y2="1128" stroke="#5DA85A" stroke-width="1.5" marker-end="url(#arrowGreen)"/>
+<text x="715" y="1133" font-size="11.5" fill="#1A2B3C">Regresso ao Home (sucesso)</text>
+<rect x="950" y="1120" width="22" height="16" rx="3" fill="#FFF8E1" stroke="#C19A4A" stroke-width="1" stroke-dasharray="3,2"/>
+<text x="982" y="1133" font-size="11.5" fill="#1A2B3C">Comportamento autom&#225;tico (alerta)</text>
+<rect x="1290" y="1120" width="22" height="16" rx="3" fill="#E8F5EC" stroke="#5DA85A" stroke-width="1" stroke-dasharray="3,2"/>
+<text x="1322" y="1133" font-size="11.5" fill="#1A2B3C">Sincroniza&#231;&#227;o autom&#225;tica</text>
+<text x="60" y="1165" font-size="11" fill="#5A6B7C" font-style="italic">Diagrama derivado de 12 ecr&#227;s &#250;nicos do prot&#243;tipo Figma. Sub-fluxos B e C cumprem o requisito de uma ac&#231;&#227;o completa para al&#233;m do login.</text>
+<text x="60" y="1185" font-size="11" fill="#5A6B7C" font-style="italic">Estados de erro (password errada, falha de Bluetooth, e-mail inv&#225;lido) n&#227;o modelados nesta itera&#231;&#227;o &#8212; oportunidade futura para refor&#231;ar valida&#231;&#227;o.</text>
+</svg>
