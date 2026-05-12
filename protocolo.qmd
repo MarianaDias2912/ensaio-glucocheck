@@ -163,7 +163,7 @@ flowchart TD
 
 ### População do Estudo
 
-<!-- Esta secção deve ter 200–300 palavras. Cada critério deve ser específico e verificável/mensurável. -->
+
 
 #### Critérios de Inclusão
 
@@ -202,7 +202,6 @@ O recrutamento será realizado na USF selecionada, através de duas vias: (1) re
 
 ### Intervenções
 
-<!-- Esta secção deve ter 300–400 palavras no total (ambos os braços). Deve detalhar o que EXATAMENTE os participantes vão fazer/receber. -->
 
 #### Grupo de Intervenção
 
@@ -244,7 +243,7 @@ flowchart LR
 
 **Funcionalidades principais:**
 
-<!-- Cada funcionalidade é descrita com: o que faz, tipo de interação do participante e frequência esperada de utilização. -->
+
 
 1. **Registo alimentar com feedback nutricional automatizado**
    - *O que faz:* O participante fotografa ou descreve textualmente cada refeição; o sistema analisa automaticamente a composição nutricional (hidratos de carbono, calorias, índice glicémico estimado) e gera sugestões de melhoria personalizadas.
@@ -441,7 +440,7 @@ Os participantes que descontinuem serão convidados a realizar uma avaliação f
 
 ### Outcome Primário
 
-<!-- O outcome primário deve ser único, mensurável e claramente definido. -->
+
 
 Hemoglobina glicada (HbA1c)
 
@@ -451,7 +450,7 @@ Hemoglobina glicada (HbA1c)
 
 ### Outcomes Secundários
 
-<!-- Cada outcome secundário indica o instrumento de medição, unidade e momentos de avaliação. -->
+
 
 1. **Glicemia em jejum** — Análise laboratorial (mg/dL); avaliação em T0, T1 e T2.
 2. **Peso corporal** — Balança calibrada (kg), com o participante descalço e em roupa leve; avaliação em T0, T1 e T2.
@@ -463,7 +462,7 @@ Hemoglobina glicada (HbA1c)
 
 ### Cronograma de Avaliações (SPIRIT Figure)
 
-<!-- Tabela baseada nas recomendações SPIRIT (Standard Protocol Items: Recommendations for Interventional Trials). O × indica os momentos em que cada avaliação é realizada. -->
+
 
 | Avaliação | Rastreio | T0 (Baseline) | T1 (12 sem) | T2 (24 sem) |
 |-----------|----------|---------------|-------------|-------------|
@@ -487,7 +486,7 @@ Hemoglobina glicada (HbA1c)
 
 ### Dimensão da Amostra
 
-<!-- A dimensão da amostra não foi calculada por poder estatístico formal porque se trata de um estudo piloto. A justificação segue as recomendações da literatura para estudos piloto (mínimo 12 por braço). -->
+
 
 Tratando-se de um estudo piloto (pré-teste), a dimensão da amostra (n = 30; 15 por braço) não foi calculada com base em poder estatístico formal, mas segue as recomendações da literatura para estudos piloto, que sugerem pelo menos 12 participantes por braço. O valor de 15 por braço permite acomodar uma taxa de *dropout* estimada de 20%, particularmente relevante neste estudo dada a duração de 6 meses e a faixa etária da população-alvo (40–75 anos), que pode apresentar literacia digital mais baixa e maior risco de abandono.
 
@@ -495,7 +494,6 @@ Os resultados deste estudo piloto serão utilizados para estimar o tamanho de ef
 
 ### Análise Principal
 
-<!-- A análise principal segue o princípio ITT e utiliza modelos lineares mistos, adequados para medidas repetidas e dados em falta sob o pressuposto MAR. -->
 
 A análise primária será conduzida segundo o princípio de **intenção-de-tratar** (ITT), incluindo todos os participantes randomizados independentemente do grau de adesão ao protocolo.
 
@@ -529,7 +527,6 @@ Todos os potenciais participantes receberão informação oral e escrita detalha
 
 ### Proteção de Dados
 
-<!-- Conformidade com RGPD e legislação portuguesa -->
 
 Os dados pessoais serão tratados em conformidade com o Regulamento Geral sobre a Proteção de Dados (RGPD — Regulamento UE 2016/679) e a legislação nacional aplicável (Lei n.º 58/2019). Os dados serão pseudonimizados mediante atribuição de código alfanumérico; a chave de correspondência será armazenada em ficheiro encriptado separado, acessível apenas ao investigador principal. Os dados gerados pela aplicação GlucoCheck serão armazenados em servidores seguros com encriptação ponta-a-ponta.
 
@@ -546,7 +543,6 @@ Eventos adversos graves serão comunicados à comissão de ética no prazo de 24
 
 ### Disseminação dos Resultados
 
-<!-- Os resultados seguirão as diretrizes CONSORT -->
 
 Os resultados serão disseminados através de:
 
