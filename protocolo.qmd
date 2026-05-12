@@ -4,7 +4,6 @@ subtitle: "GlucoCheck — Ensaio Clínico Randomizado · Grupo 6, Turma B"
 date: "2026-03-06"
 ---
 
-<!-- Este documento é a versão Quarto do protocolo de ensaio clínico GlucoCheck. -->
 
 # Protocolo de Ensaio Clínico
 
@@ -12,7 +11,6 @@ date: "2026-03-06"
 
 ### Título do Estudo
 
-<!-- O título deve ser completo e descritivo (50–100 palavras), incluindo: População, Intervenção, Comparador e Outcome (formato PICO). -->
 
 Eficácia de uma Aplicação Móvel de Monitorização Glicémica e Registo Alimentar com Feedback Nutricional Automatizado (GlucoCheck) versus Consulta Habitual Isolada na Redução da Hemoglobina Glicada (HbA1c) em Adultos entre 40 e 75 Anos com Diabetes Mellitus Tipo 2 e Controlo Glicémico Subótimo, Sem Insulinoterapia, em Seguimento em Cuidados de Saúde Primários: Um Ensaio Clínico Randomizado, Controlado e de Grupos Paralelos.
 
@@ -45,7 +43,6 @@ GlucoCheck: App móvel para controlo da DM2
 
 ### Racional
 
-<!-- O racional deve ter 300–400 palavras e seguir a estrutura: (1) magnitude do problema, (2) limitações do cuidado atual, (3) evidência sobre intervenções digitais, (4) gap que o estudo preenche, (5) justificação do comparador, (6) relevância clínica e impacto esperado. -->
 
 A Diabetes Mellitus Tipo 2 (DM2) é uma das doenças crónicas com maior impacto nos sistemas de saúde a nível global. Segundo a 11.ª edição do IDF Diabetes Atlas, estima-se que cerca de 589 milhões de adultos vivam atualmente com diabetes, com projeções que apontam para 853 milhões em 2050. Em Portugal, o Relatório Anual do Observatório Nacional da Diabetes (dados de 2024) estima uma prevalência de DM2 na ordem dos 14,2% na população adulta (20–79 anos), o valor mais elevado de sempre, correspondendo a cerca de 1,1 milhões de portugueses. Os custos diretos associados à doença representam entre 0,5% e 0,6% do PIB nacional (1 500 a 1 800 milhões de euros anuais), e as complicações microvasculares (retinopatia, nefropatia, neuropatia) e macrovasculares (doença cardiovascular) são responsáveis por uma proporção substancial da morbilidade e mortalidade nestes doentes.
 
@@ -57,7 +54,6 @@ Apesar destes resultados promissores, a evidência permanece heterogénea: muito
 
 ### Objetivos
 
-<!-- Os objetivos devem ter 100–150 palavras. Dividir em: objetivo primário (1 frase clara) e objetivos secundários (3–5 objetivos em lista). -->
 
 #### Objetivo Primário
 
@@ -76,8 +72,6 @@ Os objetivos secundários deste estudo são:
 ## Métodos
 
 ### Desenho do Estudo
-
-<!-- Esta secção deve ter 150–200 palavras e incluir: tipo de ensaio (RCT, paralelo), razão de randomização (1:1), duração total, número de centros, fase do estudo e período de follow-up. -->
 
 Este é um ensaio clínico randomizado, controlado, de grupos paralelos.
 
