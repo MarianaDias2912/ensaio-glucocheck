@@ -548,6 +548,6 @@ Os resultados serão disseminados através de:
 
 
 
-**Versão:** 1.1
-**Data desta versão:** 2026-04-30
+**Versão:** 1.2
+**Data desta versão:** 2026-05-13
 **Autores desta versão:** Francisca Teixeira, Luísa Moreira, Mariana Dias, Rosarinho Barros
