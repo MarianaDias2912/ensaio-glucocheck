@@ -1,8 +1,6 @@
 project:
   type: website
   output-dir: docs
-  resources:
-    - "images/*.pdf"
 
 website:
   title: "Ensaio GlucoCheck"
@@ -18,6 +16,9 @@ website:
         text: Resultados
       - href: equipa.qmd
         text: Equipa
+      - href: IA.qmd
+        text: IA
+        
 
 format:
   html:

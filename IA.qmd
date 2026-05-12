@@ -1,0 +1,237 @@
+---
+title: "Declaração de uso de Inteligência Artificial"
+subtitle: "Transparência sobre o recurso a ferramentas de IA generativa no projecto GlucoCheck"
+---
+
+## Sumário
+
+Esta página documenta, com o detalhe exigido pela unidade curricular, todo o
+recurso a ferramentas de Inteligência Artificial generativa ao longo do
+desenvolvimento do projecto GlucoCheck. A declaração cobre as quatro fases
+do trabalho — protocolo SPIRIT (E1), materiais e CRF/REDCap (E2),
+*Investigator's Meeting* (TP8) e site Quarto + análise em R (TP9/TP10) —
+identificando, para cada utilização, **o que foi gerado pelo modelo**,
+**como foi tratado pela equipa** e **quem é responsável pelo conteúdo
+final**.
+
+A equipa assume total responsabilidade pelo conteúdo científico,
+metodológico e técnico do projecto. As ferramentas de IA foram utilizadas
+exclusivamente como **auxiliar de produtividade**, sob revisão crítica
+sistemática.
+
+## Ferramentas utilizadas
+
+| Ferramenta | Versão / Data de utilização | Fases |
+|---|---|---|
+| ChatGPT (OpenAI) | GPT-4, Março–Maio de 2026 | E1, E2, TP8 |
+| Claude (Anthropic) | Claude Sonnet 4.5, Abril–Maio de 2026 | TP9, TP10 |
+
+## Utilização por fase do trabalho
+
+### E1 — Protocolo SPIRIT
+
+**Output da IA:**
+
+- Apoio à redacção do texto das secções do protocolo, em particular na
+  formulação de parágrafos longos sobre justificação, intervenção e análise
+  estatística.
+- Ajuste da formatação Markdown para sintaxe simplificada compatível com
+  a conversão para LaTeX no Overleaf.
+- Sugestão de metadados YAML e comentários HTML de orientação para
+  reutilização do template.
+
+**Tratamento:**
+
+- Aceite com alterações.
+- Todo o conteúdo científico (critérios de elegibilidade, desenho do
+  estudo, *outcomes*, análise estatística) foi definido pela equipa antes
+  de qualquer interacção com IA.
+- O texto gerado foi revisto frase a frase pela equipa, com confirmação
+  contra a literatura de referência e adaptação ao cenário clínico
+  específico (DM2 em USF, Portugal).
+
+### E2 — Materiais (CRF, formulário REDCap)
+
+#### 1. Estruturação dos cenários de teste para o eCRF no REDCap
+
+**Output da IA:**
+
+- Sugestão de três cenários: participante elegível/intervenção,
+  participante inelegível, *follow-up* com evento adverso.
+- Lista de verificações por cenário.
+
+**Tratamento:**
+
+- Aceite com alterações.
+- Cenários adaptados à lógica específica do eCRF.
+- Algumas verificações adaptadas à instância REDCap institucional
+  disponível.
+
+#### 2. Orientação passo a passo para execução dos cenários de teste no REDCap
+
+**Output da IA:**
+
+- Descrição sequencial dos passos de navegação, preenchimento e verificação
+  de campos calculados e *branching logic*.
+
+**Tratamento:**
+
+- Aceite com alterações.
+- Passos seguidos como guia geral.
+- Adaptação à interface real da instância institucional.
+
+#### 3. Revisão cruzada do dicionário de dados
+
+**Output da IA:**
+
+- Identificação de inconsistências entre variáveis, tipos de campo e regras
+  de validação.
+- Sugestões de correcção, incluindo deteção de duplicação da variável
+  *peso* e redundância da variável *grupo_aloc*.
+- Sugestão de campos calculados.
+
+**Tratamento:**
+
+- Inconsistências verificadas manualmente pela equipa.
+- Inconsistências confirmadas foram documentadas nas secções relevantes do
+  relatório da E2.
+
+#### 4. Identificação de referências bibliográficas
+
+**Output da IA:**
+
+- Sugestão de referência para a versão portuguesa da DES-SF (Sousa et al.,
+  2020).
+- Sugestão de referências para o DKQ (Bastos, 2004; Menino et al., 2017).
+
+**Tratamento:**
+
+- Todas as referências foram confirmadas através de pesquisa independente
+  antes da inclusão no relatório.
+
+#### 5. Configuração do projecto REDCap
+
+**Output da IA:**
+
+- Conversão de campos `yesno` para `radio` com *choices* em português
+  (Sim/Não), para coerência idiomática.
+
+**Tratamento:**
+
+- Conversão validada.
+
+### TP8 — *Investigator's Meeting*
+
+**Output da IA:**
+
+- Apoio à identificação de desafios da persona alinhados com os *outcomes*
+  secundários do protocolo (DES-SF, conhecimento sobre diabetes).
+- Apoio à realização do fluxograma de navegação da aplicação GlucoCheck.
+
+**Tratamento:**
+
+- A definição da persona (idade, contexto clínico, motivações) partiu da
+  população-alvo do protocolo definida na E1.
+- O fluxograma final foi redesenhado pela equipa, com base nas
+  sugestões iniciais da IA, mas adaptado ao protótipo efectivo da
+  aplicação.
+
+### TP9 / TP10 — Site Quarto e análise em R
+
+**Output da IA:**
+
+- Apoio à redacção da página inicial do site (`index.qmd`) com base no
+  protocolo da E1 e no cenário clínico fornecido pela disciplina.
+- Reformatação do código R em `resultados.qmd` para alinhamento estrito
+  com a matéria leccionada nos *slides* da TP9.
+- Apoio à montagem do *workflow* GitHub Actions para publicação automática
+  em GitHub Pages, incluindo resolução de problemas técnicos.
+- Resolução de problemas técnicos pontuais: renderização de diagramas
+  Mermaid, integração de ficheiros PDF como recursos do site.
+
+**Tratamento:**
+
+- Aceite com alterações sistemáticas.
+- Toda a análise estatística (selecção de variáveis basais para a Tabela 1,
+  exclusão dos *outcomes* aos 6 meses, tratamento dos *missings*,
+  visualização do *outcome* primário) foi decidida pela equipa.
+- O código gerado foi validado por execução em ambiente local antes de
+  publicação.
+- A estrutura do site e a divisão por páginas correspondem ao especificado
+  no enunciado da TP9.
+
+## Prompts essenciais
+
+Apresentam-se a seguir exemplos representativos dos *prompts* utilizados,
+agrupados por fase. *Prompts* de afinação iterativa e correcção pontual
+não são listados.
+
+**E1 — Protocolo:**
+
+> "Ajuda-me a redigir a secção de Análise Estatística do protocolo SPIRIT
+> para um ensaio aleatorizado de uma app móvel em DM2 com *outcome*
+> primário HbA1c aos 6 meses, n=30 (piloto), aleatorização 1:1
+> estratificada por sexo e HbA1c basal."
+
+**E2 — CRF/REDCap:**
+
+> "Ajuda-me a definir 3 cenários de teste para o eCRF no REDCap que cubram:
+> participante elegível em grupo intervenção, participante inelegível, e
+> *follow-up* com evento adverso. Lista as verificações de validação para
+> cada cenário."
+
+> "Revê este dicionário de dados e identifica inconsistências entre tipos
+> de campo, regras de validação e nomes de variáveis."
+
+**TP8 — Investigator's Meeting:**
+
+> "Sugere 3 desafios para a persona de uma aplicação móvel de diabetes
+> tipo 2, alinhados com os *outcomes* secundários DES-SF (autoeficácia) e
+> conhecimento sobre diabetes."
+
+**TP9/TP10 — Site Quarto:**
+
+> "Ajuda-me a criar a estrutura inicial de um site Quarto para um ensaio clínico
+> piloto, com 5 páginas (Início, Protocolo, Materiais, Resultados, Equipa),
+> publicação em GitHub Pages via *workflow* automático, e análise em R com
+> `tbl_summary(by = grupo)` e gráfico do *outcome* primário em `ggplot2`."
+
+> "Reformata este código R do `resultados.qmd` para corresponder estritamente
+> ao que está nos slides da TP9: Tabela 1 só com variáveis basais,
+> estatísticas mediana (Q1, Q3), *labels* em português, *boxplot* com
+> *jitter* e tema *minimal*."
+
+## Processo de revisão crítica
+
+A equipa adoptou os seguintes princípios de revisão sistemática do conteúdo
+gerado por IA:
+
+1. **Verificação científica.** Toda a informação clínica, metodológica ou
+   estatística foi confrontada com fontes primárias (protocolo SPIRIT 2013,
+   *guidelines* CONSORT 2010, documentação oficial dos instrumentos
+   psicométricos utilizados, *slides* da unidade curricular).
+2. **Adequação ao contexto.** O conteúdo foi sempre adaptado ao cenário
+   clínico real do GlucoCheck (DM2, USF, Portugal) e à população-alvo
+   definida no protocolo da E1.
+3. **Execução prática.** No caso do código R e da configuração do *site*,
+   todo o material foi executado e validado localmente antes da
+   integração final.
+4. **Revisão em equipa.** O conteúdo gerado por IA foi partilhado entre os
+   elementos do grupo, com revisão cruzada antes da entrega.
+5. **Confirmação de referências.** Todas as referências bibliográficas
+   sugeridas por IA foram verificadas em pesquisa independente.
+
+## Responsabilidade pelo conteúdo final
+
+A responsabilidade pelo conteúdo científico, metodológico e técnico do
+projecto GlucoCheck é integralmente assumida pela equipa do **Grupo 6,
+Turma B** — Francisca Teixeira, Luísa Moreira, Mariana Dias e Rosarinho
+Barros — sob a orientação dos docentes da unidade curricular.
+
+
+## Histórico de versões
+
+| Versão | Data | Alterações |
+|:---:|:---:|---|
+| 1.0 | Abril de 2026 | Versão inicial (declaração sucinta no relatório da TP7). |
+| 2.0 | Maio de 2026 | Versão alargada em página dedicada, na sequência do *feedback* docente à entrega formativa. |
