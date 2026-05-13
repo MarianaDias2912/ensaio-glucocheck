@@ -131,8 +131,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#crf-case-report-form" id="toc-crf-case-report-form" class="nav-link active" data-scroll-target="#crf-case-report-form">CRF — <em>Case Report Form</em></a></li>
-  <li><a href="#formulário-redcap" id="toc-formulário-redcap" class="nav-link" data-scroll-target="#formulário-redcap">Formulário REDCap</a></li>
+  <li><a href="#crf-e-formulário-redcap" id="toc-crf-e-formulário-redcap" class="nav-link active" data-scroll-target="#crf-e-formulário-redcap">CRF e formulário REDCap</a>
+  <ul class="collapse">
+  <li><a href="#estrutura-modular-dos-tempos-de-avaliação" id="toc-estrutura-modular-dos-tempos-de-avaliação" class="nav-link" data-scroll-target="#estrutura-modular-dos-tempos-de-avaliação">Estrutura modular dos tempos de avaliação</a></li>
+  <li><a href="#arquitetura-do-projeto-redcap" id="toc-arquitetura-do-projeto-redcap" class="nav-link" data-scroll-target="#arquitetura-do-projeto-redcap">Arquitetura do projeto REDCap</a></li>
+  <li><a href="#instrumento-exemplo" id="toc-instrumento-exemplo" class="nav-link" data-scroll-target="#instrumento-exemplo">Instrumento exemplo</a></li>
+  <li><a href="#lógica-condicional-e-campos-calculados" id="toc-lógica-condicional-e-campos-calculados" class="nav-link" data-scroll-target="#lógica-condicional-e-campos-calculados">Lógica condicional e campos calculados</a></li>
+  <li><a href="#regras-de-data-quality" id="toc-regras-de-data-quality" class="nav-link" data-scroll-target="#regras-de-data-quality">Regras de Data Quality</a></li>
+  <li><a href="#decisões-de-configuração" id="toc-decisões-de-configuração" class="nav-link" data-scroll-target="#decisões-de-configuração">Decisões de configuração</a></li>
+  <li><a href="#reflexão-crítica" id="toc-reflexão-crítica" class="nav-link" data-scroll-target="#reflexão-crítica">Reflexão crítica</a></li>
+  <li><a href="#documentos-para-download" id="toc-documentos-para-download" class="nav-link" data-scroll-target="#documentos-para-download">Documentos para <em>download</em></a></li>
+  </ul></li>
   <li><a href="#material-de-apoio-à-investigators-meeting-tp8" id="toc-material-de-apoio-à-investigators-meeting-tp8" class="nav-link" data-scroll-target="#material-de-apoio-à-investigators-meeting-tp8">Material de apoio à <em>Investigator’s Meeting</em> (TP8)</a>
   <ul class="collapse">
   <li><a href="#ficha-de-persona" id="toc-ficha-de-persona" class="nav-link" data-scroll-target="#ficha-de-persona">Ficha de persona</a></li>
@@ -166,21 +175,117 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Esta página reúne os materiais desenvolvidos no âmbito do ensaio GlucoCheck: o <em>Case Report Form</em> (CRF), o formulário electrónico em REDCap para a recolha de dados, e os materiais de apoio à <em>Investigator’s Meeting</em> — persona, fluxograma de navegação e protótipo da aplicação móvel — produzidos no contexto da TP8.</p>
-<section id="crf-case-report-form" class="level2">
-<h2 class="anchored" data-anchor-id="crf-case-report-form">CRF — <em>Case Report Form</em></h2>
-<p>O CRF é o instrumento utilizado para registar os dados clínicos de cada participante ao longo do ensaio. Está organizado em três módulos correspondentes às avaliações do cronograma:</p>
+<p>Esta página reúne os materiais desenvolvidos no âmbito do ensaio GlucoCheck: o <em>Case Report Form</em> (CRF) e a sua implementação electrónica em REDCap (E7), e os materiais de apoio à <em>Investigator’s Meeting</em> — persona, fluxograma de navegação e protótipo da aplicação móvel — produzidos no contexto da TP8.</p>
+<section id="crf-e-formulário-redcap" class="level2">
+<h2 class="anchored" data-anchor-id="crf-e-formulário-redcap">CRF e formulário REDCap</h2>
+<p>O eCRF do estudo GlucoCheck foi desenvolvido na plataforma <strong>REDCap</strong> institucional, com uma estrutura de recolha de dados longitudinal, organizada em <strong>dois braços</strong> (intervenção e controlo) e <strong>três momentos de avaliação</strong> (Baseline V0, 3 meses V1, 6 meses V2), em conformidade com o protocolo.</p>
+<section id="estrutura-modular-dos-tempos-de-avaliação" class="level3">
+<h3 class="anchored" data-anchor-id="estrutura-modular-dos-tempos-de-avaliação">Estrutura modular dos tempos de avaliação</h3>
+<p>O instrumento está organizado em três módulos correspondentes às avaliações do cronograma:</p>
 <ol type="1">
-<li><strong>Inclusão e baseline (T0)</strong> — dados sociodemográficos, critérios de elegibilidade, HbA1c, glicemia em jejum, peso, DES-SF, DKQ-24.</li>
-<li><strong>Avaliação intermédia (T1, semana 12)</strong> — HbA1c, glicemia em jejum, peso, adesão ao registo alimentar, DES-SF.</li>
-<li><strong>Avaliação final (T2, semana 24)</strong> — HbA1c, glicemia em jejum, peso, DES-SF, DKQ-24, satisfação (DTSQ).</li>
+<li><strong>Inclusão e Baseline (V0)</strong> — dados sociodemográficos, critérios de elegibilidade, HbA1c, glicemia em jejum, peso, DES-SF, DKQ-10.</li>
+<li><strong>Avaliação intermédia (V1, 3 meses)</strong> — HbA1c, glicemia em jejum, peso, adesão ao registo alimentar, DES-SF.</li>
+<li><strong>Avaliação final (V2, 6 meses)</strong> — HbA1c, glicemia em jejum, peso, DES-SF, DKQ-10, satisfação.</li>
 </ol>
-<p><em>A integrar — versão final do CRF em PDF ou imagens das secções.</em></p>
 </section>
-<section id="formulário-redcap" class="level2">
-<h2 class="anchored" data-anchor-id="formulário-redcap">Formulário REDCap</h2>
-<p>O formulário REDCap corresponde à versão electrónica do CRF, implementada na plataforma institucional para garantir recolha segura, validação de tipos de dados e <em>backup</em> automático dos registos. O instrumento foi desenhado a partir do CRF e replica a estrutura modular dos três tempos de avaliação.</p>
-<p><em>A integrar — projeto REDCap e dicionário de dados.</em></p>
+<section id="arquitetura-do-projeto-redcap" class="level3">
+<h3 class="anchored" data-anchor-id="arquitetura-do-projeto-redcap">Arquitetura do projeto REDCap</h3>
+<ul>
+<li><strong>Arms.</strong> Dois braços: <em>Arm 1</em> — grupo de intervenção (utilizadores da aplicação GlucoCheck); <em>Arm 2</em> — grupo de controlo (cuidados habituais).</li>
+<li><strong>Events.</strong> Três <em>events</em> por braço: <em>Baseline (V0)</em>, <em>Visita aos 3 meses (V1)</em> e <em>Visita aos 6 meses (V2)</em>.</li>
+<li><strong>Instrumentos.</strong> Dez instrumentos de recolha de dados: <em>Screening de Elegibilidade</em>, <em>Consentimento Informado</em>, <em>Randomização</em>, <em>Caracterização Basal</em>, <em>História Clínica</em>, <em>Avaliação Clínica</em>, <em>Escalas Psicométricas</em> (DES-SF e DKQ-10), <em>Satisfação e Utilização</em>, <em>Ajuste de Medicação</em>, <em>Evento Adverso</em> (configurado como <em>repeating instrument</em>).</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/redcap_visaogeral.png" class="img-fluid figure-img" style="width:90.0%"></p>
+<figcaption>Visão geral do projeto REDCap, com a estrutura longitudinal de arms, events e instrumentos.</figcaption>
+</figure>
+</div>
+</section>
+<section id="instrumento-exemplo" class="level3">
+<h3 class="anchored" data-anchor-id="instrumento-exemplo">Instrumento exemplo</h3>
+<p>A figura abaixo mostra um dos instrumentos do eCRF, ilustrando a estrutura de campos, <em>labels</em> e <em>choices</em> utilizados.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/redcap_instrumento.png" class="img-fluid figure-img" style="width:90.0%"></p>
+<figcaption>Exemplo de um dos instrumentos de recolha de dados do eCRF.</figcaption>
+</figure>
+</div>
+</section>
+<section id="lógica-condicional-e-campos-calculados" class="level3">
+<h3 class="anchored" data-anchor-id="lógica-condicional-e-campos-calculados">Lógica condicional e campos calculados</h3>
+<p>Foi implementada <em>branching logic</em> em vários pontos do eCRF para garantir a relevância e a integridade dos dados recolhidos:</p>
+<ul>
+<li>A pergunta sobre capacidade de utilização de <em>smartphone</em> só aparece quando a resposta à posse de <em>smartphone</em> é afirmativa.</li>
+<li>O campo <code>[elegivel]</code> é calculado automaticamente a partir dos seis critérios definidos no protocolo (DM2 confirmada, HbA1c entre 7,0 e 9,5%, seguimento em CSP, ausência de insulinoterapia, idade entre 40 e 75 anos).</li>
+<li>Os campos do Consentimento Informado só aparecem se <code>[elegivel] = 1</code>, bloqueando o acesso aos instrumentos seguintes em participantes inelegíveis.</li>
+<li>Os campos clínicos das visitas de <em>follow-up</em> só aparecem quando a visita foi marcada como realizada.</li>
+<li>O instrumento de Utilização da App é restringido ao Arm 1 por designação de instrumentos a <em>events</em>.</li>
+<li>Os campos detalhados do instrumento de Evento Adverso só aparecem quando o campo <em>gate</em> <code>[ea_ocorreu]</code> indica que ocorreu um evento.</li>
+</ul>
+<p>Foram igualmente implementados <strong>campos calculados</strong> para a elegibilidade (binário 0/1), idade (em anos completos a partir das datas de nascimento e admissão), <em>score</em> médio da DES-SF, pontuação do DKQ-10 e IMC no Baseline.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/redcap_distintivo.png" class="img-fluid figure-img" style="width:90.0%"></p>
+<figcaption>Exemplo de configuração distintiva no eCRF: lógica condicional, regras de Data Quality ou campos calculados.</figcaption>
+</figure>
+</div>
+</section>
+<section id="regras-de-data-quality" class="level3">
+<h3 class="anchored" data-anchor-id="regras-de-data-quality">Regras de Data Quality</h3>
+<p>O projeto inclui as <strong>nove regras pré-definidas</strong> do REDCap (A–I) — que cobrem valores em falta, erros de validação, <em>outliers</em>, incoerências de <em>branching logic</em>, campos ocultos com dados guardados e valores inválidos em campos de escolha múltipla — e <strong>duas regras <em>custom</em></strong> desenvolvidas pelo grupo:</p>
+<ul>
+<li><strong>Consentimento em inelegível</strong> — sinaliza participantes inelegíveis com consentimento assinado, servindo como segunda linha de defesa face à <em>branching logic</em>.</li>
+<li><strong>Data V1 anterior ao Baseline</strong> — regra <em>cross-event cross-arm</em> que deteta erros cronológicos na sequência de visitas, em qualquer um dos <em>arms</em>.</li>
+</ul>
+</section>
+<section id="decisões-de-configuração" class="level3">
+<h3 class="anchored" data-anchor-id="decisões-de-configuração">Decisões de configuração</h3>
+<p>Vários módulos opcionais do REDCap foram <strong>avaliados e deliberadamente não ativados</strong>:</p>
+<ul>
+<li><strong>Scheduling module</strong> — não ativado; a janela de V1 é verificada por regra de <em>Data Quality custom</em>.</li>
+<li><strong>Randomization module</strong> — não ativado; em estudos piloto de 30 participantes a aleatorização é gerida fora do REDCap (lista externa).</li>
+<li><strong>Surveys por email</strong> — não ativado; os instrumentos auto-reportados (DES-SF, DKQ-10, satisfação) são preenchidos em formato <em>interviewer-administered</em>, alinhado com a literacia digital potencialmente baixa da população-alvo e com o princípio de minimização de dados pessoais.</li>
+</ul>
+</section>
+<section id="reflexão-crítica" class="level3">
+<h3 class="anchored" data-anchor-id="reflexão-crítica">Reflexão crítica</h3>
+<p>O desenvolvimento do eCRF colocou em evidência decisões de desenho com <em>trade-offs</em> relevantes que importa documentar:</p>
+<ul>
+<li><strong>Cálculo do IMC nas visitas de <em>follow-up</em>.</strong> O campo <code>[bmi]</code> permanece vazio em V1 e V2 porque a variável <code>altura</code> foi registada apenas em V0 e o REDCap procura cada variável no <em>event</em> corrente. A alternativa — duplicar <code>altura</code> em todos os <em>events</em> — foi rejeitada para evitar redundância e risco de inconsistência. A limitação está documentada no próprio campo, com indicação de que o IMC pode ser recalculado em fase de análise estatística.</li>
+<li><strong>Validações de plausibilidade <em>vs.</em> critérios de elegibilidade.</strong> Os limites de validação no dicionário (HbA1c 3–20%) são mais abrangentes do que o critério de inclusão (7,0–9,5%), permitindo registar valores reais para auditoria. A verificação do critério é delegada ao campo calculado <code>[elegivel]</code>, que bloqueia por <em>branching logic</em> o acesso aos instrumentos subsequentes.</li>
+<li><strong>Aprendizagens de processo.</strong> A primeira tentativa de <em>upload</em> do dicionário falhou por o ficheiro ter sido guardado com separador <code>;</code> em vez de <code>,</code> (definição regional portuguesa do Excel), gerando dezenas de erros aparentes. Resolveu-se com re-exportação em formato <em>CSV UTF-8 delimitado por vírgulas</em> e validação em editor de texto antes do novo <em>upload</em>. Uma segunda iteração foi necessária por omissão do passo <em>Commit Changes</em> na pré-visualização do <em>import</em>.</li>
+</ul>
+</section>
+<section id="documentos-para-download" class="level3">
+<h3 class="anchored" data-anchor-id="documentos-para-download">Documentos para <em>download</em></h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Documento</th>
+<th style="text-align: center;">Formato</th>
+<th><em>Download</em></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Dicionário de dados completo</td>
+<td style="text-align: center;">CSV</td>
+<td><a href="images/E7_Grupo6_DataDictionaryAvSumativa.csv">E7_Grupo6_DataDictionaryAvSumativa.csv</a></td>
+</tr>
+<tr class="even">
+<td>eCRF (instrumentos em branco)</td>
+<td style="text-align: center;">PDF</td>
+<td><a href="images/E7_Grupo6_eCRFAvSumativa.pdf" target="_blank">E7_Grupo6_eCRFAvSumativa.pdf</a></td>
+</tr>
+<tr class="odd">
+<td>Relatório completo da E7</td>
+<td style="text-align: center;">PDF</td>
+<td><a href="images/E7_Grupo6_Relatorio.pdf" target="_blank">E7_Grupo6_Relatorio.pdf</a></td>
+</tr>
+</tbody>
+</table>
+</section>
 </section>
 <section id="material-de-apoio-à-investigators-meeting-tp8" class="level2">
 <h2 class="anchored" data-anchor-id="material-de-apoio-à-investigators-meeting-tp8">Material de apoio à <em>Investigator’s Meeting</em> (TP8)</h2>

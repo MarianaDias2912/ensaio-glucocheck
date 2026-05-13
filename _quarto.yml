@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - "images/*.pdf"
+    - "images/*.csv"
 
 website:
   title: "Ensaio GlucoCheck"
