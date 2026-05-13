@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Resultados preliminares – Ensaio GlucoCheck</title>
+<title>Declaração de uso de Inteligência Artificial – Ensaio GlucoCheck</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -104,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Materiais</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./resultados.html" aria-current="page"> 
+    <a class="nav-link" href="./resultados.html"> 
 <span class="menu-text">Resultados</span></a>
   </li>  
   <li class="nav-item">
@@ -112,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Equipa</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./IA.html"> 
+    <a class="nav-link active" href="./IA.html" aria-current="page"> 
 <span class="menu-text">IA</span></a>
   </li>  
 </ul>
@@ -131,8 +131,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#características-basais" id="toc-características-basais" class="nav-link active" data-scroll-target="#características-basais">Características basais</a></li>
-  <li><a href="#outcome-primário-hba1c-aos-6-meses" id="toc-outcome-primário-hba1c-aos-6-meses" class="nav-link" data-scroll-target="#outcome-primário-hba1c-aos-6-meses">Outcome primário — HbA1c aos 6 meses</a></li>
+  <li><a href="#sumário" id="toc-sumário" class="nav-link active" data-scroll-target="#sumário">Sumário</a></li>
+  <li><a href="#ferramentas-utilizadas" id="toc-ferramentas-utilizadas" class="nav-link" data-scroll-target="#ferramentas-utilizadas">Ferramentas utilizadas</a></li>
+  <li><a href="#utilização-por-fase-do-trabalho" id="toc-utilização-por-fase-do-trabalho" class="nav-link" data-scroll-target="#utilização-por-fase-do-trabalho">Utilização por fase do trabalho</a>
+  <ul class="collapse">
+  <li><a href="#e1-protocolo-spirit" id="toc-e1-protocolo-spirit" class="nav-link" data-scroll-target="#e1-protocolo-spirit">E1 — Protocolo SPIRIT</a></li>
+  <li><a href="#e2-materiais-crf-formulário-redcap" id="toc-e2-materiais-crf-formulário-redcap" class="nav-link" data-scroll-target="#e2-materiais-crf-formulário-redcap">E2 — Materiais (CRF, formulário REDCap)</a></li>
+  <li><a href="#tp8-investigators-meeting" id="toc-tp8-investigators-meeting" class="nav-link" data-scroll-target="#tp8-investigators-meeting">TP8 — <em>Investigator’s Meeting</em></a></li>
+  <li><a href="#tp9-tp10-site-quarto-e-análise-em-r" id="toc-tp9-tp10-site-quarto-e-análise-em-r" class="nav-link" data-scroll-target="#tp9-tp10-site-quarto-e-análise-em-r">TP9 / TP10 — Site Quarto e análise em R</a></li>
+  </ul></li>
+  <li><a href="#prompts-essenciais" id="toc-prompts-essenciais" class="nav-link" data-scroll-target="#prompts-essenciais">Prompts essenciais</a></li>
+  <li><a href="#processo-de-revisão-crítica" id="toc-processo-de-revisão-crítica" class="nav-link" data-scroll-target="#processo-de-revisão-crítica">Processo de revisão crítica</a></li>
+  <li><a href="#responsabilidade-pelo-conteúdo-final" id="toc-responsabilidade-pelo-conteúdo-final" class="nav-link" data-scroll-target="#responsabilidade-pelo-conteúdo-final">Responsabilidade pelo conteúdo final</a></li>
+  <li><a href="#histórico-de-versões" id="toc-histórico-de-versões" class="nav-link" data-scroll-target="#histórico-de-versões">Histórico de versões</a></li>
   </ul>
 </nav>
     </div>
@@ -141,8 +152,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Resultados preliminares</h1>
-<p class="subtitle lead">Análise do estudo piloto · n = 30</p>
+<h1 class="title">Declaração de uso de Inteligência Artificial</h1>
+<p class="subtitle lead">Transparência sobre o recurso a ferramentas de IA generativa no projecto GlucoCheck</p>
 </div>
 
 
@@ -159,555 +170,224 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="características-basais" class="level2">
-<h2 class="anchored" data-anchor-id="características-basais">Características basais</h2>
-<p>A tabela apresenta as características basais dos participantes, estratificadas por grupo de aleatorização, e permite verificar o balanceamento entre grupos — esperado num ensaio com aleatorização 1:1. Variáveis contínuas em mediana (Q1, Q3); categóricas em n (%).</p>
-<div class="cell">
-<div class="cell-output-display">
-<div id="vigqaxzwdj" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#vigqaxzwdj table {
-  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-#vigqaxzwdj thead, #vigqaxzwdj tbody, #vigqaxzwdj tfoot, #vigqaxzwdj tr, #vigqaxzwdj td, #vigqaxzwdj th {
-  border-style: none;
-}
-
-#vigqaxzwdj p {
-  margin: 0;
-  padding: 0;
-}
-
-#vigqaxzwdj .gt_table {
-  display: table;
-  border-collapse: collapse;
-  line-height: normal;
-  margin-left: auto;
-  margin-right: auto;
-  color: #333333;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  background-color: #FFFFFF;
-  width: auto;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #A8A8A8;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #A8A8A8;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-}
-
-#vigqaxzwdj .gt_caption {
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
-#vigqaxzwdj .gt_title {
-  color: #333333;
-  font-size: 125%;
-  font-weight: initial;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-color: #FFFFFF;
-  border-bottom-width: 0;
-}
-
-#vigqaxzwdj .gt_subtitle {
-  color: #333333;
-  font-size: 85%;
-  font-weight: initial;
-  padding-top: 3px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-top-color: #FFFFFF;
-  border-top-width: 0;
-}
-
-#vigqaxzwdj .gt_heading {
-  background-color: #FFFFFF;
-  text-align: center;
-  border-bottom-color: #FFFFFF;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-}
-
-#vigqaxzwdj .gt_bottom_border {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-
-#vigqaxzwdj .gt_col_headings {
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-}
-
-#vigqaxzwdj .gt_col_heading {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: normal;
-  text-transform: inherit;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: bottom;
-  padding-top: 5px;
-  padding-bottom: 6px;
-  padding-left: 5px;
-  padding-right: 5px;
-  overflow-x: hidden;
-}
-
-#vigqaxzwdj .gt_column_spanner_outer {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: normal;
-  text-transform: inherit;
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 4px;
-  padding-right: 4px;
-}
-
-#vigqaxzwdj .gt_column_spanner_outer:first-child {
-  padding-left: 0;
-}
-
-#vigqaxzwdj .gt_column_spanner_outer:last-child {
-  padding-right: 0;
-}
-
-#vigqaxzwdj .gt_column_spanner {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  vertical-align: bottom;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  overflow-x: hidden;
-  display: inline-block;
-  width: 100%;
-}
-
-#vigqaxzwdj .gt_spanner_row {
-  border-bottom-style: hidden;
-}
-
-#vigqaxzwdj .gt_group_heading {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: middle;
-  text-align: left;
-}
-
-#vigqaxzwdj .gt_empty_group_heading {
-  padding: 0.5px;
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  vertical-align: middle;
-}
-
-#vigqaxzwdj .gt_from_md > :first-child {
-  margin-top: 0;
-}
-
-#vigqaxzwdj .gt_from_md > :last-child {
-  margin-bottom: 0;
-}
-
-#vigqaxzwdj .gt_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin: 10px;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-top-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: middle;
-  overflow-x: hidden;
-}
-
-#vigqaxzwdj .gt_stub {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-right-style: solid;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#vigqaxzwdj .gt_stub_row_group {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-right-style: solid;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  padding-left: 5px;
-  padding-right: 5px;
-  vertical-align: top;
-}
-
-#vigqaxzwdj .gt_row_group_first td {
-  border-top-width: 2px;
-}
-
-#vigqaxzwdj .gt_row_group_first th {
-  border-top-width: 2px;
-}
-
-#vigqaxzwdj .gt_summary_row {
-  color: #333333;
-  background-color: #FFFFFF;
-  text-transform: inherit;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#vigqaxzwdj .gt_first_summary_row {
-  border-top-style: solid;
-  border-top-color: #D3D3D3;
-}
-
-#vigqaxzwdj .gt_first_summary_row.thick {
-  border-top-width: 2px;
-}
-
-#vigqaxzwdj .gt_last_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-
-#vigqaxzwdj .gt_grand_summary_row {
-  color: #333333;
-  background-color: #FFFFFF;
-  text-transform: inherit;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#vigqaxzwdj .gt_first_grand_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-top-style: double;
-  border-top-width: 6px;
-  border-top-color: #D3D3D3;
-}
-
-#vigqaxzwdj .gt_last_grand_summary_row_top {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-style: double;
-  border-bottom-width: 6px;
-  border-bottom-color: #D3D3D3;
-}
-
-#vigqaxzwdj .gt_striped {
-  background-color: rgba(128, 128, 128, 0.05);
-}
-
-#vigqaxzwdj .gt_table_body {
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-
-#vigqaxzwdj .gt_footnotes {
-  color: #333333;
-  background-color: #FFFFFF;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-
-#vigqaxzwdj .gt_footnote {
-  margin: 0px;
-  font-size: 90%;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#vigqaxzwdj .gt_sourcenotes {
-  color: #333333;
-  background-color: #FFFFFF;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-
-#vigqaxzwdj .gt_sourcenote {
-  font-size: 90%;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#vigqaxzwdj .gt_left {
-  text-align: left;
-}
-
-#vigqaxzwdj .gt_center {
-  text-align: center;
-}
-
-#vigqaxzwdj .gt_right {
-  text-align: right;
-  font-variant-numeric: tabular-nums;
-}
-
-#vigqaxzwdj .gt_font_normal {
-  font-weight: normal;
-}
-
-#vigqaxzwdj .gt_font_bold {
-  font-weight: bold;
-}
-
-#vigqaxzwdj .gt_font_italic {
-  font-style: italic;
-}
-
-#vigqaxzwdj .gt_super {
-  font-size: 65%;
-}
-
-#vigqaxzwdj .gt_footnote_marks {
-  font-size: 75%;
-  vertical-align: 0.4em;
-  position: initial;
-}
-
-#vigqaxzwdj .gt_asterisk {
-  font-size: 100%;
-  vertical-align: 0;
-}
-
-#vigqaxzwdj .gt_indent_1 {
-  text-indent: 5px;
-}
-
-#vigqaxzwdj .gt_indent_2 {
-  text-indent: 10px;
-}
-
-#vigqaxzwdj .gt_indent_3 {
-  text-indent: 15px;
-}
-
-#vigqaxzwdj .gt_indent_4 {
-  text-indent: 20px;
-}
-
-#vigqaxzwdj .gt_indent_5 {
-  text-indent: 25px;
-}
-
-#vigqaxzwdj .katex-display {
-  display: inline-flex !important;
-  margin-bottom: 0.75em !important;
-}
-
-#vigqaxzwdj div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
-  height: 0px !important;
-}
-</style>
-
-<table class="gt_table caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
+<section id="sumário" class="level2">
+<h2 class="anchored" data-anchor-id="sumário">Sumário</h2>
+<p>Esta página documenta, com o detalhe exigido pela unidade curricular, todo o recurso a ferramentas de Inteligência Artificial generativa ao longo do desenvolvimento do projecto GlucoCheck. A declaração cobre as quatro fases do trabalho — protocolo SPIRIT (E1), materiais e CRF/REDCap (E2), <em>Investigator’s Meeting</em> (TP8) e site Quarto + análise em R (TP9/TP10) — identificando, para cada utilização, <strong>o que foi gerado pelo modelo</strong>, <strong>como foi tratado pela equipa</strong> e <strong>quem é responsável pelo conteúdo final</strong>.</p>
+<p>A equipa assume total responsabilidade pelo conteúdo científico, metodológico e técnico do projecto. As ferramentas de IA foram utilizadas exclusivamente como <strong>auxiliar de produtividade</strong>, sob revisão crítica sistemática.</p>
+</section>
+<section id="ferramentas-utilizadas" class="level2">
+<h2 class="anchored" data-anchor-id="ferramentas-utilizadas">Ferramentas utilizadas</h2>
+<table class="caption-top table">
 <colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
 </colgroup>
 <thead>
-<tr class="gt_col_headings header">
-<th id="label" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"><strong>Characteristic</strong></th>
-<th id="stat_0" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col"><strong>Overall</strong><br>
-N = 30<span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;line-height:0;"><sup>1</sup></span></th>
-<th id="stat_1" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col"><strong>Controlo</strong><br>
-N = 15<span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;line-height:0;"><sup>1</sup></span></th>
-<th id="stat_2" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col"><strong>Intervenção</strong><br>
-N = 15<span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;line-height:0;"><sup>1</sup></span></th>
+<tr class="header">
+<th>Ferramenta</th>
+<th>Versão / Data de utilização</th>
+<th>Fases</th>
 </tr>
 </thead>
-<tbody class="gt_table_body">
+<tbody>
 <tr class="odd">
-<td class="gt_row gt_left" headers="label">Idade (anos)</td>
-<td class="gt_row gt_center" headers="stat_0">57.0 (45.5, 67.2)</td>
-<td class="gt_row gt_center" headers="stat_1">59.2 (48.7, 69.4)</td>
-<td class="gt_row gt_center" headers="stat_2">56.5 (43.7, 67.2)</td>
+<td>ChatGPT (OpenAI)</td>
+<td>GPT-4, Março–Maio de 2026</td>
+<td>E1, E2, TP8</td>
 </tr>
 <tr class="even">
-<td class="gt_row gt_left" headers="label">Sexo</td>
-<td class="gt_row gt_center" headers="stat_0"><br>
-</td>
-<td class="gt_row gt_center" headers="stat_1"><br>
-</td>
-<td class="gt_row gt_center" headers="stat_2"><br>
-</td>
+<td>Claude (Anthropic)</td>
+<td>Claude Sonnet 4.5, Abril–Maio de 2026</td>
+<td>TP9, TP10</td>
 </tr>
-<tr class="odd">
-<td class="gt_row gt_left" headers="label">&nbsp;&nbsp;&nbsp;&nbsp;Feminino</td>
-<td class="gt_row gt_center" headers="stat_0">14 (47%)</td>
-<td class="gt_row gt_center" headers="stat_1">8 (53%)</td>
-<td class="gt_row gt_center" headers="stat_2">6 (40%)</td>
-</tr>
-<tr class="even">
-<td class="gt_row gt_left" headers="label">&nbsp;&nbsp;&nbsp;&nbsp;Masculino</td>
-<td class="gt_row gt_center" headers="stat_0">16 (53%)</td>
-<td class="gt_row gt_center" headers="stat_1">7 (47%)</td>
-<td class="gt_row gt_center" headers="stat_2">9 (60%)</td>
-</tr>
-<tr class="odd">
-<td class="gt_row gt_left" headers="label">HbA1c basal (%)</td>
-<td class="gt_row gt_center" headers="stat_0">8.3 (7.9, 8.6)</td>
-<td class="gt_row gt_center" headers="stat_1">8.3 (7.9, 8.7)</td>
-<td class="gt_row gt_center" headers="stat_2">8.2 (7.8, 8.6)</td>
-</tr>
-<tr class="even">
-<td class="gt_row gt_left" headers="label">Glicemia em jejum basal (mg/dL)</td>
-<td class="gt_row gt_center" headers="stat_0">160.1 (141.8, 183.4)</td>
-<td class="gt_row gt_center" headers="stat_1">162.7 (143.7, 178.6)</td>
-<td class="gt_row gt_center" headers="stat_2">157.5 (141.2, 185.9)</td>
-</tr>
-<tr class="odd">
-<td class="gt_row gt_left" headers="label">Peso basal (kg)</td>
-<td class="gt_row gt_center" headers="stat_0">88.0 (80.8, 96.1)</td>
-<td class="gt_row gt_center" headers="stat_1">90.5 (85.1, 99.5)</td>
-<td class="gt_row gt_center" headers="stat_2">86.8 (77.6, 96.1)</td>
-</tr>
-<tr class="even">
-<td class="gt_row gt_left" headers="label">DES-SF basal</td>
-<td class="gt_row gt_center" headers="stat_0">7.2 (6.2, 8.3)</td>
-<td class="gt_row gt_center" headers="stat_1">6.8 (5.8, 8.3)</td>
-<td class="gt_row gt_center" headers="stat_2">7.7 (6.9, 8.4)</td>
-</tr>
-</tbody><tfoot>
-<tr class="gt_footnotes odd">
-<td colspan="4" class="gt_footnote"><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;line-height:0;"><sup>1</sup></span> Median (Q1, Q3); n (%)</td>
-</tr>
-</tfoot>
-
+</tbody>
 </table>
-
-</div>
-</div>
-</div>
 </section>
-<section id="outcome-primário-hba1c-aos-6-meses" class="level2">
-<h2 class="anchored" data-anchor-id="outcome-primário-hba1c-aos-6-meses">Outcome primário — HbA1c aos 6 meses</h2>
-<p>A figura mostra a distribuição da hemoglobina glicada (HbA1c) aos 6 meses por grupo de aleatorização. Três participantes do grupo de intervenção não tinham follow-up disponível e foram excluídos da visualização.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="resultados_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="576"></p>
-</figure>
-</div>
-</div>
-</div>
+<section id="utilização-por-fase-do-trabalho" class="level2">
+<h2 class="anchored" data-anchor-id="utilização-por-fase-do-trabalho">Utilização por fase do trabalho</h2>
+<section id="e1-protocolo-spirit" class="level3">
+<h3 class="anchored" data-anchor-id="e1-protocolo-spirit">E1 — Protocolo SPIRIT</h3>
+<p><strong>Output da IA:</strong></p>
+<ul>
+<li>Apoio à redacção do texto das secções do protocolo, em particular na formulação de parágrafos longos sobre justificação, intervenção e análise estatística.</li>
+<li>Ajuste da formatação Markdown para sintaxe simplificada compatível com a conversão para LaTeX no Overleaf.</li>
+<li>Sugestão de metadados YAML e comentários HTML de orientação para reutilização do template.</li>
+</ul>
+<p><strong>Tratamento:</strong></p>
+<ul>
+<li>Aceite com alterações.</li>
+<li>Todo o conteúdo científico (critérios de elegibilidade, desenho do estudo, <em>outcomes</em>, análise estatística) foi definido pela equipa antes de qualquer interacção com IA.</li>
+<li>O texto gerado foi revisto frase a frase pela equipa, com confirmação contra a literatura de referência e adaptação ao cenário clínico específico (DM2 em USF, Portugal).</li>
+</ul>
+</section>
+<section id="e2-materiais-crf-formulário-redcap" class="level3">
+<h3 class="anchored" data-anchor-id="e2-materiais-crf-formulário-redcap">E2 — Materiais (CRF, formulário REDCap)</h3>
+<section id="estruturação-dos-cenários-de-teste-para-o-ecrf-no-redcap" class="level4">
+<h4 class="anchored" data-anchor-id="estruturação-dos-cenários-de-teste-para-o-ecrf-no-redcap">1. Estruturação dos cenários de teste para o eCRF no REDCap</h4>
+<p><strong>Output da IA:</strong></p>
+<ul>
+<li>Sugestão de três cenários: participante elegível/intervenção, participante inelegível, <em>follow-up</em> com evento adverso.</li>
+<li>Lista de verificações por cenário.</li>
+</ul>
+<p><strong>Tratamento:</strong></p>
+<ul>
+<li>Aceite com alterações.</li>
+<li>Cenários adaptados à lógica específica do eCRF.</li>
+<li>Algumas verificações adaptadas à instância REDCap institucional disponível.</li>
+</ul>
+</section>
+<section id="orientação-passo-a-passo-para-execução-dos-cenários-de-teste-no-redcap" class="level4">
+<h4 class="anchored" data-anchor-id="orientação-passo-a-passo-para-execução-dos-cenários-de-teste-no-redcap">2. Orientação passo a passo para execução dos cenários de teste no REDCap</h4>
+<p><strong>Output da IA:</strong></p>
+<ul>
+<li>Descrição sequencial dos passos de navegação, preenchimento e verificação de campos calculados e <em>branching logic</em>.</li>
+</ul>
+<p><strong>Tratamento:</strong></p>
+<ul>
+<li>Aceite com alterações.</li>
+<li>Passos seguidos como guia geral.</li>
+<li>Adaptação à interface real da instância institucional.</li>
+</ul>
+</section>
+<section id="revisão-cruzada-do-dicionário-de-dados" class="level4">
+<h4 class="anchored" data-anchor-id="revisão-cruzada-do-dicionário-de-dados">3. Revisão cruzada do dicionário de dados</h4>
+<p><strong>Output da IA:</strong></p>
+<ul>
+<li>Identificação de inconsistências entre variáveis, tipos de campo e regras de validação.</li>
+<li>Sugestões de correcção, incluindo deteção de duplicação da variável <em>peso</em> e redundância da variável <em>grupo_aloc</em>.</li>
+<li>Sugestão de campos calculados.</li>
+</ul>
+<p><strong>Tratamento:</strong></p>
+<ul>
+<li>Inconsistências verificadas manualmente pela equipa.</li>
+<li>Inconsistências confirmadas foram documentadas nas secções relevantes do relatório da E2.</li>
+</ul>
+</section>
+<section id="identificação-de-referências-bibliográficas" class="level4">
+<h4 class="anchored" data-anchor-id="identificação-de-referências-bibliográficas">4. Identificação de referências bibliográficas</h4>
+<p><strong>Output da IA:</strong></p>
+<ul>
+<li>Sugestão de referência para a versão portuguesa da DES-SF (Sousa et al., 2020).</li>
+<li>Sugestão de referências para o DKQ (Bastos, 2004; Menino et al., 2017).</li>
+</ul>
+<p><strong>Tratamento:</strong></p>
+<ul>
+<li>Todas as referências foram confirmadas através de pesquisa independente antes da inclusão no relatório.</li>
+</ul>
+</section>
+<section id="configuração-do-projecto-redcap" class="level4">
+<h4 class="anchored" data-anchor-id="configuração-do-projecto-redcap">5. Configuração do projecto REDCap</h4>
+<p><strong>Output da IA:</strong></p>
+<ul>
+<li>Conversão de campos <code>yesno</code> para <code>radio</code> com <em>choices</em> em português (Sim/Não), para coerência idiomática.</li>
+</ul>
+<p><strong>Tratamento:</strong></p>
+<ul>
+<li>Conversão validada.</li>
+</ul>
+</section>
+</section>
+<section id="tp8-investigators-meeting" class="level3">
+<h3 class="anchored" data-anchor-id="tp8-investigators-meeting">TP8 — <em>Investigator’s Meeting</em></h3>
+<p><strong>Output da IA:</strong></p>
+<ul>
+<li>Apoio à identificação de desafios da persona alinhados com os <em>outcomes</em> secundários do protocolo (DES-SF, conhecimento sobre diabetes).</li>
+<li>Apoio à realização do fluxograma de navegação da aplicação GlucoCheck.</li>
+</ul>
+<p><strong>Tratamento:</strong></p>
+<ul>
+<li>A definição da persona (idade, contexto clínico, motivações) partiu da população-alvo do protocolo definida na E1.</li>
+<li>O fluxograma final foi redesenhado pela equipa, com base nas sugestões iniciais da IA, mas adaptado ao protótipo efectivo da aplicação.</li>
+</ul>
+</section>
+<section id="tp9-tp10-site-quarto-e-análise-em-r" class="level3">
+<h3 class="anchored" data-anchor-id="tp9-tp10-site-quarto-e-análise-em-r">TP9 / TP10 — Site Quarto e análise em R</h3>
+<p><strong>Output da IA:</strong></p>
+<ul>
+<li>Apoio à redacção da página inicial do site (<code>index.qmd</code>) com base no protocolo da E1 e no cenário clínico fornecido pela disciplina.</li>
+<li>Reformatação do código R em <code>resultados.qmd</code> para alinhamento estrito com a matéria leccionada nos <em>slides</em> da TP9.</li>
+<li>Apoio à montagem do <em>workflow</em> GitHub Actions para publicação automática em GitHub Pages, incluindo resolução de problemas técnicos.</li>
+<li>Resolução de problemas técnicos pontuais: renderização de diagramas Mermaid, integração de ficheiros PDF como recursos do site.</li>
+</ul>
+<p><strong>Tratamento:</strong></p>
+<ul>
+<li>Aceite com alterações sistemáticas.</li>
+<li>Toda a análise estatística (selecção de variáveis basais para a Tabela 1, exclusão dos <em>outcomes</em> aos 6 meses, tratamento dos <em>missings</em>, visualização do <em>outcome</em> primário) foi decidida pela equipa.</li>
+<li>O código gerado foi validado por execução em ambiente local antes de publicação.</li>
+<li>A estrutura do site e a divisão por páginas correspondem ao especificado no enunciado da TP9.</li>
+</ul>
+</section>
+</section>
+<section id="prompts-essenciais" class="level2">
+<h2 class="anchored" data-anchor-id="prompts-essenciais">Prompts essenciais</h2>
+<p>Apresentam-se a seguir exemplos representativos dos <em>prompts</em> utilizados, agrupados por fase. <em>Prompts</em> de afinação iterativa e correcção pontual não são listados.</p>
+<p><strong>E1 — Protocolo:</strong></p>
+<blockquote class="blockquote">
+<p>“Ajuda-me a redigir a secção de Análise Estatística do protocolo SPIRIT para um ensaio aleatorizado de uma app móvel em DM2 com <em>outcome</em> primário HbA1c aos 6 meses, n=30 (piloto), aleatorização 1:1 estratificada por sexo e HbA1c basal.”</p>
+</blockquote>
+<p><strong>E2 — CRF/REDCap:</strong></p>
+<blockquote class="blockquote">
+<p>“Ajuda-me a definir 3 cenários de teste para o eCRF no REDCap que cubram: participante elegível em grupo intervenção, participante inelegível, e <em>follow-up</em> com evento adverso. Lista as verificações de validação para cada cenário.”</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>“Revê este dicionário de dados e identifica inconsistências entre tipos de campo, regras de validação e nomes de variáveis.”</p>
+</blockquote>
+<p><strong>TP8 — Investigator’s Meeting:</strong></p>
+<blockquote class="blockquote">
+<p>“Sugere 3 desafios para a persona de uma aplicação móvel de diabetes tipo 2, alinhados com os <em>outcomes</em> secundários DES-SF (autoeficácia) e conhecimento sobre diabetes.”</p>
+</blockquote>
+<p><strong>TP9/TP10 — Site Quarto:</strong></p>
+<blockquote class="blockquote">
+<p>“Ajuda-me a criar a estrutura inicial de um site Quarto para um ensaio clínico piloto, com 5 páginas (Início, Protocolo, Materiais, Resultados, Equipa), publicação em GitHub Pages via <em>workflow</em> automático, e análise em R com <code>tbl_summary(by = grupo)</code> e gráfico do <em>outcome</em> primário em <code>ggplot2</code>.”</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>“Reformata este código R do <code>resultados.qmd</code> para corresponder estritamente ao que está nos slides da TP9: Tabela 1 só com variáveis basais, estatísticas mediana (Q1, Q3), <em>labels</em> em português, <em>boxplot</em> com <em>jitter</em> e tema <em>minimal</em>.”</p>
+</blockquote>
+</section>
+<section id="processo-de-revisão-crítica" class="level2">
+<h2 class="anchored" data-anchor-id="processo-de-revisão-crítica">Processo de revisão crítica</h2>
+<p>A equipa adoptou os seguintes princípios de revisão sistemática do conteúdo gerado por IA:</p>
+<ol type="1">
+<li><strong>Verificação científica.</strong> Toda a informação clínica, metodológica ou estatística foi confrontada com fontes primárias (protocolo SPIRIT 2013, <em>guidelines</em> CONSORT 2010, documentação oficial dos instrumentos psicométricos utilizados, <em>slides</em> da unidade curricular).</li>
+<li><strong>Adequação ao contexto.</strong> O conteúdo foi sempre adaptado ao cenário clínico real do GlucoCheck (DM2, USF, Portugal) e à população-alvo definida no protocolo da E1.</li>
+<li><strong>Execução prática.</strong> No caso do código R e da configuração do <em>site</em>, todo o material foi executado e validado localmente antes da integração final.</li>
+<li><strong>Revisão em equipa.</strong> O conteúdo gerado por IA foi partilhado entre os elementos do grupo, com revisão cruzada antes da entrega.</li>
+<li><strong>Confirmação de referências.</strong> Todas as referências bibliográficas sugeridas por IA foram verificadas em pesquisa independente.</li>
+</ol>
+</section>
+<section id="responsabilidade-pelo-conteúdo-final" class="level2">
+<h2 class="anchored" data-anchor-id="responsabilidade-pelo-conteúdo-final">Responsabilidade pelo conteúdo final</h2>
+<p>A responsabilidade pelo conteúdo científico, metodológico e técnico do projecto GlucoCheck é integralmente assumida pela equipa do <strong>Grupo 6, Turma B</strong> — Francisca Teixeira, Luísa Moreira, Mariana Dias e Rosarinho Barros — sob a orientação dos docentes da unidade curricular.</p>
+</section>
+<section id="histórico-de-versões" class="level2">
+<h2 class="anchored" data-anchor-id="histórico-de-versões">Histórico de versões</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 38%">
+<col style="width: 38%">
+<col style="width: 23%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Versão</th>
+<th style="text-align: center;">Data</th>
+<th>Alterações</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.0</td>
+<td style="text-align: center;">Abril de 2026</td>
+<td>Versão inicial (declaração sucinta no relatório da TP7).</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.0</td>
+<td style="text-align: center;">Maio de 2026</td>
+<td>Versão alargada em página dedicada, na sequência do <em>feedback</em> docente à entrega formativa.</td>
+</tr>
+</tbody>
+</table>
 
 
 </section>
