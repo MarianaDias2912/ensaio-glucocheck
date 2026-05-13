@@ -23,7 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -159,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#outcome-primário" id="toc-outcome-primário" class="nav-link" data-scroll-target="#outcome-primário">Outcome Primário</a></li>
   <li><a href="#outcomes-secundários" id="toc-outcomes-secundários" class="nav-link" data-scroll-target="#outcomes-secundários">Outcomes Secundários</a></li>
-  <li><a href="#cronograma-de-avaliações-spirit-figure" id="toc-cronograma-de-avaliações-spirit-figure" class="nav-link" data-scroll-target="#cronograma-de-avaliações-spirit-figure">Cronograma de Avaliações (SPIRIT Figure)</a></li>
+  <li><a href="#cronograma-de-avaliações-spirit-figure-chan2013spirit" id="toc-cronograma-de-avaliações-spirit-figure-chan2013spirit" class="nav-link" data-scroll-target="#cronograma-de-avaliações-spirit-figure-chan2013spirit">Cronograma de Avaliações (SPIRIT Figure) <span class="citation" data-cites="chan2013spirit">(9)</span></a></li>
   </ul></li>
   <li><a href="#análise-estatística" id="toc-análise-estatística" class="nav-link" data-scroll-target="#análise-estatística">Análise Estatística</a>
   <ul class="collapse">
@@ -177,6 +196,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#segurança-e-monitorização-de-eventos-adversos" id="toc-segurança-e-monitorização-de-eventos-adversos" class="nav-link" data-scroll-target="#segurança-e-monitorização-de-eventos-adversos">Segurança e Monitorização de Eventos Adversos</a></li>
   <li><a href="#disseminação-dos-resultados" id="toc-disseminação-dos-resultados" class="nav-link" data-scroll-target="#disseminação-dos-resultados">Disseminação dos Resultados</a></li>
   </ul></li>
+  <li><a href="#referências" id="toc-referências" class="nav-link" data-scroll-target="#referências">Referências</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -245,9 +265,9 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="introdução">Introdução</h2>
 <section id="racional" class="level3">
 <h3 class="anchored" data-anchor-id="racional">Racional</h3>
-<p>A Diabetes Mellitus Tipo 2 (DM2) é uma das doenças crónicas com maior impacto nos sistemas de saúde a nível global. Segundo a 11.ª edição do IDF Diabetes Atlas, estima-se que cerca de 589 milhões de adultos vivam atualmente com diabetes, com projeções que apontam para 853 milhões em 2050. Em Portugal, o Relatório Anual do Observatório Nacional da Diabetes (dados de 2024) estima uma prevalência de DM2 na ordem dos 14,2% na população adulta (20–79 anos), o valor mais elevado de sempre, correspondendo a cerca de 1,1 milhões de portugueses. Os custos diretos associados à doença representam entre 0,5% e 0,6% do PIB nacional (1 500 a 1 800 milhões de euros anuais), e as complicações microvasculares (retinopatia, nefropatia, neuropatia) e macrovasculares (doença cardiovascular) são responsáveis por uma proporção substancial da morbilidade e mortalidade nestes doentes.</p>
-<p>O controlo glicémico adequado, avaliado pela hemoglobina glicada (HbA1c), constitui o pilar central da prevenção destas complicações. Contudo, uma proporção significativa dos doentes seguidos em cuidados de saúde primários (CSP) não atinge os alvos terapêuticos recomendados (HbA1c &lt; 7,0%). Os principais obstáculos incluem a baixa adesão às recomendações nutricionais, a auto-monitorização glicémica irregular, a dificuldade na interpretação dos valores obtidos e o contacto limitado com os profissionais de saúde entre consultas trimestrais. O modelo de consulta habitual, embora fundamental, não proporciona feedback contínuo nem apoio à decisão do doente no quotidiano.</p>
-<p>As aplicações móveis de saúde (<em>mHealth</em>) emergiram como intervenções promissoras para complementar o cuidado convencional na gestão da DM2. Meta-análises recentes demonstram que intervenções digitais estão associadas a reduções clinicamente relevantes da HbA1c, tipicamente entre 0,3 e 0,5 pontos percentuais. Os mecanismos de acção propostos incluem: (a) aumento da frequência e qualidade da auto-monitorização glicémica; (b) promoção de escolhas alimentares mais adequadas através de feedback nutricional imediato; (c) reforço da autoeficácia e motivação mediante objectivos personalizados e mensagens de progresso; e (d) deteção precoce de padrões glicémicos problemáticos. As funcionalidades com maior evidência incluem o registo alimentar automatizado, a integração com glucómetros e a definição de metas individualizadas.</p>
+<p>A Diabetes Mellitus Tipo 2 (DM2) é uma das doenças crónicas com maior impacto nos sistemas de saúde a nível global. Segundo a 11.ª edição do IDF Diabetes Atlas <span class="citation" data-cites="genitsaridi2026idf11">(<a href="#ref-genitsaridi2026idf11" role="doc-biblioref">1</a>)</span>, estima-se que cerca de 589 milhões de adultos vivam atualmente com diabetes, com projeções que apontam para 853 milhões em 2050. Em Portugal, o Relatório Anual do Observatório Nacional da Diabetes <span class="citation" data-cites="ond2024relatorio">(<a href="#ref-ond2024relatorio" role="doc-biblioref">2</a>)</span> (dados de 2024) estima uma prevalência de DM2 na ordem dos 14,2% na população adulta (20–79 anos), o valor mais elevado de sempre, correspondendo a cerca de 1,1 milhões de portugueses. Os custos diretos associados à doença representam entre 0,5% e 0,6% do PIB nacional (1 500 a 1 800 milhões de euros anuais), e as complicações microvasculares (retinopatia, nefropatia, neuropatia) e macrovasculares (doença cardiovascular) são responsáveis por uma proporção substancial da morbilidade e mortalidade nestes doentes.</p>
+<p>O controlo glicémico adequado, avaliado pela hemoglobina glicada (HbA1c), constitui o pilar central da prevenção destas complicações. Contudo, uma proporção significativa dos doentes seguidos em cuidados de saúde primários (CSP) não atinge os alvos terapêuticos recomendados (HbA1c &lt; 7,0%) <span class="citation" data-cites="davies2022adaeasd">(<a href="#ref-davies2022adaeasd" role="doc-biblioref">3</a>)</span>. Os principais obstáculos incluem a baixa adesão às recomendações nutricionais, a auto-monitorização glicémica irregular, a dificuldade na interpretação dos valores obtidos e o contacto limitado com os profissionais de saúde entre consultas trimestrais. O modelo de consulta habitual, embora fundamental, não proporciona feedback contínuo nem apoio à decisão do doente no quotidiano.</p>
+<p>As aplicações móveis de saúde (<em>mHealth</em>) emergiram como intervenções promissoras para complementar o cuidado convencional na gestão da DM2. Meta-análises recentes demonstram que intervenções digitais estão associadas a reduções clinicamente relevantes da HbA1c, tipicamente entre 0,3 e 0,5 pontos percentuais <span class="citation" data-cites="kebede2023digitalhealth eberle2021mhealthdm versluis2025dsmemhealth">(<a href="#ref-kebede2023digitalhealth" role="doc-biblioref">4</a>–<a href="#ref-versluis2025dsmemhealth" role="doc-biblioref">6</a>)</span>. Os mecanismos de acção propostos incluem: (a) aumento da frequência e qualidade da auto-monitorização glicémica; (b) promoção de escolhas alimentares mais adequadas através de feedback nutricional imediato; (c) reforço da autoeficácia e motivação mediante objectivos personalizados e mensagens de progresso; e (d) deteção precoce de padrões glicémicos problemáticos. As funcionalidades com maior evidência incluem o registo alimentar automatizado, a integração com glucómetros e a definição de metas individualizadas.</p>
 <p>Apesar destes resultados promissores, a evidência permanece heterogénea: muitos estudos apresentam amostras pequenas, ausência de grupo controlo adequado e seguimentos curtos, tendo sido conduzidos fora do contexto europeu de cuidados primários. Em Portugal, são escassos os ensaios que avaliem a eficácia de aplicações móveis integradas com glucómetros na gestão da DM2 em Unidades de Saúde Familiar (USF). O presente estudo pretende preencher esta lacuna, avaliando a eficácia da aplicação GlucoCheck comparada com a consulta habitual isolada — o <em>standard of care</em> atual em CSP — num grupo de adultos com controlo glicémico subótimo. Os resultados poderão fundamentar a implementação de ferramentas digitais na prática clínica corrente e informar o desenho de ensaios multicêntricos de maior escala.</p>
 </section>
 <section id="objetivos" class="level3">
@@ -551,7 +571,7 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li><strong>Gráficos de evolução de HbA1c estimada</strong>
 <ul>
-<li><em>O que faz:</em> Apresenta gráficos da tendência glicémica e estimativa da HbA1c com base na média glicémica (fórmula ADAG), permitindo ao participante visualizar o impacto das suas escolhas.</li>
+<li><em>O que faz:</em> Apresenta gráficos da tendência glicémica e estimativa da HbA1c com base na média glicémica (fórmula ADAG) <span class="citation" data-cites="nathan2008adag">(<a href="#ref-nathan2008adag" role="doc-biblioref">7</a>)</span>, permitindo ao participante visualizar o impacto das suas escolhas.</li>
 <li><em>Interação:</em> Consulta voluntária na secção “Progresso” da app.</li>
 <li><em>Frequência:</em> Actualização contínua, disponível a qualquer momento.</li>
 </ul></li>
@@ -670,13 +690,13 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Peso corporal</strong> — Balança calibrada (kg), com o participante descalço e em roupa leve; avaliação em T0, T1 e T2.</li>
 <li><strong>Adesão ao registo alimentar</strong> — <em>Logs</em> da aplicação GlucoCheck: percentagem de dias com ≥2 refeições registadas; medição contínua ao longo das 24 semanas (apenas grupo de intervenção).</li>
 <li><strong>Frequência de auto-monitorização glicémica</strong> — Número de medições por semana; obtido pelos <em>logs</em> da app (grupo de intervenção) ou por auto-relato (grupo controlo); medição contínua.</li>
-<li><strong>Autoeficácia</strong> — <em>Diabetes Empowerment Scale — Short Form</em> (DES-SF), questionário validado de 8 itens, escala de Likert 1–5; avaliação em T0, T1 e T2.</li>
+<li><strong>Autoeficácia</strong> — <em>Diabetes Empowerment Scale — Short Form</em> (DES-SF) <span class="citation" data-cites="anderson2003dessf">(<a href="#ref-anderson2003dessf" role="doc-biblioref">8</a>)</span>, questionário validado de 8 itens, escala de Likert 1–5; avaliação em T0, T1 e T2.</li>
 <li><strong>Conhecimento sobre diabetes</strong> — <em>Diabetes Knowledge Questionnaire</em> (DKQ-24), 24 itens com resposta sim/não/não sei; avaliação em T0 e T2.</li>
 <li><strong>Satisfação com os cuidados</strong> — <em>Diabetes Treatment Satisfaction Questionnaire</em> (DTSQ), 8 itens com escala 0–6; avaliação em T0 e T2.</li>
 </ol>
 </section>
-<section id="cronograma-de-avaliações-spirit-figure" class="level3">
-<h3 class="anchored" data-anchor-id="cronograma-de-avaliações-spirit-figure">Cronograma de Avaliações (SPIRIT Figure)</h3>
+<section id="cronograma-de-avaliações-spirit-figure-chan2013spirit" class="level3">
+<h3 class="anchored" data-anchor-id="cronograma-de-avaliações-spirit-figure-chan2013spirit">Cronograma de Avaliações (SPIRIT Figure) <span class="citation" data-cites="chan2013spirit">(<a href="#ref-chan2013spirit" role="doc-biblioref">9</a>)</span></h3>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -788,7 +808,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="análise-estatística">Análise Estatística</h2>
 <section id="dimensão-da-amostra" class="level3">
 <h3 class="anchored" data-anchor-id="dimensão-da-amostra">Dimensão da Amostra</h3>
-<p>Tratando-se de um estudo piloto (pré-teste), a dimensão da amostra (n = 30; 15 por braço) não foi calculada com base em poder estatístico formal, mas segue as recomendações da literatura para estudos piloto, que sugerem pelo menos 12 participantes por braço. O valor de 15 por braço permite acomodar uma taxa de <em>dropout</em> estimada de 20%, particularmente relevante neste estudo dada a duração de 6 meses e a faixa etária da população-alvo (40–75 anos), que pode apresentar literacia digital mais baixa e maior risco de abandono.</p>
+<p>Tratando-se de um estudo piloto (pré-teste), a dimensão da amostra (n = 30; 15 por braço) não foi calculada com base em poder estatístico formal, mas segue as recomendações da literatura para estudos piloto, que sugerem pelo menos 12 participantes por braço <span class="citation" data-cites="julious2005pilot12">(<a href="#ref-julious2005pilot12" role="doc-biblioref">10</a>)</span>. O valor de 15 por braço permite acomodar uma taxa de <em>dropout</em> estimada de 20%, particularmente relevante neste estudo dada a duração de 6 meses e a faixa etária da população-alvo (40–75 anos), que pode apresentar literacia digital mais baixa e maior risco de abandono.</p>
 <p>Os resultados deste estudo piloto serão utilizados para estimar o tamanho de efeito e a variabilidade da diferença em HbA1c entre grupos — parâmetros necessários para o cálculo formal da dimensão amostral de um futuro ensaio definitivo.</p>
 </section>
 <section id="análise-principal" class="level3">
@@ -812,7 +832,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="software-estatístico" class="level3">
 <h3 class="anchored" data-anchor-id="software-estatístico">Software Estatístico</h3>
-<p>As análises serão realizadas em R (versão 4.3 ou superior), utilizando os pacotes <code>lme4</code>, <code>lmerTest</code> e <code>mice</code>. O nível de significância será fixado em α = 0,05 (bilateral). Os resultados serão reportados com intervalos de confiança a 95%.</p>
+<p>As análises serão realizadas em R (versão 4.3 ou superior), utilizando os pacotes <code>lme4</code> <span class="citation" data-cites="bates2015lme4">(<a href="#ref-bates2015lme4" role="doc-biblioref">11</a>)</span>, <code>lmerTest</code> e <code>mice</code>. O nível de significância será fixado em α = 0,05 (bilateral). Os resultados serão reportados com intervalos de confiança a 95%.</p>
 </section>
 </section>
 <section id="ética-e-disseminação" class="level2">
@@ -844,15 +864,56 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="disseminação-dos-resultados">Disseminação dos Resultados</h3>
 <p>Os resultados serão disseminados através de:</p>
 <ol type="1">
-<li>Publicação em revista científica indexada com revisão por pares, seguindo as diretrizes CONSORT para ensaios clínicos randomizados e a extensão CONSORT-EHEALTH para intervenções digitais.</li>
+<li>Publicação em revista científica indexada com revisão por pares, seguindo as diretrizes CONSORT para ensaios clínicos randomizados e a extensão CONSORT-EHEALTH para intervenções digitais <span class="citation" data-cites="eysenbach2011consortehealth">(<a href="#ref-eysenbach2011consortehealth" role="doc-biblioref">12</a>)</span>.</li>
 <li>Apresentação em congressos nacionais e internacionais nas áreas de diabetologia e saúde digital.</li>
 <li>Comunicação resumida dos principais resultados a todos os participantes do estudo.</li>
 <li>Registo do ensaio numa plataforma internacional de registo de ensaios clínicos (ClinicalTrials.gov) antes do início do recrutamento.</li>
 </ol>
+</section>
+</section>
+<section id="referências" class="level2">
+<h2 class="anchored" data-anchor-id="referências">Referências</h2>
+<div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-genitsaridi2026idf11" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Genitsaridi I, Salpea P, Salim A, Sajjadi SF, Tomic D, James S, et al. 11th edition of the <span>IDF</span> <span>Diabetes</span> <span>Atlas</span>: global, regional, and national diabetes prevalence estimates for 2024 and projections for 2050. The Lancet Diabetes &amp; Endocrinology. 2026;14(2):149–56. doi:<a href="https://doi.org/10.1016/S2213-8587(25)00299-2">10.1016/S2213-8587(25)00299-2</a> PubMed PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/41412135">41412135</a>.</div>
+</div>
+<div id="ref-ond2024relatorio" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Observatório Nacional da Diabetes. Diabetes: Factos e N<span>ú</span>meros – <span>Relat<span>ó</span>rio</span> <span>Anual</span> do <span>Observat<span>ó</span>rio</span> <span>Nacional</span> da <span>Diabetes</span> [Internet]. Lisboa: Sociedade Portuguesa de Diabetologia; 2024. Disponível em: <a href="https://www.spd.pt/">https://www.spd.pt/</a></div>
+</div>
+<div id="ref-davies2022adaeasd" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Davies MJ, Aroda VR, Collins BS, Gabbay RA, Green J, Maruthur NM, et al. Management of <span>Hyperglycemia</span> in <span>Type</span> 2 <span>Diabetes</span>, 2022. <span>A</span> <span>Consensus</span> <span>Report</span> by the <span>American</span> <span>Diabetes</span> <span>Association</span> (<span>ADA</span>) and the <span>European</span> <span>Association</span> for the <span>Study</span> of <span>Diabetes</span> (<span>EASD</span>). Diabetes Care. 2022;45(11):2753–86. doi:<a href="https://doi.org/10.2337/dci22-0034">10.2337/dci22-0034</a> PubMed PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/36148880">36148880</a>.</div>
+</div>
+<div id="ref-kebede2023digitalhealth" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Kebede MM, Schuett C, Gerhardus A. Effectiveness, reach, uptake, and feasibility of digital health interventions for adults with type 2 diabetes: a systematic review and meta-analysis of randomised controlled trials. The Lancet Digital Health. 2023;5(3):e125–43. doi:<a href="https://doi.org/10.1016/S2589-7500(22)00233-3">10.1016/S2589-7500(22)00233-3</a></div>
+</div>
+<div id="ref-eberle2021mhealthdm" class="csl-entry" role="listitem">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline">Eberle C, Löhnert M, Stichling S. Effectiveness of Disease-Specific <span>mHealth</span> Apps in Patients With <span>Diabetes</span> <span>Mellitus</span>: Scoping Review. JMIR mHealth and uHealth. 2021;9(2):e23477. doi:<a href="https://doi.org/10.2196/23477">10.2196/23477</a> PubMed PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33587045">33587045</a>.</div>
+</div>
+<div id="ref-versluis2025dsmemhealth" class="csl-entry" role="listitem">
+<div class="csl-left-margin">6. </div><div class="csl-right-inline">Versluis A, Boels AM, Huijden MCG, Mijnsbergen MD, Rutten GEHM, Vos RC. Diabetes self-management education and support delivered by mobile health (<span>mHealth</span>) interventions for adults with type 2 diabetes—<span>A</span> systematic review and meta-analysis. Diabetic Medicine. 2025;42(5):e70002. doi:<a href="https://doi.org/10.1111/dme.70002">10.1111/dme.70002</a> PubMed PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/40007461">40007461</a>.</div>
+</div>
+<div id="ref-nathan2008adag" class="csl-entry" role="listitem">
+<div class="csl-left-margin">7. </div><div class="csl-right-inline">Nathan DM, Kuenen J, Borg R, Zheng H, Schoenfeld D, Heine RJ. Translating the <span>A1C</span> assay into estimated average glucose values. Diabetes Care. 2008;31(8):1473–8. doi:<a href="https://doi.org/10.2337/dc08-0545">10.2337/dc08-0545</a> PubMed PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/18540046">18540046</a>.</div>
+</div>
+<div id="ref-anderson2003dessf" class="csl-entry" role="listitem">
+<div class="csl-left-margin">8. </div><div class="csl-right-inline">Anderson RM, Fitzgerald JT, Gruppen LD, Funnell MM, Oh MS. The <span>Diabetes</span> <span>Empowerment</span> <span>Scale-Short</span> <span>Form</span> (<span>DES-SF</span>). Diabetes Care. 2003;26(5):1641–2. doi:<a href="https://doi.org/10.2337/diacare.26.5.1641-a">10.2337/diacare.26.5.1641-a</a> PubMed PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/12716841">12716841</a>.</div>
+</div>
+<div id="ref-chan2013spirit" class="csl-entry" role="listitem">
+<div class="csl-left-margin">9. </div><div class="csl-right-inline">Chan AW, Tetzlaff JM, Altman DG, Laupacis A, Gøtzsche PC, Krleža-Jerić K, et al. <span>SPIRIT</span> 2013 Statement: Defining Standard Protocol Items for Clinical Trials. Annals of Internal Medicine. 2013;158(3):200–7. doi:<a href="https://doi.org/10.7326/0003-4819-158-3-201302050-00583">10.7326/0003-4819-158-3-201302050-00583</a> PubMed PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23295957">23295957</a>.</div>
+</div>
+<div id="ref-julious2005pilot12" class="csl-entry" role="listitem">
+<div class="csl-left-margin">10. </div><div class="csl-right-inline">Julious SA. Sample size of 12 per group rule of thumb for a pilot study. Pharmaceutical Statistics. 2005;4(4):287–91. doi:<a href="https://doi.org/10.1002/pst.185">10.1002/pst.185</a></div>
+</div>
+<div id="ref-bates2015lme4" class="csl-entry" role="listitem">
+<div class="csl-left-margin">11. </div><div class="csl-right-inline">Bates D, Mächler M, Bolker B, Walker S. Fitting Linear Mixed-Effects Models Using <span>lme4</span>. Journal of Statistical Software. 2015;67(1):1–48. doi:<a href="https://doi.org/10.18637/jss.v067.i01">10.18637/jss.v067.i01</a></div>
+</div>
+<div id="ref-eysenbach2011consortehealth" class="csl-entry" role="listitem">
+<div class="csl-left-margin">12. </div><div class="csl-right-inline">Eysenbach G, CONSORT-EHEALTH Group. <span>CONSORT-EHEALTH</span>: Improving and Standardizing Evaluation Reports of Web-based and Mobile Health Interventions. Journal of Medical Internet Research. 2011;13(4):e126. doi:<a href="https://doi.org/10.2196/jmir.1923">10.2196/jmir.1923</a> PubMed PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22209829">22209829</a>.</div>
+</div>
+</div>
 <p><strong>Versão:</strong> 1.2 <strong>Data desta versão:</strong> 2026-05-13 <strong>Autores desta versão:</strong> Francisca Teixeira, Luísa Moreira, Mariana Dias, Rosarinho Barros</p>
 
 
-</section>
 </section>
 </section>
 
