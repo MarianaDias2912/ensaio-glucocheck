@@ -615,59 +615,6 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-</section>
-<section id="figura-4-fluxo-de-utilização-da-aplicação-glucocheck" class="level4">
-<h4 class="anchored" data-anchor-id="figura-4-fluxo-de-utilização-da-aplicação-glucocheck">Figura 4: Fluxo de Utilização da Aplicação GlucoCheck</h4>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart TD
-    START(( )) --&gt; A["Download da app"]
-    A --&gt; B["Abertura da app"]
-    B --&gt; C{"Utilizador\nregistado?"}
-    C -- Não --&gt; D["Registo\n(dados pessoais e clínicos)"]
-    C -- Sim --&gt; E["Login"]
-    D --&gt; F["Introdução de dados úteis\n(idade, peso, HbA1c atual,\nmedicação, objetivos)"]
-    E --&gt; F
-    F --&gt; G["Ligação ao glucómetro\nvia Bluetooth"]
-    G --&gt; H["Visualização do\npainel principal"]
-    H --&gt; I["Seleção de funcionalidade"]
-    I --&gt; J["Medição glicémica"]
-    I --&gt; K["Registo alimentar"]
-    I --&gt; L["Conteúdos educativos\n(educação nutricional adaptativa)"]
-    I --&gt; M["Consulta de objetivos\nglicémicos semanais"]
-    J --&gt; J1["Sincronização automática\ncom glucómetro (Bluetooth)"]
-    J1 --&gt; N["Armazenamento de dados"]
-    K --&gt; N
-    N --&gt; O["Visualização do dashboard"]
-    N --&gt; P["Análise de padrões\nglicémicos"]
-    O --&gt; O1["Gráficos de evolução\ne HbA1c estimada"]
-    P --&gt; P1["Feedback nutricional\nautomático"]
-    P --&gt; P2["Alertas para padrões\nglicémicos problemáticos"]
-    P --&gt; P3["Mensagens motivacionais\nbaseadas em progresso"]
-    O1 --&gt; Q["Geração de feedback\npersonalizado"]
-    P1 --&gt; Q
-    P2 --&gt; Q
-    P3 --&gt; Q
-    Q --&gt; R["Continuação do uso diário"]
-    L --&gt; R
-    M --&gt; R
-    R --&gt; ENDNODE(( ))
-
-    style START fill:#000,stroke:#000,color:#000
-    style ENDNODE fill:#000,stroke:#fff,color:#000
-    style C fill:#fff3cd,stroke:#856404,color:#000
-    style N fill:#d4edda,stroke:#155724,color:#000
-    style Q fill:#cce5ff,stroke:#004085,color:#000
-    style R fill:#d1ecf1,stroke:#0c5460,color:#000
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
 <p><strong>Instalação e Onboarding:</strong></p>
 <p>A aplicação será instalada no <em>smartphone</em> do participante durante a visita de baseline (T0). Cada participante receberá uma sessão de formação presencial de aproximadamente 30 minutos, conduzida por um membro da equipa de investigação, que incluirá: criação de conta, emparelhamento do glucómetro Bluetooth fornecido pelo estudo, demonstração prática de todas as funcionalidades e realização de um registo alimentar de teste. Será entregue um guia resumido de utilização em formato impresso.</p>
 <p><strong>Suporte técnico:</strong></p>
