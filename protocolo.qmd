@@ -343,49 +343,7 @@ flowchart TD
     style R fill:#d1ecf1,stroke:#0c5460,color:#000
 ```
 
-#### Figura 4: Fluxo de Utilização da Aplicação GlucoCheck
 
-```{mermaid}
-flowchart TD
-    START(( )) --> A["Download da app"]
-    A --> B["Abertura da app"]
-    B --> C{"Utilizador\nregistado?"}
-    C -- Não --> D["Registo\n(dados pessoais e clínicos)"]
-    C -- Sim --> E["Login"]
-    D --> F["Introdução de dados úteis\n(idade, peso, HbA1c atual,\nmedicação, objetivos)"]
-    E --> F
-    F --> G["Ligação ao glucómetro\nvia Bluetooth"]
-    G --> H["Visualização do\npainel principal"]
-    H --> I["Seleção de funcionalidade"]
-    I --> J["Medição glicémica"]
-    I --> K["Registo alimentar"]
-    I --> L["Conteúdos educativos\n(educação nutricional adaptativa)"]
-    I --> M["Consulta de objetivos\nglicémicos semanais"]
-    J --> J1["Sincronização automática\ncom glucómetro (Bluetooth)"]
-    J1 --> N["Armazenamento de dados"]
-    K --> N
-    N --> O["Visualização do dashboard"]
-    N --> P["Análise de padrões\nglicémicos"]
-    O --> O1["Gráficos de evolução\ne HbA1c estimada"]
-    P --> P1["Feedback nutricional\nautomático"]
-    P --> P2["Alertas para padrões\nglicémicos problemáticos"]
-    P --> P3["Mensagens motivacionais\nbaseadas em progresso"]
-    O1 --> Q["Geração de feedback\npersonalizado"]
-    P1 --> Q
-    P2 --> Q
-    P3 --> Q
-    Q --> R["Continuação do uso diário"]
-    L --> R
-    M --> R
-    R --> ENDNODE(( ))
-
-    style START fill:#000,stroke:#000,color:#000
-    style ENDNODE fill:#000,stroke:#fff,color:#000
-    style C fill:#fff3cd,stroke:#856404,color:#000
-    style N fill:#d4edda,stroke:#155724,color:#000
-    style Q fill:#cce5ff,stroke:#004085,color:#000
-    style R fill:#d1ecf1,stroke:#0c5460,color:#000
-```
 
 **Instalação e Onboarding:**
 
