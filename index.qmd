@@ -37,14 +37,14 @@ uma de duas condições:
 A avaliação intermédia ocorre às **12 semanas (T1)** e a avaliação final
 às **24 semanas (T2)**.
 
-## Objectivos
+## Objetivos
 
 **Objectivo primário.** Avaliar a eficácia da aplicação GlucoCheck, em
 comparação com a consulta habitual isolada, na redução da HbA1c aos 6 meses.
 A diferença mínima clinicamente relevante considerada é de **≥ 0,4 pontos
 percentuais**.
 
-**Objectivos secundários.** Avaliar o efeito da intervenção em:
+**Objetivos secundários.** Avaliar o efeito da intervenção em:
 
 - Glicemia em jejum
 - Peso corporal

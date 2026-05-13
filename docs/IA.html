@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Materiais – Ensaio GlucoCheck</title>
+<title>Declaração de uso de Inteligência Artificial – Ensaio GlucoCheck</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -100,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Protocolo</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./materiais.html" aria-current="page"> 
+    <a class="nav-link" href="./materiais.html"> 
 <span class="menu-text">Materiais</span></a>
   </li>  
   <li class="nav-item">
@@ -112,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Equipa</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./IA.html"> 
+    <a class="nav-link active" href="./IA.html" aria-current="page"> 
 <span class="menu-text">IA</span></a>
   </li>  
 </ul>
@@ -131,15 +131,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#crf-case-report-form" id="toc-crf-case-report-form" class="nav-link active" data-scroll-target="#crf-case-report-form">CRF — <em>Case Report Form</em></a></li>
-  <li><a href="#formulário-redcap" id="toc-formulário-redcap" class="nav-link" data-scroll-target="#formulário-redcap">Formulário REDCap</a></li>
-  <li><a href="#material-de-apoio-à-investigators-meeting-tp8" id="toc-material-de-apoio-à-investigators-meeting-tp8" class="nav-link" data-scroll-target="#material-de-apoio-à-investigators-meeting-tp8">Material de apoio à <em>Investigator’s Meeting</em> (TP8)</a>
+  <li><a href="#sumário" id="toc-sumário" class="nav-link active" data-scroll-target="#sumário">Sumário</a></li>
+  <li><a href="#ferramentas-utilizadas" id="toc-ferramentas-utilizadas" class="nav-link" data-scroll-target="#ferramentas-utilizadas">Ferramentas utilizadas</a></li>
+  <li><a href="#utilização-por-fase-do-trabalho" id="toc-utilização-por-fase-do-trabalho" class="nav-link" data-scroll-target="#utilização-por-fase-do-trabalho">Utilização por fase do trabalho</a>
   <ul class="collapse">
-  <li><a href="#ficha-de-persona" id="toc-ficha-de-persona" class="nav-link" data-scroll-target="#ficha-de-persona">Ficha de persona</a></li>
-  <li><a href="#protótipo-interativo" id="toc-protótipo-interativo" class="nav-link" data-scroll-target="#protótipo-interativo">Protótipo interativo</a></li>
-  <li><a href="#apresentação" id="toc-apresentação" class="nav-link" data-scroll-target="#apresentação">Apresentação</a></li>
-  <li><a href="#cumprimento-dos-requisitos-da-tp8" id="toc-cumprimento-dos-requisitos-da-tp8" class="nav-link" data-scroll-target="#cumprimento-dos-requisitos-da-tp8">Cumprimento dos requisitos da TP8</a></li>
+  <li><a href="#e1-protocolo-spirit" id="toc-e1-protocolo-spirit" class="nav-link" data-scroll-target="#e1-protocolo-spirit">E1 — Protocolo SPIRIT</a></li>
+  <li><a href="#e2-materiais-crf-formulário-redcap" id="toc-e2-materiais-crf-formulário-redcap" class="nav-link" data-scroll-target="#e2-materiais-crf-formulário-redcap">E2 — Materiais (CRF, formulário REDCap)</a></li>
+  <li><a href="#tp8-investigators-meeting" id="toc-tp8-investigators-meeting" class="nav-link" data-scroll-target="#tp8-investigators-meeting">TP8 — <em>Investigator’s Meeting</em></a></li>
+  <li><a href="#tp9-tp10-site-quarto-e-análise-em-r" id="toc-tp9-tp10-site-quarto-e-análise-em-r" class="nav-link" data-scroll-target="#tp9-tp10-site-quarto-e-análise-em-r">TP9 / TP10 — Site Quarto e análise em R</a></li>
   </ul></li>
+  <li><a href="#prompts-essenciais" id="toc-prompts-essenciais" class="nav-link" data-scroll-target="#prompts-essenciais">Prompts essenciais</a></li>
+  <li><a href="#processo-de-revisão-crítica" id="toc-processo-de-revisão-crítica" class="nav-link" data-scroll-target="#processo-de-revisão-crítica">Processo de revisão crítica</a></li>
+  <li><a href="#responsabilidade-pelo-conteúdo-final" id="toc-responsabilidade-pelo-conteúdo-final" class="nav-link" data-scroll-target="#responsabilidade-pelo-conteúdo-final">Responsabilidade pelo conteúdo final</a></li>
+  <li><a href="#histórico-de-versões" id="toc-histórico-de-versões" class="nav-link" data-scroll-target="#histórico-de-versões">Histórico de versões</a></li>
   </ul>
 </nav>
     </div>
@@ -148,8 +152,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Materiais</h1>
-<p class="subtitle lead">Documentos, instrumentos e protótipos do ensaio</p>
+<h1 class="title">Declaração de uso de Inteligência Artificial</h1>
+<p class="subtitle lead">Transparência sobre o recurso a ferramentas de IA generativa no projecto GlucoCheck</p>
 </div>
 
 
@@ -166,104 +170,226 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Esta página reúne os materiais desenvolvidos no âmbito do ensaio GlucoCheck: o <em>Case Report Form</em> (CRF), o formulário electrónico em REDCap para a recolha de dados, e os materiais de apoio à <em>Investigator’s Meeting</em> — persona, fluxograma de navegação e protótipo da aplicação móvel — produzidos no contexto da TP8.</p>
-<section id="crf-case-report-form" class="level2">
-<h2 class="anchored" data-anchor-id="crf-case-report-form">CRF — <em>Case Report Form</em></h2>
-<p>O CRF é o instrumento utilizado para registar os dados clínicos de cada participante ao longo do ensaio. Está organizado em três módulos correspondentes às avaliações do cronograma:</p>
-<ol type="1">
-<li><strong>Inclusão e baseline (T0)</strong> — dados sociodemográficos, critérios de elegibilidade, HbA1c, glicemia em jejum, peso, DES-SF, DKQ-24.</li>
-<li><strong>Avaliação intermédia (T1, semana 12)</strong> — HbA1c, glicemia em jejum, peso, adesão ao registo alimentar, DES-SF.</li>
-<li><strong>Avaliação final (T2, semana 24)</strong> — HbA1c, glicemia em jejum, peso, DES-SF, DKQ-24, satisfação (DTSQ).</li>
-</ol>
-<p><em>A integrar — versão final do CRF em PDF ou imagens das secções.</em></p>
+<section id="sumário" class="level2">
+<h2 class="anchored" data-anchor-id="sumário">Sumário</h2>
+<p>Esta página documenta, com o detalhe exigido pela unidade curricular, todo o recurso a ferramentas de Inteligência Artificial generativa ao longo do desenvolvimento do projecto GlucoCheck. A declaração cobre as quatro fases do trabalho — protocolo SPIRIT (E1), materiais e CRF/REDCap (E2), <em>Investigator’s Meeting</em> (TP8) e site Quarto + análise em R (TP9/TP10) — identificando, para cada utilização, <strong>o que foi gerado pelo modelo</strong>, <strong>como foi tratado pela equipa</strong> e <strong>quem é responsável pelo conteúdo final</strong>.</p>
+<p>A equipa assume total responsabilidade pelo conteúdo científico, metodológico e técnico do projecto. As ferramentas de IA foram utilizadas exclusivamente como <strong>auxiliar de produtividade</strong>, sob revisão crítica sistemática.</p>
 </section>
-<section id="formulário-redcap" class="level2">
-<h2 class="anchored" data-anchor-id="formulário-redcap">Formulário REDCap</h2>
-<p>O formulário REDCap corresponde à versão electrónica do CRF, implementada na plataforma institucional para garantir recolha segura, validação de tipos de dados e <em>backup</em> automático dos registos. O instrumento foi desenhado a partir do CRF e replica a estrutura modular dos três tempos de avaliação.</p>
-<p><em>A integrar — projeto REDCap e dicionário de dados.</em></p>
-</section>
-<section id="material-de-apoio-à-investigators-meeting-tp8" class="level2">
-<h2 class="anchored" data-anchor-id="material-de-apoio-à-investigators-meeting-tp8">Material de apoio à <em>Investigator’s Meeting</em> (TP8)</h2>
-<p>Os materiais seguintes foram desenvolvidos no âmbito da TP8 — <em>Suporte para Apresentações, Comunicações UX e Prototipagem</em> — em apoio à simulação de uma <em>Investigator’s Meeting</em> dirigida a investigadores e equipa clínica, com duração de 10 a 15 minutos.</p>
-<section id="ficha-de-persona" class="level3">
-<h3 class="anchored" data-anchor-id="ficha-de-persona">Ficha de persona</h3>
-<p>A ficha de persona representa o utilizador-tipo da aplicação GlucoCheck — adultos entre 40 e 75 anos com Diabetes Mellitus Tipo 2 e controlo glicémico subótimo, seguidos em cuidados de saúde primários. Constitui a referência central no desenho da experiência de utilização da aplicação e é citada ao longo de toda a apresentação como fio condutor narrativo.</p>
-<p><img src="images/persona_glucocheck.svg" class="img-fluid quarto-figure quarto-figure-center" style="width:85.0%" alt="Ficha de persona do utilizador-tipo da aplicação GlucoCheck."> ### Fluxograma de navegação</p>
-<p>O fluxograma seguinte representa a estrutura de navegação da aplicação GlucoCheck, identificando os ecrãs principais e as ligações entre eles. Foi a referência usada no desenvolvimento dos <em>wireframes</em> e <em>mockups</em> em Figma, garantindo coerência entre o desenho da experiência e o protótipo final.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/fluxograma_app.svg" class="img-fluid figure-img" style="width:90.0%"></p>
-<figcaption>Fluxograma de navegação dos ecrãs da aplicação GlucoCheck.</figcaption>
-</figure>
-</div>
-</section>
-<section id="protótipo-interativo" class="level3">
-<h3 class="anchored" data-anchor-id="protótipo-interativo">Protótipo interativo</h3>
-<p>O protótipo da aplicação foi desenvolvido em Figma e inclui <em>login</em> funcional e quatro acções completas para além do <em>login</em>: registar uma nova medição, registar uma refeição, consultar o histórico de medições e consultar o perfil do utilizador.</p>
-<p><a href="https://www.figma.com/proto/tbi7tGVLRPmISWLhuVj4zo/GlucoCheckG6?node-id=2-2&amp;p=f&amp;t=J0pLJvw4bjWKfGOB-1&amp;scaling=scale-down&amp;content-scaling=fixed&amp;page-id=0%3A1&amp;starting-point-node-id=2%3A2&amp;show-proto-sidebar=1" target="_blank">Aceder ao protótipo Figma</a></p>
-</section>
-<section id="apresentação" class="level3">
-<h3 class="anchored" data-anchor-id="apresentação">Apresentação</h3>
-<p>A apresentação foi desenhada para uma <em>Investigator’s Meeting</em> de 10 a 15 minutos dirigida a investigadores e equipa clínica, seguindo o arco narrativo <em>Porquê? — Como? — E então?</em> recomendado nos materiais da unidade curricular.</p>
-<p><a href="images/InvestigatorsMeeting.pdf" target="_blank">Descarregar a apresentação (PDF)</a></p>
-</section>
-<section id="cumprimento-dos-requisitos-da-tp8" class="level3">
-<h3 class="anchored" data-anchor-id="cumprimento-dos-requisitos-da-tp8">Cumprimento dos requisitos da TP8</h3>
-<p>A tabela seguinte mapeia os requisitos definidos no enunciado da TP8 para a respetiva evidência presente nesta página.</p>
+<section id="ferramentas-utilizadas" class="level2">
+<h2 class="anchored" data-anchor-id="ferramentas-utilizadas">Ferramentas utilizadas</h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 27%">
-<col style="width: 45%">
-<col style="width: 27%">
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Requisito do enunciado</th>
-<th style="text-align: center;">Cumprimento</th>
-<th>Evidência</th>
+<th>Ferramenta</th>
+<th>Versão / Data de utilização</th>
+<th>Fases</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Material de suporte à <em>Investigator’s Meeting</em></td>
-<td style="text-align: center;">✓</td>
-<td>Esta secção</td>
+<td>ChatGPT (OpenAI)</td>
+<td>GPT-4, Março–Maio de 2026</td>
+<td>E1, E2, TP8</td>
 </tr>
 <tr class="even">
-<td>Apresentação do estudo</td>
-<td style="text-align: center;">✓</td>
-<td><em>Slides</em> (PDF acima)</td>
+<td>Claude (Anthropic)</td>
+<td>Claude Sonnet 4.5, Abril–Maio de 2026</td>
+<td>TP9, TP10</td>
 </tr>
+</tbody>
+</table>
+</section>
+<section id="utilização-por-fase-do-trabalho" class="level2">
+<h2 class="anchored" data-anchor-id="utilização-por-fase-do-trabalho">Utilização por fase do trabalho</h2>
+<section id="e1-protocolo-spirit" class="level3">
+<h3 class="anchored" data-anchor-id="e1-protocolo-spirit">E1 — Protocolo SPIRIT</h3>
+<p><strong>Output da IA:</strong></p>
+<ul>
+<li>Apoio à redacção do texto das secções do protocolo, em particular na formulação de parágrafos longos sobre justificação, intervenção e análise estatística.</li>
+<li>Ajuste da formatação Markdown para sintaxe simplificada compatível com a conversão para LaTeX no Overleaf.</li>
+<li>Sugestão de metadados YAML e comentários HTML de orientação para reutilização do template.</li>
+</ul>
+<p><strong>Tratamento:</strong></p>
+<ul>
+<li>Aceite com alterações.</li>
+<li>Todo o conteúdo científico (critérios de elegibilidade, desenho do estudo, <em>outcomes</em>, análise estatística) foi definido pela equipa antes de qualquer interacção com IA.</li>
+<li>O texto gerado foi revisto frase a frase pela equipa, com confirmação contra a literatura de referência e adaptação ao cenário clínico específico (DM2 em USF, Portugal).</li>
+</ul>
+</section>
+<section id="e2-materiais-crf-formulário-redcap" class="level3">
+<h3 class="anchored" data-anchor-id="e2-materiais-crf-formulário-redcap">E2 — Materiais (CRF, formulário REDCap)</h3>
+<section id="estruturação-dos-cenários-de-teste-para-o-ecrf-no-redcap" class="level4">
+<h4 class="anchored" data-anchor-id="estruturação-dos-cenários-de-teste-para-o-ecrf-no-redcap">1. Estruturação dos cenários de teste para o eCRF no REDCap</h4>
+<p><strong>Output da IA:</strong></p>
+<ul>
+<li>Sugestão de três cenários: participante elegível/intervenção, participante inelegível, <em>follow-up</em> com evento adverso.</li>
+<li>Lista de verificações por cenário.</li>
+</ul>
+<p><strong>Tratamento:</strong></p>
+<ul>
+<li>Aceite com alterações.</li>
+<li>Cenários adaptados à lógica específica do eCRF.</li>
+<li>Algumas verificações adaptadas à instância REDCap institucional disponível.</li>
+</ul>
+</section>
+<section id="orientação-passo-a-passo-para-execução-dos-cenários-de-teste-no-redcap" class="level4">
+<h4 class="anchored" data-anchor-id="orientação-passo-a-passo-para-execução-dos-cenários-de-teste-no-redcap">2. Orientação passo a passo para execução dos cenários de teste no REDCap</h4>
+<p><strong>Output da IA:</strong></p>
+<ul>
+<li>Descrição sequencial dos passos de navegação, preenchimento e verificação de campos calculados e <em>branching logic</em>.</li>
+</ul>
+<p><strong>Tratamento:</strong></p>
+<ul>
+<li>Aceite com alterações.</li>
+<li>Passos seguidos como guia geral.</li>
+<li>Adaptação à interface real da instância institucional.</li>
+</ul>
+</section>
+<section id="revisão-cruzada-do-dicionário-de-dados" class="level4">
+<h4 class="anchored" data-anchor-id="revisão-cruzada-do-dicionário-de-dados">3. Revisão cruzada do dicionário de dados</h4>
+<p><strong>Output da IA:</strong></p>
+<ul>
+<li>Identificação de inconsistências entre variáveis, tipos de campo e regras de validação.</li>
+<li>Sugestões de correcção, incluindo deteção de duplicação da variável <em>peso</em> e redundância da variável <em>grupo_aloc</em>.</li>
+<li>Sugestão de campos calculados.</li>
+</ul>
+<p><strong>Tratamento:</strong></p>
+<ul>
+<li>Inconsistências verificadas manualmente pela equipa.</li>
+<li>Inconsistências confirmadas foram documentadas nas secções relevantes do relatório da E2.</li>
+</ul>
+</section>
+<section id="identificação-de-referências-bibliográficas" class="level4">
+<h4 class="anchored" data-anchor-id="identificação-de-referências-bibliográficas">4. Identificação de referências bibliográficas</h4>
+<p><strong>Output da IA:</strong></p>
+<ul>
+<li>Sugestão de referência para a versão portuguesa da DES-SF (Sousa et al., 2020).</li>
+<li>Sugestão de referências para o DKQ (Bastos, 2004; Menino et al., 2017).</li>
+</ul>
+<p><strong>Tratamento:</strong></p>
+<ul>
+<li>Todas as referências foram confirmadas através de pesquisa independente antes da inclusão no relatório.</li>
+</ul>
+</section>
+<section id="configuração-do-projecto-redcap" class="level4">
+<h4 class="anchored" data-anchor-id="configuração-do-projecto-redcap">5. Configuração do projecto REDCap</h4>
+<p><strong>Output da IA:</strong></p>
+<ul>
+<li>Conversão de campos <code>yesno</code> para <code>radio</code> com <em>choices</em> em português (Sim/Não), para coerência idiomática.</li>
+</ul>
+<p><strong>Tratamento:</strong></p>
+<ul>
+<li>Conversão validada.</li>
+</ul>
+</section>
+</section>
+<section id="tp8-investigators-meeting" class="level3">
+<h3 class="anchored" data-anchor-id="tp8-investigators-meeting">TP8 — <em>Investigator’s Meeting</em></h3>
+<p><strong>Output da IA:</strong></p>
+<ul>
+<li>Apoio à identificação de desafios da persona alinhados com os <em>outcomes</em> secundários do protocolo (DES-SF, conhecimento sobre diabetes).</li>
+<li>Apoio à realização do fluxograma de navegação da aplicação GlucoCheck.</li>
+</ul>
+<p><strong>Tratamento:</strong></p>
+<ul>
+<li>A definição da persona (idade, contexto clínico, motivações) partiu da população-alvo do protocolo definida na E1.</li>
+<li>O fluxograma final foi redesenhado pela equipa, com base nas sugestões iniciais da IA, mas adaptado ao protótipo efectivo da aplicação.</li>
+</ul>
+</section>
+<section id="tp9-tp10-site-quarto-e-análise-em-r" class="level3">
+<h3 class="anchored" data-anchor-id="tp9-tp10-site-quarto-e-análise-em-r">TP9 / TP10 — Site Quarto e análise em R</h3>
+<p><strong>Output da IA:</strong></p>
+<ul>
+<li>Apoio à redacção da página inicial do site (<code>index.qmd</code>) com base no protocolo da E1 e no cenário clínico fornecido pela disciplina.</li>
+<li>Reformatação do código R em <code>resultados.qmd</code> para alinhamento estrito com a matéria leccionada nos <em>slides</em> da TP9.</li>
+<li>Apoio à montagem do <em>workflow</em> GitHub Actions para publicação automática em GitHub Pages, incluindo resolução de problemas técnicos.</li>
+<li>Resolução de problemas técnicos pontuais: renderização de diagramas Mermaid, integração de ficheiros PDF como recursos do site.</li>
+</ul>
+<p><strong>Tratamento:</strong></p>
+<ul>
+<li>Aceite com alterações sistemáticas.</li>
+<li>Toda a análise estatística (selecção de variáveis basais para a Tabela 1, exclusão dos <em>outcomes</em> aos 6 meses, tratamento dos <em>missings</em>, visualização do <em>outcome</em> primário) foi decidida pela equipa.</li>
+<li>O código gerado foi validado por execução em ambiente local antes de publicação.</li>
+<li>A estrutura do site e a divisão por páginas correspondem ao especificado no enunciado da TP9.</li>
+</ul>
+</section>
+</section>
+<section id="prompts-essenciais" class="level2">
+<h2 class="anchored" data-anchor-id="prompts-essenciais">Prompts essenciais</h2>
+<p>Apresentam-se a seguir exemplos representativos dos <em>prompts</em> utilizados, agrupados por fase. <em>Prompts</em> de afinação iterativa e correcção pontual não são listados.</p>
+<p><strong>E1 — Protocolo:</strong></p>
+<blockquote class="blockquote">
+<p>“Ajuda-me a redigir a secção de Análise Estatística do protocolo SPIRIT para um ensaio aleatorizado de uma app móvel em DM2 com <em>outcome</em> primário HbA1c aos 6 meses, n=30 (piloto), aleatorização 1:1 estratificada por sexo e HbA1c basal.”</p>
+</blockquote>
+<p><strong>E2 — CRF/REDCap:</strong></p>
+<blockquote class="blockquote">
+<p>“Ajuda-me a definir 3 cenários de teste para o eCRF no REDCap que cubram: participante elegível em grupo intervenção, participante inelegível, e <em>follow-up</em> com evento adverso. Lista as verificações de validação para cada cenário.”</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>“Revê este dicionário de dados e identifica inconsistências entre tipos de campo, regras de validação e nomes de variáveis.”</p>
+</blockquote>
+<p><strong>TP8 — Investigator’s Meeting:</strong></p>
+<blockquote class="blockquote">
+<p>“Sugere 3 desafios para a persona de uma aplicação móvel de diabetes tipo 2, alinhados com os <em>outcomes</em> secundários DES-SF (autoeficácia) e conhecimento sobre diabetes.”</p>
+</blockquote>
+<p><strong>TP9/TP10 — Site Quarto:</strong></p>
+<blockquote class="blockquote">
+<p>“Ajuda-me a criar a estrutura inicial de um site Quarto para um ensaio clínico piloto, com 5 páginas (Início, Protocolo, Materiais, Resultados, Equipa), publicação em GitHub Pages via <em>workflow</em> automático, e análise em R com <code>tbl_summary(by = grupo)</code> e gráfico do <em>outcome</em> primário em <code>ggplot2</code>.”</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>“Reformata este código R do <code>resultados.qmd</code> para corresponder estritamente ao que está nos slides da TP9: Tabela 1 só com variáveis basais, estatísticas mediana (Q1, Q3), <em>labels</em> em português, <em>boxplot</em> com <em>jitter</em> e tema <em>minimal</em>.”</p>
+</blockquote>
+</section>
+<section id="processo-de-revisão-crítica" class="level2">
+<h2 class="anchored" data-anchor-id="processo-de-revisão-crítica">Processo de revisão crítica</h2>
+<p>A equipa adoptou os seguintes princípios de revisão sistemática do conteúdo gerado por IA:</p>
+<ol type="1">
+<li><strong>Verificação científica.</strong> Toda a informação clínica, metodológica ou estatística foi confrontada com fontes primárias (protocolo SPIRIT 2013, <em>guidelines</em> CONSORT 2010, documentação oficial dos instrumentos psicométricos utilizados, <em>slides</em> da unidade curricular).</li>
+<li><strong>Adequação ao contexto.</strong> O conteúdo foi sempre adaptado ao cenário clínico real do GlucoCheck (DM2, USF, Portugal) e à população-alvo definida no protocolo da E1.</li>
+<li><strong>Execução prática.</strong> No caso do código R e da configuração do <em>site</em>, todo o material foi executado e validado localmente antes da integração final.</li>
+<li><strong>Revisão em equipa.</strong> O conteúdo gerado por IA foi partilhado entre os elementos do grupo, com revisão cruzada antes da entrega.</li>
+<li><strong>Confirmação de referências.</strong> Todas as referências bibliográficas sugeridas por IA foram verificadas em pesquisa independente.</li>
+</ol>
+</section>
+<section id="responsabilidade-pelo-conteúdo-final" class="level2">
+<h2 class="anchored" data-anchor-id="responsabilidade-pelo-conteúdo-final">Responsabilidade pelo conteúdo final</h2>
+<p>A responsabilidade pelo conteúdo científico, metodológico e técnico do projecto GlucoCheck é integralmente assumida pela equipa do <strong>Grupo 6, Turma B</strong> — Francisca Teixeira, Luísa Moreira, Mariana Dias e Rosarinho Barros — sob a orientação dos docentes da unidade curricular.</p>
+</section>
+<section id="histórico-de-versões" class="level2">
+<h2 class="anchored" data-anchor-id="histórico-de-versões">Histórico de versões</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 38%">
+<col style="width: 38%">
+<col style="width: 23%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Versão</th>
+<th style="text-align: center;">Data</th>
+<th>Alterações</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
-<td>Demonstração do protótipo</td>
-<td style="text-align: center;">✓</td>
-<td><em>Link</em> Figma acima</td>
+<td style="text-align: center;">1.0</td>
+<td style="text-align: center;">Abril de 2026</td>
+<td>Versão inicial (declaração sucinta no relatório da TP7).</td>
 </tr>
 <tr class="even">
-<td>Dirigida a investigadores e equipa clínica</td>
-<td style="text-align: center;">✓</td>
-<td>Audiência identificada</td>
-</tr>
-<tr class="odd">
-<td>Duração de 10 a 15 minutos</td>
-<td style="text-align: center;">✓</td>
-<td><em>Deck</em> dimensionado para ≈ 14 min</td>
-</tr>
-<tr class="even">
-<td><em>Link</em> para o protótipo (obrigatório)</td>
-<td style="text-align: center;">✓</td>
-<td><em>Link</em> Figma acima</td>
-</tr>
-<tr class="odd">
-<td>Acção completa para além do <em>login</em> (obrigatório)</td>
-<td style="text-align: center;">✓</td>
-<td>Registar medição · Registar refeição · Histórico · Perfil</td>
+<td style="text-align: center;">2.0</td>
+<td style="text-align: center;">Maio de 2026</td>
+<td>Versão alargada em página dedicada, na sequência do <em>feedback</em> docente à entrega formativa.</td>
 </tr>
 </tbody>
 </table>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

@@ -25,3 +25,6 @@ format:
     theme: cosmo
     toc: true
     lang: pt
+    bibliography: referencias.bib
+    csl: https://www.zotero.org/styles/vancouver
+    link-citations: true

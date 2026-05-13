@@ -44,11 +44,11 @@ GlucoCheck: App móvel para controlo da DM2
 ### Racional
 
 
-A Diabetes Mellitus Tipo 2 (DM2) é uma das doenças crónicas com maior impacto nos sistemas de saúde a nível global. Segundo a 11.ª edição do IDF Diabetes Atlas, estima-se que cerca de 589 milhões de adultos vivam atualmente com diabetes, com projeções que apontam para 853 milhões em 2050. Em Portugal, o Relatório Anual do Observatório Nacional da Diabetes (dados de 2024) estima uma prevalência de DM2 na ordem dos 14,2% na população adulta (20–79 anos), o valor mais elevado de sempre, correspondendo a cerca de 1,1 milhões de portugueses. Os custos diretos associados à doença representam entre 0,5% e 0,6% do PIB nacional (1 500 a 1 800 milhões de euros anuais), e as complicações microvasculares (retinopatia, nefropatia, neuropatia) e macrovasculares (doença cardiovascular) são responsáveis por uma proporção substancial da morbilidade e mortalidade nestes doentes.
+A Diabetes Mellitus Tipo 2 (DM2) é uma das doenças crónicas com maior impacto nos sistemas de saúde a nível global. Segundo a 11.ª edição do IDF Diabetes Atlas [@genitsaridi2026idf11], estima-se que cerca de 589 milhões de adultos vivam atualmente com diabetes, com projeções que apontam para 853 milhões em 2050. Em Portugal, o Relatório Anual do Observatório Nacional da Diabetes [@ond2024relatorio] (dados de 2024) estima uma prevalência de DM2 na ordem dos 14,2% na população adulta (20–79 anos), o valor mais elevado de sempre, correspondendo a cerca de 1,1 milhões de portugueses. Os custos diretos associados à doença representam entre 0,5% e 0,6% do PIB nacional (1 500 a 1 800 milhões de euros anuais), e as complicações microvasculares (retinopatia, nefropatia, neuropatia) e macrovasculares (doença cardiovascular) são responsáveis por uma proporção substancial da morbilidade e mortalidade nestes doentes.
 
-O controlo glicémico adequado, avaliado pela hemoglobina glicada (HbA1c), constitui o pilar central da prevenção destas complicações. Contudo, uma proporção significativa dos doentes seguidos em cuidados de saúde primários (CSP) não atinge os alvos terapêuticos recomendados (HbA1c < 7,0%). Os principais obstáculos incluem a baixa adesão às recomendações nutricionais, a auto-monitorização glicémica irregular, a dificuldade na interpretação dos valores obtidos e o contacto limitado com os profissionais de saúde entre consultas trimestrais. O modelo de consulta habitual, embora fundamental, não proporciona feedback contínuo nem apoio à decisão do doente no quotidiano.
+O controlo glicémico adequado, avaliado pela hemoglobina glicada (HbA1c), constitui o pilar central da prevenção destas complicações. Contudo, uma proporção significativa dos doentes seguidos em cuidados de saúde primários (CSP) não atinge os alvos terapêuticos recomendados (HbA1c < 7,0%) [@davies2022adaeasd]. Os principais obstáculos incluem a baixa adesão às recomendações nutricionais, a auto-monitorização glicémica irregular, a dificuldade na interpretação dos valores obtidos e o contacto limitado com os profissionais de saúde entre consultas trimestrais. O modelo de consulta habitual, embora fundamental, não proporciona feedback contínuo nem apoio à decisão do doente no quotidiano.
 
-As aplicações móveis de saúde (*mHealth*) emergiram como intervenções promissoras para complementar o cuidado convencional na gestão da DM2. Meta-análises recentes demonstram que intervenções digitais estão associadas a reduções clinicamente relevantes da HbA1c, tipicamente entre 0,3 e 0,5 pontos percentuais. Os mecanismos de acção propostos incluem: (a) aumento da frequência e qualidade da auto-monitorização glicémica; (b) promoção de escolhas alimentares mais adequadas através de feedback nutricional imediato; (c) reforço da autoeficácia e motivação mediante objectivos personalizados e mensagens de progresso; e (d) deteção precoce de padrões glicémicos problemáticos. As funcionalidades com maior evidência incluem o registo alimentar automatizado, a integração com glucómetros e a definição de metas individualizadas.
+As aplicações móveis de saúde (*mHealth*) emergiram como intervenções promissoras para complementar o cuidado convencional na gestão da DM2. Meta-análises recentes demonstram que intervenções digitais estão associadas a reduções clinicamente relevantes da HbA1c, tipicamente entre 0,3 e 0,5 pontos percentuais [@kebede2023digitalhealth; @eberle2021mhealthdm; @versluis2025dsmemhealth]. Os mecanismos de acção propostos incluem: (a) aumento da frequência e qualidade da auto-monitorização glicémica; (b) promoção de escolhas alimentares mais adequadas através de feedback nutricional imediato; (c) reforço da autoeficácia e motivação mediante objectivos personalizados e mensagens de progresso; e (d) deteção precoce de padrões glicémicos problemáticos. As funcionalidades com maior evidência incluem o registo alimentar automatizado, a integração com glucómetros e a definição de metas individualizadas.
 
 Apesar destes resultados promissores, a evidência permanece heterogénea: muitos estudos apresentam amostras pequenas, ausência de grupo controlo adequado e seguimentos curtos, tendo sido conduzidos fora do contexto europeu de cuidados primários. Em Portugal, são escassos os ensaios que avaliem a eficácia de aplicações móveis integradas com glucómetros na gestão da DM2 em Unidades de Saúde Familiar (USF). O presente estudo pretende preencher esta lacuna, avaliando a eficácia da aplicação GlucoCheck comparada com a consulta habitual isolada — o *standard of care* atual em CSP — num grupo de adultos com controlo glicémico subótimo. Os resultados poderão fundamentar a implementação de ferramentas digitais na prática clínica corrente e informar o desenho de ensaios multicêntricos de maior escala.
 
@@ -290,7 +290,7 @@ sequenceDiagram
    - *Frequência:* 1 módulo novo por semana.
 
 6. **Gráficos de evolução de HbA1c estimada**
-   - *O que faz:* Apresenta gráficos da tendência glicémica e estimativa da HbA1c com base na média glicémica (fórmula ADAG), permitindo ao participante visualizar o impacto das suas escolhas.
+   - *O que faz:* Apresenta gráficos da tendência glicémica e estimativa da HbA1c com base na média glicémica (fórmula ADAG) [@nathan2008adag], permitindo ao participante visualizar o impacto das suas escolhas.
    - *Interação:* Consulta voluntária na secção "Progresso" da app.
    - *Frequência:* Actualização contínua, disponível a qualquer momento.
 
@@ -408,11 +408,11 @@ Hemoglobina glicada (HbA1c)
 2. **Peso corporal** — Balança calibrada (kg), com o participante descalço e em roupa leve; avaliação em T0, T1 e T2.
 3. **Adesão ao registo alimentar** — *Logs* da aplicação GlucoCheck: percentagem de dias com ≥2 refeições registadas; medição contínua ao longo das 24 semanas (apenas grupo de intervenção).
 4. **Frequência de auto-monitorização glicémica** — Número de medições por semana; obtido pelos *logs* da app (grupo de intervenção) ou por auto-relato (grupo controlo); medição contínua.
-5. **Autoeficácia** — *Diabetes Empowerment Scale — Short Form* (DES-SF), questionário validado de 8 itens, escala de Likert 1–5; avaliação em T0, T1 e T2.
+5. **Autoeficácia** — *Diabetes Empowerment Scale — Short Form* (DES-SF) [@anderson2003dessf], questionário validado de 8 itens, escala de Likert 1–5; avaliação em T0, T1 e T2.
 6. **Conhecimento sobre diabetes** — *Diabetes Knowledge Questionnaire* (DKQ-24), 24 itens com resposta sim/não/não sei; avaliação em T0 e T2.
 7. **Satisfação com os cuidados** — *Diabetes Treatment Satisfaction Questionnaire* (DTSQ), 8 itens com escala 0–6; avaliação em T0 e T2.
 
-### Cronograma de Avaliações (SPIRIT Figure)
+### Cronograma de Avaliações (SPIRIT Figure) [@chan2013spirit]
 
 
 
@@ -440,7 +440,7 @@ Hemoglobina glicada (HbA1c)
 
 
 
-Tratando-se de um estudo piloto (pré-teste), a dimensão da amostra (n = 30; 15 por braço) não foi calculada com base em poder estatístico formal, mas segue as recomendações da literatura para estudos piloto, que sugerem pelo menos 12 participantes por braço. O valor de 15 por braço permite acomodar uma taxa de *dropout* estimada de 20%, particularmente relevante neste estudo dada a duração de 6 meses e a faixa etária da população-alvo (40–75 anos), que pode apresentar literacia digital mais baixa e maior risco de abandono.
+Tratando-se de um estudo piloto (pré-teste), a dimensão da amostra (n = 30; 15 por braço) não foi calculada com base em poder estatístico formal, mas segue as recomendações da literatura para estudos piloto, que sugerem pelo menos 12 participantes por braço [@julious2005pilot12]. O valor de 15 por braço permite acomodar uma taxa de *dropout* estimada de 20%, particularmente relevante neste estudo dada a duração de 6 meses e a faixa etária da população-alvo (40–75 anos), que pode apresentar literacia digital mais baixa e maior risco de abandono.
 
 Os resultados deste estudo piloto serão utilizados para estimar o tamanho de efeito e a variabilidade da diferença em HbA1c entre grupos — parâmetros necessários para o cálculo formal da dimensão amostral de um futuro ensaio definitivo.
 
@@ -465,7 +465,7 @@ Os modelos lineares mistos acomodam dados em falta sob o pressuposto de *missing
 
 ### Software Estatístico
 
-As análises serão realizadas em R (versão 4.3 ou superior), utilizando os pacotes `lme4`, `lmerTest` e `mice`. O nível de significância será fixado em α = 0,05 (bilateral). Os resultados serão reportados com intervalos de confiança a 95%.
+As análises serão realizadas em R (versão 4.3 ou superior), utilizando os pacotes `lme4` [@bates2015lme4], `lmerTest` e `mice`. O nível de significância será fixado em α = 0,05 (bilateral). Os resultados serão reportados com intervalos de confiança a 95%.
 
 ## Ética e Disseminação
 
@@ -498,12 +498,16 @@ Eventos adversos graves serão comunicados à comissão de ética no prazo de 24
 
 Os resultados serão disseminados através de:
 
-1. Publicação em revista científica indexada com revisão por pares, seguindo as diretrizes CONSORT para ensaios clínicos randomizados e a extensão CONSORT-EHEALTH para intervenções digitais.
+1. Publicação em revista científica indexada com revisão por pares, seguindo as diretrizes CONSORT para ensaios clínicos randomizados e a extensão CONSORT-EHEALTH para intervenções digitais [@eysenbach2011consortehealth].
 2. Apresentação em congressos nacionais e internacionais nas áreas de diabetologia e saúde digital.
 3. Comunicação resumida dos principais resultados a todos os participantes do estudo.
 4. Registo do ensaio numa plataforma internacional de registo de ensaios clínicos (ClinicalTrials.gov) antes do início do recrutamento.
 
 
+## Referências
+
+::: {#refs}
+:::
 
 
 **Versão:** 1.2

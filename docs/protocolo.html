@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -114,6 +133,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./equipa.html"> 
 <span class="menu-text">Equipa</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./IA.html"> 
+<span class="menu-text">IA</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -155,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#outcome-primário" id="toc-outcome-primário" class="nav-link" data-scroll-target="#outcome-primário">Outcome Primário</a></li>
   <li><a href="#outcomes-secundários" id="toc-outcomes-secundários" class="nav-link" data-scroll-target="#outcomes-secundários">Outcomes Secundários</a></li>
-  <li><a href="#cronograma-de-avaliações-spirit-figure" id="toc-cronograma-de-avaliações-spirit-figure" class="nav-link" data-scroll-target="#cronograma-de-avaliações-spirit-figure">Cronograma de Avaliações (SPIRIT Figure)</a></li>
+  <li><a href="#cronograma-de-avaliações-spirit-figure-chan2013spirit" id="toc-cronograma-de-avaliações-spirit-figure-chan2013spirit" class="nav-link" data-scroll-target="#cronograma-de-avaliações-spirit-figure-chan2013spirit">Cronograma de Avaliações (SPIRIT Figure) <span class="citation" data-cites="chan2013spirit">(9)</span></a></li>
   </ul></li>
   <li><a href="#análise-estatística" id="toc-análise-estatística" class="nav-link" data-scroll-target="#análise-estatística">Análise Estatística</a>
   <ul class="collapse">
@@ -173,6 +196,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#segurança-e-monitorização-de-eventos-adversos" id="toc-segurança-e-monitorização-de-eventos-adversos" class="nav-link" data-scroll-target="#segurança-e-monitorização-de-eventos-adversos">Segurança e Monitorização de Eventos Adversos</a></li>
   <li><a href="#disseminação-dos-resultados" id="toc-disseminação-dos-resultados" class="nav-link" data-scroll-target="#disseminação-dos-resultados">Disseminação dos Resultados</a></li>
   </ul></li>
+  <li><a href="#referências" id="toc-referências" class="nav-link" data-scroll-target="#referências">Referências</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -206,14 +230,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<!-- Este documento é a versão Quarto do protocolo de ensaio clínico GlucoCheck. -->
 <section id="protocolo-de-ensaio-clínico" class="level1">
 <h1>Protocolo de Ensaio Clínico</h1>
 <section id="informação-administrativa" class="level2">
 <h2 class="anchored" data-anchor-id="informação-administrativa">Informação Administrativa</h2>
 <section id="título-do-estudo" class="level3">
 <h3 class="anchored" data-anchor-id="título-do-estudo">Título do Estudo</h3>
-<!-- O título deve ser completo e descritivo (50–100 palavras), incluindo: População, Intervenção, Comparador e Outcome (formato PICO). -->
 <p>Eficácia de uma Aplicação Móvel de Monitorização Glicémica e Registo Alimentar com Feedback Nutricional Automatizado (GlucoCheck) versus Consulta Habitual Isolada na Redução da Hemoglobina Glicada (HbA1c) em Adultos entre 40 e 75 Anos com Diabetes Mellitus Tipo 2 e Controlo Glicémico Subótimo, Sem Insulinoterapia, em Seguimento em Cuidados de Saúde Primários: Um Ensaio Clínico Randomizado, Controlado e de Grupos Paralelos.</p>
 </section>
 <section id="título-abreviado" class="level3">
@@ -243,15 +265,13 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="introdução">Introdução</h2>
 <section id="racional" class="level3">
 <h3 class="anchored" data-anchor-id="racional">Racional</h3>
-<!-- O racional deve ter 300–400 palavras e seguir a estrutura: (1) magnitude do problema, (2) limitações do cuidado atual, (3) evidência sobre intervenções digitais, (4) gap que o estudo preenche, (5) justificação do comparador, (6) relevância clínica e impacto esperado. -->
-<p>A Diabetes Mellitus Tipo 2 (DM2) é uma das doenças crónicas com maior impacto nos sistemas de saúde a nível global. Segundo a 11.ª edição do IDF Diabetes Atlas, estima-se que cerca de 589 milhões de adultos vivam atualmente com diabetes, com projeções que apontam para 853 milhões em 2050. Em Portugal, o Relatório Anual do Observatório Nacional da Diabetes (dados de 2024) estima uma prevalência de DM2 na ordem dos 14,2% na população adulta (20–79 anos), o valor mais elevado de sempre, correspondendo a cerca de 1,1 milhões de portugueses. Os custos diretos associados à doença representam entre 0,5% e 0,6% do PIB nacional (1 500 a 1 800 milhões de euros anuais), e as complicações microvasculares (retinopatia, nefropatia, neuropatia) e macrovasculares (doença cardiovascular) são responsáveis por uma proporção substancial da morbilidade e mortalidade nestes doentes.</p>
-<p>O controlo glicémico adequado, avaliado pela hemoglobina glicada (HbA1c), constitui o pilar central da prevenção destas complicações. Contudo, uma proporção significativa dos doentes seguidos em cuidados de saúde primários (CSP) não atinge os alvos terapêuticos recomendados (HbA1c &lt; 7,0%). Os principais obstáculos incluem a baixa adesão às recomendações nutricionais, a auto-monitorização glicémica irregular, a dificuldade na interpretação dos valores obtidos e o contacto limitado com os profissionais de saúde entre consultas trimestrais. O modelo de consulta habitual, embora fundamental, não proporciona feedback contínuo nem apoio à decisão do doente no quotidiano.</p>
-<p>As aplicações móveis de saúde (<em>mHealth</em>) emergiram como intervenções promissoras para complementar o cuidado convencional na gestão da DM2. Meta-análises recentes demonstram que intervenções digitais estão associadas a reduções clinicamente relevantes da HbA1c, tipicamente entre 0,3 e 0,5 pontos percentuais. Os mecanismos de acção propostos incluem: (a) aumento da frequência e qualidade da auto-monitorização glicémica; (b) promoção de escolhas alimentares mais adequadas através de feedback nutricional imediato; (c) reforço da autoeficácia e motivação mediante objectivos personalizados e mensagens de progresso; e (d) deteção precoce de padrões glicémicos problemáticos. As funcionalidades com maior evidência incluem o registo alimentar automatizado, a integração com glucómetros e a definição de metas individualizadas.</p>
+<p>A Diabetes Mellitus Tipo 2 (DM2) é uma das doenças crónicas com maior impacto nos sistemas de saúde a nível global. Segundo a 11.ª edição do IDF Diabetes Atlas <span class="citation" data-cites="genitsaridi2026idf11">(<a href="#ref-genitsaridi2026idf11" role="doc-biblioref">1</a>)</span>, estima-se que cerca de 589 milhões de adultos vivam atualmente com diabetes, com projeções que apontam para 853 milhões em 2050. Em Portugal, o Relatório Anual do Observatório Nacional da Diabetes <span class="citation" data-cites="ond2024relatorio">(<a href="#ref-ond2024relatorio" role="doc-biblioref">2</a>)</span> (dados de 2024) estima uma prevalência de DM2 na ordem dos 14,2% na população adulta (20–79 anos), o valor mais elevado de sempre, correspondendo a cerca de 1,1 milhões de portugueses. Os custos diretos associados à doença representam entre 0,5% e 0,6% do PIB nacional (1 500 a 1 800 milhões de euros anuais), e as complicações microvasculares (retinopatia, nefropatia, neuropatia) e macrovasculares (doença cardiovascular) são responsáveis por uma proporção substancial da morbilidade e mortalidade nestes doentes.</p>
+<p>O controlo glicémico adequado, avaliado pela hemoglobina glicada (HbA1c), constitui o pilar central da prevenção destas complicações. Contudo, uma proporção significativa dos doentes seguidos em cuidados de saúde primários (CSP) não atinge os alvos terapêuticos recomendados (HbA1c &lt; 7,0%) <span class="citation" data-cites="davies2022adaeasd">(<a href="#ref-davies2022adaeasd" role="doc-biblioref">3</a>)</span>. Os principais obstáculos incluem a baixa adesão às recomendações nutricionais, a auto-monitorização glicémica irregular, a dificuldade na interpretação dos valores obtidos e o contacto limitado com os profissionais de saúde entre consultas trimestrais. O modelo de consulta habitual, embora fundamental, não proporciona feedback contínuo nem apoio à decisão do doente no quotidiano.</p>
+<p>As aplicações móveis de saúde (<em>mHealth</em>) emergiram como intervenções promissoras para complementar o cuidado convencional na gestão da DM2. Meta-análises recentes demonstram que intervenções digitais estão associadas a reduções clinicamente relevantes da HbA1c, tipicamente entre 0,3 e 0,5 pontos percentuais <span class="citation" data-cites="kebede2023digitalhealth eberle2021mhealthdm versluis2025dsmemhealth">(<a href="#ref-kebede2023digitalhealth" role="doc-biblioref">4</a>–<a href="#ref-versluis2025dsmemhealth" role="doc-biblioref">6</a>)</span>. Os mecanismos de acção propostos incluem: (a) aumento da frequência e qualidade da auto-monitorização glicémica; (b) promoção de escolhas alimentares mais adequadas através de feedback nutricional imediato; (c) reforço da autoeficácia e motivação mediante objectivos personalizados e mensagens de progresso; e (d) deteção precoce de padrões glicémicos problemáticos. As funcionalidades com maior evidência incluem o registo alimentar automatizado, a integração com glucómetros e a definição de metas individualizadas.</p>
 <p>Apesar destes resultados promissores, a evidência permanece heterogénea: muitos estudos apresentam amostras pequenas, ausência de grupo controlo adequado e seguimentos curtos, tendo sido conduzidos fora do contexto europeu de cuidados primários. Em Portugal, são escassos os ensaios que avaliem a eficácia de aplicações móveis integradas com glucómetros na gestão da DM2 em Unidades de Saúde Familiar (USF). O presente estudo pretende preencher esta lacuna, avaliando a eficácia da aplicação GlucoCheck comparada com a consulta habitual isolada — o <em>standard of care</em> atual em CSP — num grupo de adultos com controlo glicémico subótimo. Os resultados poderão fundamentar a implementação de ferramentas digitais na prática clínica corrente e informar o desenho de ensaios multicêntricos de maior escala.</p>
 </section>
 <section id="objetivos" class="level3">
 <h3 class="anchored" data-anchor-id="objetivos">Objetivos</h3>
-<!-- Os objetivos devem ter 100–150 palavras. Dividir em: objetivo primário (1 frase clara) e objetivos secundários (3–5 objetivos em lista). -->
 <section id="objetivo-primário" class="level4">
 <h4 class="anchored" data-anchor-id="objetivo-primário">Objetivo Primário</h4>
 <p>Avaliar a eficácia da aplicação móvel GlucoCheck, em comparação com a consulta habitual isolada, na redução da hemoglobina glicada (HbA1c) aos 6 meses (24 semanas), em adultos entre 40 e 75 anos com Diabetes Mellitus Tipo 2 e controlo glicémico subótimo (HbA1c 7,0–9,5%), sem insulinoterapia, seguidos em cuidados de saúde primários.</p>
@@ -273,7 +293,6 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="métodos">Métodos</h2>
 <section id="desenho-do-estudo" class="level3">
 <h3 class="anchored" data-anchor-id="desenho-do-estudo">Desenho do Estudo</h3>
-<!-- Esta secção deve ter 150–200 palavras e incluir: tipo de ensaio (RCT, paralelo), razão de randomização (1:1), duração total, número de centros, fase do estudo e período de follow-up. -->
 <p>Este é um ensaio clínico randomizado, controlado, de grupos paralelos.</p>
 <p><strong>Características do desenho:</strong></p>
 <ul>
@@ -398,7 +417,6 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="população-do-estudo" class="level3">
 <h3 class="anchored" data-anchor-id="população-do-estudo">População do Estudo</h3>
-<!-- Esta secção deve ter 200–300 palavras. Cada critério deve ser específico e verificável/mensurável. -->
 <section id="critérios-de-inclusão" class="level4">
 <h4 class="anchored" data-anchor-id="critérios-de-inclusão">Critérios de Inclusão</h4>
 <p>Serão elegíveis para participação neste estudo indivíduos que cumpram <strong>todos</strong> os seguintes critérios:</p>
@@ -439,7 +457,6 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="intervenções" class="level3">
 <h3 class="anchored" data-anchor-id="intervenções">Intervenções</h3>
-<!-- Esta secção deve ter 300–400 palavras no total (ambos os braços). Deve detalhar o que EXATAMENTE os participantes vão fazer/receber. -->
 <section id="grupo-de-intervenção" class="level4">
 <h4 class="anchored" data-anchor-id="grupo-de-intervenção">Grupo de Intervenção</h4>
 <p>Os participantes randomizados para o grupo de intervenção receberão, para além do cuidado habitual, acesso à aplicação móvel GlucoCheck durante 24 semanas.</p>
@@ -485,7 +502,6 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p><strong>Funcionalidades principais:</strong></p>
-<!-- Cada funcionalidade é descrita com: o que faz, tipo de interação do participante e frequência esperada de utilização. -->
 <ol type="1">
 <li><strong>Registo alimentar com feedback nutricional automatizado</strong>
 <ul>
@@ -555,7 +571,7 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li><strong>Gráficos de evolução de HbA1c estimada</strong>
 <ul>
-<li><em>O que faz:</em> Apresenta gráficos da tendência glicémica e estimativa da HbA1c com base na média glicémica (fórmula ADAG), permitindo ao participante visualizar o impacto das suas escolhas.</li>
+<li><em>O que faz:</em> Apresenta gráficos da tendência glicémica e estimativa da HbA1c com base na média glicémica (fórmula ADAG) <span class="citation" data-cites="nathan2008adag">(<a href="#ref-nathan2008adag" role="doc-biblioref">7</a>)</span>, permitindo ao participante visualizar o impacto das suas escolhas.</li>
 <li><em>Interação:</em> Consulta voluntária na secção “Progresso” da app.</li>
 <li><em>Frequência:</em> Actualização contínua, disponível a qualquer momento.</li>
 </ul></li>
@@ -619,59 +635,6 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-</section>
-<section id="figura-4-fluxo-de-utilização-da-aplicação-glucocheck" class="level4">
-<h4 class="anchored" data-anchor-id="figura-4-fluxo-de-utilização-da-aplicação-glucocheck">Figura 4: Fluxo de Utilização da Aplicação GlucoCheck</h4>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart TD
-    START(( )) --&gt; A["Download da app"]
-    A --&gt; B["Abertura da app"]
-    B --&gt; C{"Utilizador\nregistado?"}
-    C -- Não --&gt; D["Registo\n(dados pessoais e clínicos)"]
-    C -- Sim --&gt; E["Login"]
-    D --&gt; F["Introdução de dados úteis\n(idade, peso, HbA1c atual,\nmedicação, objetivos)"]
-    E --&gt; F
-    F --&gt; G["Ligação ao glucómetro\nvia Bluetooth"]
-    G --&gt; H["Visualização do\npainel principal"]
-    H --&gt; I["Seleção de funcionalidade"]
-    I --&gt; J["Medição glicémica"]
-    I --&gt; K["Registo alimentar"]
-    I --&gt; L["Conteúdos educativos\n(educação nutricional adaptativa)"]
-    I --&gt; M["Consulta de objetivos\nglicémicos semanais"]
-    J --&gt; J1["Sincronização automática\ncom glucómetro (Bluetooth)"]
-    J1 --&gt; N["Armazenamento de dados"]
-    K --&gt; N
-    N --&gt; O["Visualização do dashboard"]
-    N --&gt; P["Análise de padrões\nglicémicos"]
-    O --&gt; O1["Gráficos de evolução\ne HbA1c estimada"]
-    P --&gt; P1["Feedback nutricional\nautomático"]
-    P --&gt; P2["Alertas para padrões\nglicémicos problemáticos"]
-    P --&gt; P3["Mensagens motivacionais\nbaseadas em progresso"]
-    O1 --&gt; Q["Geração de feedback\npersonalizado"]
-    P1 --&gt; Q
-    P2 --&gt; Q
-    P3 --&gt; Q
-    Q --&gt; R["Continuação do uso diário"]
-    L --&gt; R
-    M --&gt; R
-    R --&gt; ENDNODE(( ))
-
-    style START fill:#000,stroke:#000,color:#000
-    style ENDNODE fill:#000,stroke:#fff,color:#000
-    style C fill:#fff3cd,stroke:#856404,color:#000
-    style N fill:#d4edda,stroke:#155724,color:#000
-    style Q fill:#cce5ff,stroke:#004085,color:#000
-    style R fill:#d1ecf1,stroke:#0c5460,color:#000
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
 <p><strong>Instalação e Onboarding:</strong></p>
 <p>A aplicação será instalada no <em>smartphone</em> do participante durante a visita de baseline (T0). Cada participante receberá uma sessão de formação presencial de aproximadamente 30 minutos, conduzida por um membro da equipa de investigação, que incluirá: criação de conta, emparelhamento do glucómetro Bluetooth fornecido pelo estudo, demonstração prática de todas as funcionalidades e realização de um registo alimentar de teste. Será entregue um guia resumido de utilização em formato impresso.</p>
 <p><strong>Suporte técnico:</strong></p>
@@ -713,7 +676,6 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="avaliações-e-outcomes">Avaliações e Outcomes</h2>
 <section id="outcome-primário" class="level3">
 <h3 class="anchored" data-anchor-id="outcome-primário">Outcome Primário</h3>
-<!-- O outcome primário deve ser único, mensurável e claramente definido. -->
 <p>Hemoglobina glicada (HbA1c)</p>
 <ul>
 <li><strong>Instrumento:</strong> Análise laboratorial por cromatografia líquida de alta eficiência (HPLC), método certificado pelo NGSP (<em>National Glycohemoglobin Standardization Program</em>).</li>
@@ -723,20 +685,18 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="outcomes-secundários" class="level3">
 <h3 class="anchored" data-anchor-id="outcomes-secundários">Outcomes Secundários</h3>
-<!-- Cada outcome secundário indica o instrumento de medição, unidade e momentos de avaliação. -->
 <ol type="1">
 <li><strong>Glicemia em jejum</strong> — Análise laboratorial (mg/dL); avaliação em T0, T1 e T2.</li>
 <li><strong>Peso corporal</strong> — Balança calibrada (kg), com o participante descalço e em roupa leve; avaliação em T0, T1 e T2.</li>
 <li><strong>Adesão ao registo alimentar</strong> — <em>Logs</em> da aplicação GlucoCheck: percentagem de dias com ≥2 refeições registadas; medição contínua ao longo das 24 semanas (apenas grupo de intervenção).</li>
 <li><strong>Frequência de auto-monitorização glicémica</strong> — Número de medições por semana; obtido pelos <em>logs</em> da app (grupo de intervenção) ou por auto-relato (grupo controlo); medição contínua.</li>
-<li><strong>Autoeficácia</strong> — <em>Diabetes Empowerment Scale — Short Form</em> (DES-SF), questionário validado de 8 itens, escala de Likert 1–5; avaliação em T0, T1 e T2.</li>
+<li><strong>Autoeficácia</strong> — <em>Diabetes Empowerment Scale — Short Form</em> (DES-SF) <span class="citation" data-cites="anderson2003dessf">(<a href="#ref-anderson2003dessf" role="doc-biblioref">8</a>)</span>, questionário validado de 8 itens, escala de Likert 1–5; avaliação em T0, T1 e T2.</li>
 <li><strong>Conhecimento sobre diabetes</strong> — <em>Diabetes Knowledge Questionnaire</em> (DKQ-24), 24 itens com resposta sim/não/não sei; avaliação em T0 e T2.</li>
 <li><strong>Satisfação com os cuidados</strong> — <em>Diabetes Treatment Satisfaction Questionnaire</em> (DTSQ), 8 itens com escala 0–6; avaliação em T0 e T2.</li>
 </ol>
 </section>
-<section id="cronograma-de-avaliações-spirit-figure" class="level3">
-<h3 class="anchored" data-anchor-id="cronograma-de-avaliações-spirit-figure">Cronograma de Avaliações (SPIRIT Figure)</h3>
-<!-- Tabela baseada nas recomendações SPIRIT (Standard Protocol Items: Recommendations for Interventional Trials). O × indica os momentos em que cada avaliação é realizada. -->
+<section id="cronograma-de-avaliações-spirit-figure-chan2013spirit" class="level3">
+<h3 class="anchored" data-anchor-id="cronograma-de-avaliações-spirit-figure-chan2013spirit">Cronograma de Avaliações (SPIRIT Figure) <span class="citation" data-cites="chan2013spirit">(<a href="#ref-chan2013spirit" role="doc-biblioref">9</a>)</span></h3>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -848,13 +808,11 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="análise-estatística">Análise Estatística</h2>
 <section id="dimensão-da-amostra" class="level3">
 <h3 class="anchored" data-anchor-id="dimensão-da-amostra">Dimensão da Amostra</h3>
-<!-- A dimensão da amostra não foi calculada por poder estatístico formal porque se trata de um estudo piloto. A justificação segue as recomendações da literatura para estudos piloto (mínimo 12 por braço). -->
-<p>Tratando-se de um estudo piloto (pré-teste), a dimensão da amostra (n = 30; 15 por braço) não foi calculada com base em poder estatístico formal, mas segue as recomendações da literatura para estudos piloto, que sugerem pelo menos 12 participantes por braço. O valor de 15 por braço permite acomodar uma taxa de <em>dropout</em> estimada de 20%, particularmente relevante neste estudo dada a duração de 6 meses e a faixa etária da população-alvo (40–75 anos), que pode apresentar literacia digital mais baixa e maior risco de abandono.</p>
+<p>Tratando-se de um estudo piloto (pré-teste), a dimensão da amostra (n = 30; 15 por braço) não foi calculada com base em poder estatístico formal, mas segue as recomendações da literatura para estudos piloto, que sugerem pelo menos 12 participantes por braço <span class="citation" data-cites="julious2005pilot12">(<a href="#ref-julious2005pilot12" role="doc-biblioref">10</a>)</span>. O valor de 15 por braço permite acomodar uma taxa de <em>dropout</em> estimada de 20%, particularmente relevante neste estudo dada a duração de 6 meses e a faixa etária da população-alvo (40–75 anos), que pode apresentar literacia digital mais baixa e maior risco de abandono.</p>
 <p>Os resultados deste estudo piloto serão utilizados para estimar o tamanho de efeito e a variabilidade da diferença em HbA1c entre grupos — parâmetros necessários para o cálculo formal da dimensão amostral de um futuro ensaio definitivo.</p>
 </section>
 <section id="análise-principal" class="level3">
 <h3 class="anchored" data-anchor-id="análise-principal">Análise Principal</h3>
-<!-- A análise principal segue o princípio ITT e utiliza modelos lineares mistos, adequados para medidas repetidas e dados em falta sob o pressuposto MAR. -->
 <p>A análise primária será conduzida segundo o princípio de <strong>intenção-de-tratar</strong> (ITT), incluindo todos os participantes randomizados independentemente do grau de adesão ao protocolo.</p>
 <p>A diferença entre grupos no outcome primário (variação da HbA1c) será analisada com um <strong>modelo linear misto</strong> (<em>linear mixed model</em>) para medidas repetidas, incluindo como efeitos fixos: grupo de alocação (intervenção vs.&nbsp;controlo), tempo (T0, T1, T2), interação grupo × tempo e valor de HbA1c no baseline. Será incluído um efeito aleatório por participante, com estrutura de covariância autorregressiva de primeira ordem — AR(1).</p>
 </section>
@@ -874,7 +832,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="software-estatístico" class="level3">
 <h3 class="anchored" data-anchor-id="software-estatístico">Software Estatístico</h3>
-<p>As análises serão realizadas em R (versão 4.3 ou superior), utilizando os pacotes <code>lme4</code>, <code>lmerTest</code> e <code>mice</code>. O nível de significância será fixado em α = 0,05 (bilateral). Os resultados serão reportados com intervalos de confiança a 95%.</p>
+<p>As análises serão realizadas em R (versão 4.3 ou superior), utilizando os pacotes <code>lme4</code> <span class="citation" data-cites="bates2015lme4">(<a href="#ref-bates2015lme4" role="doc-biblioref">11</a>)</span>, <code>lmerTest</code> e <code>mice</code>. O nível de significância será fixado em α = 0,05 (bilateral). Os resultados serão reportados com intervalos de confiança a 95%.</p>
 </section>
 </section>
 <section id="ética-e-disseminação" class="level2">
@@ -889,7 +847,6 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="proteção-de-dados" class="level3">
 <h3 class="anchored" data-anchor-id="proteção-de-dados">Proteção de Dados</h3>
-<!-- Conformidade com RGPD e legislação portuguesa -->
 <p>Os dados pessoais serão tratados em conformidade com o Regulamento Geral sobre a Proteção de Dados (RGPD — Regulamento UE 2016/679) e a legislação nacional aplicável (Lei n.º 58/2019). Os dados serão pseudonimizados mediante atribuição de código alfanumérico; a chave de correspondência será armazenada em ficheiro encriptado separado, acessível apenas ao investigador principal. Os dados gerados pela aplicação GlucoCheck serão armazenados em servidores seguros com encriptação ponta-a-ponta.</p>
 </section>
 <section id="segurança-e-monitorização-de-eventos-adversos" class="level3">
@@ -905,18 +862,58 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="disseminação-dos-resultados" class="level3">
 <h3 class="anchored" data-anchor-id="disseminação-dos-resultados">Disseminação dos Resultados</h3>
-<!-- Os resultados seguirão as diretrizes CONSORT -->
 <p>Os resultados serão disseminados através de:</p>
 <ol type="1">
-<li>Publicação em revista científica indexada com revisão por pares, seguindo as diretrizes CONSORT para ensaios clínicos randomizados e a extensão CONSORT-EHEALTH para intervenções digitais.</li>
+<li>Publicação em revista científica indexada com revisão por pares, seguindo as diretrizes CONSORT para ensaios clínicos randomizados e a extensão CONSORT-EHEALTH para intervenções digitais <span class="citation" data-cites="eysenbach2011consortehealth">(<a href="#ref-eysenbach2011consortehealth" role="doc-biblioref">12</a>)</span>.</li>
 <li>Apresentação em congressos nacionais e internacionais nas áreas de diabetologia e saúde digital.</li>
 <li>Comunicação resumida dos principais resultados a todos os participantes do estudo.</li>
 <li>Registo do ensaio numa plataforma internacional de registo de ensaios clínicos (ClinicalTrials.gov) antes do início do recrutamento.</li>
 </ol>
-<p><strong>Versão:</strong> 1.1 <strong>Data desta versão:</strong> 2026-04-30 <strong>Autores desta versão:</strong> Francisca Teixeira, Luísa Moreira, Mariana Dias, Rosarinho Barros</p>
-
-
 </section>
+</section>
+<section id="referências" class="level2">
+<h2 class="anchored" data-anchor-id="referências">Referências</h2>
+<div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-genitsaridi2026idf11" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Irini Genitsaridi, Paraskevi Salpea, Agus Salim, Seyedeh Forough Sajjadi, Dunya Tomic, Steven James, Sathish Thirunavukkarasu, Ayuba Issaka, Lei Chen, Abdul Basit, Andrea O. Y. Luk, Ronald C. W. Ma, Jean-Claude Mbanya, Ambady Ramachandran, Sarah H. Wild, Bruce B. Duncan, Edward J. Boyko, Dianna J. Magliano. 11th edition of the <span>IDF</span> <span>Diabetes</span> <span>Atlas</span>: global, regional, and national diabetes prevalence estimates for 2024 and projections for 2050. The Lancet Diabetes &amp; Endocrinology. 2026;14(2):149–56. doi:<a href="https://doi.org/10.1016/S2213-8587(25)00299-2">10.1016/S2213-8587(25)00299-2</a> PubMed PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/41412135">41412135</a>.</div>
+</div>
+<div id="ref-ond2024relatorio" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Observatório Nacional da Diabetes. Diabetes: Factos e N<span>ú</span>meros – <span>Relat<span>ó</span>rio</span> <span>Anual</span> do <span>Observat<span>ó</span>rio</span> <span>Nacional</span> da <span>Diabetes</span> [Internet]. Lisboa: Sociedade Portuguesa de Diabetologia; 2024. Disponível em: <a href="https://www.spd.pt/">https://www.spd.pt/</a></div>
+</div>
+<div id="ref-davies2022adaeasd" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Melanie J. Davies, Vanita R. Aroda, Billy S. Collins, Robert A. Gabbay, Jennifer Green, Nisa M. Maruthur, Sylvia E. Rosas, Stefano Del Prato, Chantal Mathieu, Geltrude Mingrone, Peter Rossing, Tsvetalina Tankova, Apostolos Tsapas, John B. Buse. Management of <span>Hyperglycemia</span> in <span>Type</span> 2 <span>Diabetes</span>, 2022. <span>A</span> <span>Consensus</span> <span>Report</span> by the <span>American</span> <span>Diabetes</span> <span>Association</span> (<span>ADA</span>) and the <span>European</span> <span>Association</span> for the <span>Study</span> of <span>Diabetes</span> (<span>EASD</span>). Diabetes Care. 2022;45(11):2753–86. doi:<a href="https://doi.org/10.2337/dci22-0034">10.2337/dci22-0034</a> PubMed PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/36148880">36148880</a>.</div>
+</div>
+<div id="ref-kebede2023digitalhealth" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Mihiretu M. Kebede, Claudia Schuett, Ansgar Gerhardus. Effectiveness, reach, uptake, and feasibility of digital health interventions for adults with type 2 diabetes: a systematic review and meta-analysis of randomised controlled trials. The Lancet Digital Health. 2023;5(3):e125–43. doi:<a href="https://doi.org/10.1016/S2589-7500(22)00233-3">10.1016/S2589-7500(22)00233-3</a></div>
+</div>
+<div id="ref-eberle2021mhealthdm" class="csl-entry" role="listitem">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline">Claudia Eberle, Maxine Löhnert, Stefanie Stichling. Effectiveness of Disease-Specific <span>mHealth</span> Apps in Patients With <span>Diabetes</span> <span>Mellitus</span>: Scoping Review. JMIR mHealth and uHealth. 2021;9(2):e23477. doi:<a href="https://doi.org/10.2196/23477">10.2196/23477</a> PubMed PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33587045">33587045</a>.</div>
+</div>
+<div id="ref-versluis2025dsmemhealth" class="csl-entry" role="listitem">
+<div class="csl-left-margin">6. </div><div class="csl-right-inline">Anke Versluis, Anne Meike Boels, Maaike C. G. Huijden, Manon D. Mijnsbergen, Guy E. H. M. Rutten, Rimke C. Vos. Diabetes self-management education and support delivered by mobile health (<span>mHealth</span>) interventions for adults with type 2 diabetes—<span>A</span> systematic review and meta-analysis. Diabetic Medicine. 2025;42(5):e70002. doi:<a href="https://doi.org/10.1111/dme.70002">10.1111/dme.70002</a> PubMed PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/40007461">40007461</a>.</div>
+</div>
+<div id="ref-nathan2008adag" class="csl-entry" role="listitem">
+<div class="csl-left-margin">7. </div><div class="csl-right-inline">David M. Nathan, Judith Kuenen, Rikke Borg, Hui Zheng, David Schoenfeld, Robert J. Heine. Translating the <span>A1C</span> assay into estimated average glucose values. Diabetes Care. 2008;31(8):1473–8. doi:<a href="https://doi.org/10.2337/dc08-0545">10.2337/dc08-0545</a> PubMed PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/18540046">18540046</a>.</div>
+</div>
+<div id="ref-anderson2003dessf" class="csl-entry" role="listitem">
+<div class="csl-left-margin">8. </div><div class="csl-right-inline">Robert M. Anderson, James T. Fitzgerald, Larry D. Gruppen, Martha M. Funnell, Michael S. Oh. The <span>Diabetes</span> <span>Empowerment</span> <span>Scale-Short</span> <span>Form</span> (<span>DES-SF</span>). Diabetes Care. 2003;26(5):1641–2. doi:<a href="https://doi.org/10.2337/diacare.26.5.1641-a">10.2337/diacare.26.5.1641-a</a> PubMed PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/12716841">12716841</a>.</div>
+</div>
+<div id="ref-chan2013spirit" class="csl-entry" role="listitem">
+<div class="csl-left-margin">9. </div><div class="csl-right-inline">An-Wen Chan, Jennifer M. Tetzlaff, Douglas G. Altman, Andreas Laupacis, Peter C. Gøtzsche, Karmela Krleža-Jerić, Asbjørn Hrobjartsson, Howard Mann, Kay Dickersin, Jesse A. Berlin, Caroline J. Doré, Wendy R. Parulekar, William S. M. Summerskill, Trish Groves, Kenneth F. Schulz, Harold C. Sox, Frank W. Rockhold, Drummond Rennie, David Moher. <span>SPIRIT</span> 2013 Statement: Defining Standard Protocol Items for Clinical Trials. Annals of Internal Medicine. 2013;158(3):200–7. doi:<a href="https://doi.org/10.7326/0003-4819-158-3-201302050-00583">10.7326/0003-4819-158-3-201302050-00583</a> PubMed PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23295957">23295957</a>.</div>
+</div>
+<div id="ref-julious2005pilot12" class="csl-entry" role="listitem">
+<div class="csl-left-margin">10. </div><div class="csl-right-inline">Steven A. Julious. Sample size of 12 per group rule of thumb for a pilot study. Pharmaceutical Statistics. 2005;4(4):287–91. doi:<a href="https://doi.org/10.1002/pst.185">10.1002/pst.185</a></div>
+</div>
+<div id="ref-bates2015lme4" class="csl-entry" role="listitem">
+<div class="csl-left-margin">11. </div><div class="csl-right-inline">Douglas Bates, Martin Mächler, Ben Bolker, Steve Walker. Fitting Linear Mixed-Effects Models Using <span>lme4</span>. Journal of Statistical Software. 2015;67(1):1–48. doi:<a href="https://doi.org/10.18637/jss.v067.i01">10.18637/jss.v067.i01</a></div>
+</div>
+<div id="ref-eysenbach2011consortehealth" class="csl-entry" role="listitem">
+<div class="csl-left-margin">12. </div><div class="csl-right-inline">Gunther Eysenbach, CONSORT-EHEALTH Group. <span>CONSORT-EHEALTH</span>: Improving and Standardizing Evaluation Reports of Web-based and Mobile Health Interventions. Journal of Medical Internet Research. 2011;13(4):e126. doi:<a href="https://doi.org/10.2196/jmir.1923">10.2196/jmir.1923</a> PubMed PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22209829">22209829</a>.</div>
+</div>
+</div>
+<p><strong>Versão:</strong> 1.2 <strong>Data desta versão:</strong> 2026-05-13 <strong>Autores desta versão:</strong> Francisca Teixeira, Luísa Moreira, Mariana Dias, Rosarinho Barros</p>
+
+
 </section>
 </section>
 
