@@ -39,6 +39,7 @@ GlucoCheck: App móvel para controlo da DM2
 
 **Data de conclusão prevista:** Junho 2027
 
+
 ## Introdução
 
 ### Racional

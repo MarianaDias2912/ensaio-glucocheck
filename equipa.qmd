@@ -75,7 +75,7 @@ subtitle: "Grupo 6 · Turma B"
 | **TP7 — Configuração REDCap** | Mariana |
 | **TP7 — Testes ao eCRF** | Francisca |
 | **TP7 — Relatório de reflexão crítica** | Luísa |
-| **TP8 — Ficha de persona** | Mariana |
+| **TP8 — Ficha de persona** | Luísa |
 | **TP8 — Fluxograma de navegação** | Luísa |
 | **TP8 — Protótipo Figma** | Luísa, Rosarinho |
 | **TP8 — Slides da *Investigator's Meeting*** | Francisca, Mariana |
@@ -83,7 +83,7 @@ subtitle: "Grupo 6 · Turma B"
 | **TP9/TP10 — Análise estatística em R** | Francisca |
 | **TP9/TP10 — *Workflow* GitHub Actions** | Mariana, Francisca |
 | **TP9/TP10 — Bibliografia e citações** | Mariana |
-| **TP9/TP10 — Declaração de IA** | Luísa |
+| **TP9/TP10 — Declaração de IA** | Mariana |
 | **TP11 — Apresentação final** | Toda a equipa |
 
 
