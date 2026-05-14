@@ -58,7 +58,7 @@ subtitle: "Grupo 6 · Turma B"
 
 **Principais contribuições:**
 
-- Diagramas do protocolo (E1)
+- Revisão dos diagramas do protocolo (E1)
 - Dicionário de dados do projecto REDCap (E7)
 - Protótipo Figma da aplicação (TP8)
 :::
@@ -70,7 +70,7 @@ subtitle: "Grupo 6 · Turma B"
 | Entregável | Responsável |
 |---|---|
 | **E1 — Protocolo SPIRIT** | Mariana, Francisca |
-| **E1 — Diagramas** | Rosarinho |
+| **E1 — Diagramas** | Todas |
 | **TP7 — Dicionário de dados** | Rosarinho |
 | **TP7 — Configuração REDCap** | Mariana |
 | **TP7 — Testes ao eCRF** | Francisca |
