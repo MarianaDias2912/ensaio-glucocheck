@@ -1,5 +1,110 @@
 [
   {
+    "objectID": "equipa.html",
+    "href": "equipa.html",
+    "title": "Equipa",
+    "section": "",
+    "text": "Contacto. up202509787@up.pt\nPrincipais contribuições:\n\nRedação do protocolo SPIRIT (E1) e conversão entre formatos\nTestes ao projeto REDCap (E7)\nSlides da Investigator’s Meeting (TP8)\nAnálise estatística em R (Tabela 1 e outcome primário)\nEstrutura e configuração do site Quarto\nWorkflow GitHub Actions para publicação automática\n\n\n\n\nContacto. up202508306@up.pt\nPrincipais contribuições:\n\nRelatório de reflexão crítica do eCRF (E7)\nFluxograma de navegação da aplicação GlucoCheck (TP8)\nProtótipo Figma da aplicação (TP8)\nDeclaração detalhada de uso de Inteligência Artificial\n\n\n\n\nContacto. up202506985@up.pt\nPrincipais contribuições:\n\nRedação do protocolo SPIRIT (E1) e conversão entre formatos\nConfiguração do projeto REDCap\nFicha de persona da aplicação GlucoCheck (TP8)\nSlides da Investigator’s Meeting (TP8)\nEstrutura e configuração do site Quarto\nWorkflow GitHub Actions para publicação automática\nIntegração da bibliografia (.bib) e citações Vancouver\n\n\n\n\nContacto. up202506863@up.pt\nPrincipais contribuições:\n\nRevisão dos diagramas do protocolo (E1)\nDicionário de dados do projecto REDCap (E7)\nProtótipo Figma da aplicação (TP8)"
+  },
+  {
+    "objectID": "equipa.html#membros",
+    "href": "equipa.html#membros",
+    "title": "Equipa",
+    "section": "",
+    "text": "Contacto. up202509787@up.pt\nPrincipais contribuições:\n\nRedação do protocolo SPIRIT (E1) e conversão entre formatos\nTestes ao projeto REDCap (E7)\nSlides da Investigator’s Meeting (TP8)\nAnálise estatística em R (Tabela 1 e outcome primário)\nEstrutura e configuração do site Quarto\nWorkflow GitHub Actions para publicação automática\n\n\n\n\nContacto. up202508306@up.pt\nPrincipais contribuições:\n\nRelatório de reflexão crítica do eCRF (E7)\nFluxograma de navegação da aplicação GlucoCheck (TP8)\nProtótipo Figma da aplicação (TP8)\nDeclaração detalhada de uso de Inteligência Artificial\n\n\n\n\nContacto. up202506985@up.pt\nPrincipais contribuições:\n\nRedação do protocolo SPIRIT (E1) e conversão entre formatos\nConfiguração do projeto REDCap\nFicha de persona da aplicação GlucoCheck (TP8)\nSlides da Investigator’s Meeting (TP8)\nEstrutura e configuração do site Quarto\nWorkflow GitHub Actions para publicação automática\nIntegração da bibliografia (.bib) e citações Vancouver\n\n\n\n\nContacto. up202506863@up.pt\nPrincipais contribuições:\n\nRevisão dos diagramas do protocolo (E1)\nDicionário de dados do projecto REDCap (E7)\nProtótipo Figma da aplicação (TP8)"
+  },
+  {
+    "objectID": "equipa.html#distribuição-detalhada-de-responsabilidades",
+    "href": "equipa.html#distribuição-detalhada-de-responsabilidades",
+    "title": "Equipa",
+    "section": "Distribuição detalhada de responsabilidades",
+    "text": "Distribuição detalhada de responsabilidades\n\n\n\nEntregável\nResponsável\n\n\n\n\nE1 — Protocolo SPIRIT\nMariana, Francisca\n\n\nE1 — Diagramas\nTodas\n\n\nTP7 — Dicionário de dados\nRosarinho\n\n\nTP7 — Configuração REDCap\nMariana\n\n\nTP7 — Testes ao eCRF\nFrancisca\n\n\nTP7 — Relatório de reflexão crítica\nLuísa\n\n\nTP8 — Ficha de persona\nLuísa\n\n\nTP8 — Fluxograma de navegação\nLuísa\n\n\nTP8 — Protótipo Figma\nLuísa, Rosarinho\n\n\nTP8 — Slides da Investigator’s Meeting\nFrancisca, Mariana\n\n\nTP9/TP10 — Estrutura do site Quarto\nMariana, Francisca\n\n\nTP9/TP10 — Análise estatística em R\nFrancisca\n\n\nTP9/TP10 — Workflow GitHub Actions\nMariana, Francisca\n\n\nTP9/TP10 — Bibliografia e citações\nMariana\n\n\nTP9/TP10 — Declaração de IA\nMariana\n\n\nTP11 — Apresentação final\nToda a equipa"
+  },
+  {
+    "objectID": "equipa.html#afiliação",
+    "href": "equipa.html#afiliação",
+    "title": "Equipa",
+    "section": "Afiliação",
+    "text": "Afiliação\nFaculdade de Medicina da Universidade do Porto\nLicenciatura em Saúde Digital e Inovação Biomédica\nUnidade Curricular de Ferramentas de Produtividade · 2025/2026"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ensaio GlucoCheck",
+    "section": "",
+    "text": "O GlucoCheck é um ensaio clínico aleatorizado, controlado e de grupos paralelos, conduzido em cuidados de saúde primários, que avalia a eficácia de uma aplicação móvel de monitorização glicémica e registo alimentar com feedback nutricional automatizado, em comparação com a consulta habitual isolada, em adultos com diabetes mellitus tipo 2 e controlo glicémico subótimo. O outcome primário é a redução da hemoglobina glicada (HbA1c) às 24 semanas.\nEsta versão do ensaio corresponde ao estudo piloto (pré-teste), com 30 participantes distribuídos em razão 1:1 (15 intervenção + 15 controlo) numa Unidade de Saúde Familiar da região norte de Portugal."
+  },
+  {
+    "objectID": "index.html#resumo",
+    "href": "index.html#resumo",
+    "title": "Ensaio GlucoCheck",
+    "section": "",
+    "text": "O GlucoCheck é um ensaio clínico aleatorizado, controlado e de grupos paralelos, conduzido em cuidados de saúde primários, que avalia a eficácia de uma aplicação móvel de monitorização glicémica e registo alimentar com feedback nutricional automatizado, em comparação com a consulta habitual isolada, em adultos com diabetes mellitus tipo 2 e controlo glicémico subótimo. O outcome primário é a redução da hemoglobina glicada (HbA1c) às 24 semanas.\nEsta versão do ensaio corresponde ao estudo piloto (pré-teste), com 30 participantes distribuídos em razão 1:1 (15 intervenção + 15 controlo) numa Unidade de Saúde Familiar da região norte de Portugal."
+  },
+  {
+    "objectID": "index.html#cenário",
+    "href": "index.html#cenário",
+    "title": "Ensaio GlucoCheck",
+    "section": "Cenário",
+    "text": "Cenário\nAdultos entre 40 e 75 anos, com diagnóstico de diabetes mellitus tipo 2 (DM2) há pelo menos 6 meses, HbA1c entre 7,0% e 9,5% (controlo subótimo), sem insulinoterapia e em seguimento ativo numa USF, são aleatorizados para uma de duas condições:\n\nIntervenção — acesso, durante 24 semanas, à aplicação GlucoCheck, que combina registo alimentar com feedback nutricional, integração com glucómetro via Bluetooth, objetivos glicémicos semanais personalizados, educação nutricional adaptativa, alertas para padrões problemáticos e gráficos de evolução da HbA1c estimada. Os participantes mantêm o cuidado habitual em paralelo.\nControlo — apenas a consulta habitual em cuidados primários: consultas trimestrais, aconselhamento nutricional standard, auto-monitorização conforme prescrito e material educativo da USF.\n\nA avaliação intermédia ocorre às 12 semanas (T1) e a avaliação final às 24 semanas (T2)."
+  },
+  {
+    "objectID": "index.html#objetivos",
+    "href": "index.html#objetivos",
+    "title": "Ensaio GlucoCheck",
+    "section": "Objetivos",
+    "text": "Objetivos\nObjetivo primário: Avaliar a eficácia da aplicação GlucoCheck, em comparação com a consulta habitual isolada, na redução da HbA1c aos 6 meses. A diferença mínima clinicamente relevante considerada é de ≥ 0,4 pontos percentuais.\nObjetivos secundários: Avaliar o efeito da intervenção em:\n\nGlicemia em jejum\nPeso corporal\nAdesão ao registo alimentar e frequência de auto-monitorização\nAutoeficácia (escala DES-SF)\nConhecimento sobre diabetes (DKQ-24)\nSatisfação com os cuidados (DTSQ)"
+  },
+  {
+    "objectID": "index.html#estrutura-do-site",
+    "href": "index.html#estrutura-do-site",
+    "title": "Ensaio GlucoCheck",
+    "section": "Estrutura do site",
+    "text": "Estrutura do site\n\nProtocolo — versão revista do protocolo SPIRIT (E1).\nMateriais — CRF, formulário REDCap e protótipos da E2.\nResultados — características basais e outcome primário do piloto.\nEquipa — membros, papéis e contactos."
+  },
+  {
+    "objectID": "resultados.html",
+    "href": "resultados.html",
+    "title": "Resultados preliminares",
+    "section": "",
+    "text": "A tabela apresenta as características basais dos participantes, estratificadas por grupo de aleatorização, e permite verificar o balanceamento entre grupos — esperado num ensaio com aleatorização 1:1. Variáveis contínuas em mediana (Q1, Q3); categóricas em n (%).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nOverall\nN = 301\nControlo\nN = 151\nIntervenção\nN = 151\n\n\n\n\nIdade (anos)\n57.0 (45.5, 67.2)\n59.2 (48.7, 69.4)\n56.5 (43.7, 67.2)\n\n\nSexo\n\n\n\n\n\n\n\n\n    Feminino\n14 (47%)\n8 (53%)\n6 (40%)\n\n\n    Masculino\n16 (53%)\n7 (47%)\n9 (60%)\n\n\nHbA1c basal (%)\n8.3 (7.9, 8.6)\n8.3 (7.9, 8.7)\n8.2 (7.8, 8.6)\n\n\nGlicemia em jejum basal (mg/dL)\n160.1 (141.8, 183.4)\n162.7 (143.7, 178.6)\n157.5 (141.2, 185.9)\n\n\nPeso basal (kg)\n88.0 (80.8, 96.1)\n90.5 (85.1, 99.5)\n86.8 (77.6, 96.1)\n\n\nDES-SF basal\n7.2 (6.2, 8.3)\n6.8 (5.8, 8.3)\n7.7 (6.9, 8.4)\n\n\n\n1 Median (Q1, Q3); n (%)"
+  },
+  {
+    "objectID": "resultados.html#características-basais",
+    "href": "resultados.html#características-basais",
+    "title": "Resultados preliminares",
+    "section": "",
+    "text": "A tabela apresenta as características basais dos participantes, estratificadas por grupo de aleatorização, e permite verificar o balanceamento entre grupos — esperado num ensaio com aleatorização 1:1. Variáveis contínuas em mediana (Q1, Q3); categóricas em n (%).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nOverall\nN = 301\nControlo\nN = 151\nIntervenção\nN = 151\n\n\n\n\nIdade (anos)\n57.0 (45.5, 67.2)\n59.2 (48.7, 69.4)\n56.5 (43.7, 67.2)\n\n\nSexo\n\n\n\n\n\n\n\n\n    Feminino\n14 (47%)\n8 (53%)\n6 (40%)\n\n\n    Masculino\n16 (53%)\n7 (47%)\n9 (60%)\n\n\nHbA1c basal (%)\n8.3 (7.9, 8.6)\n8.3 (7.9, 8.7)\n8.2 (7.8, 8.6)\n\n\nGlicemia em jejum basal (mg/dL)\n160.1 (141.8, 183.4)\n162.7 (143.7, 178.6)\n157.5 (141.2, 185.9)\n\n\nPeso basal (kg)\n88.0 (80.8, 96.1)\n90.5 (85.1, 99.5)\n86.8 (77.6, 96.1)\n\n\nDES-SF basal\n7.2 (6.2, 8.3)\n6.8 (5.8, 8.3)\n7.7 (6.9, 8.4)\n\n\n\n1 Median (Q1, Q3); n (%)"
+  },
+  {
+    "objectID": "resultados.html#outcome-primário-hba1c-aos-6-meses",
+    "href": "resultados.html#outcome-primário-hba1c-aos-6-meses",
+    "title": "Resultados preliminares",
+    "section": "Outcome primário — HbA1c aos 6 meses",
+    "text": "Outcome primário — HbA1c aos 6 meses\nA figura mostra a distribuição da hemoglobina glicada (HbA1c) aos 6 meses por grupo de aleatorização. Três participantes do grupo de intervenção não tinham follow-up disponível e foram excluídos da visualização."
+  },
+  {
+    "objectID": "materiais.html",
+    "href": "materiais.html",
+    "title": "Materiais",
+    "section": "",
+    "text": "Esta página reúne os materiais desenvolvidos no âmbito do ensaio GlucoCheck: o Case Report Form (CRF) e a sua implementação eletrónica em REDCap (E7), e os materiais de apoio à Investigator’s Meeting — persona, fluxograma de navegação e protótipo da aplicação móvel — produzidos no contexto da TP8."
+  },
+  {
+    "objectID": "materiais.html#crf-e-formulário-redcap",
+    "href": "materiais.html#crf-e-formulário-redcap",
+    "title": "Materiais",
+    "section": "CRF e formulário REDCap",
+    "text": "CRF e formulário REDCap\nO eCRF do estudo GlucoCheck foi desenvolvido na plataforma REDCap institucional, com uma estrutura de recolha de dados longitudinal, organizada em dois braços (intervenção e controlo) e três momentos de avaliação (Baseline V0, 3 meses V1, 6 meses V2), em conformidade com o protocolo.\n\nEstrutura modular dos tempos de avaliação\nO instrumento está organizado em três módulos correspondentes às avaliações do cronograma:\n\nInclusão e Baseline (V0) — dados sociodemográficos, critérios de elegibilidade, HbA1c, glicemia em jejum, peso, DES-SF, DKQ-10.\nAvaliação intermédia (V1, 3 meses) — HbA1c, glicemia em jejum, peso, adesão ao registo alimentar, DES-SF.\nAvaliação final (V2, 6 meses) — HbA1c, glicemia em jejum, peso, DES-SF, DKQ-10, satisfação.\n\n\n\nArquitetura do projeto REDCap\n\nArms. Dois braços: Arm 1 — grupo de intervenção (utilizadores da aplicação GlucoCheck); Arm 2 — grupo de controlo (cuidados habituais).\nEvents. Três events por braço: Baseline (V0), Visita aos 3 meses (V1) e Visita aos 6 meses (V2).\nInstrumentos. Dez instrumentos de recolha de dados: Screening de Elegibilidade, Consentimento Informado, Randomização, Caracterização Basal, História Clínica, Avaliação Clínica, Escalas Psicométricas (DES-SF e DKQ-10), Satisfação e Utilização, Ajuste de Medicação, Evento Adverso (configurado como repeating instrument).\n\n\n\n\nVisão geral do projeto REDCap, com a estrutura longitudinal de arms, events e instrumentos.\n\n\n\n\nInstrumento exemplo\nA figura abaixo mostra um dos instrumentos do eCRF, ilustrando a estrutura de campos, labels e choices utilizados.\n\n\n\nExemplo de um dos instrumentos de recolha de dados do eCRF.\n\n\n\n\nLógica condicional e campos calculados\nFoi implementada branching logic em vários pontos do eCRF para garantir a relevância e a integridade dos dados recolhidos:\n\nA pergunta sobre capacidade de utilização de smartphone só aparece quando a resposta à posse de smartphone é afirmativa.\nO campo [elegivel] é calculado automaticamente a partir dos seis critérios definidos no protocolo (DM2 confirmada, HbA1c entre 7,0 e 9,5%, seguimento em CSP, ausência de insulinoterapia, idade entre 40 e 75 anos).\nOs campos do Consentimento Informado só aparecem se [elegivel] = 1, bloqueando o acesso aos instrumentos seguintes em participantes inelegíveis.\nOs campos clínicos das visitas de follow-up só aparecem quando a visita foi marcada como realizada.\nO instrumento de Utilização da App é restringido ao Arm 1 por designação de instrumentos a events.\nOs campos detalhados do instrumento de Evento Adverso só aparecem quando o campo gate [ea_ocorreu] indica que ocorreu um evento.\n\nForam igualmente implementados campos calculados para a elegibilidade (binário 0/1), idade (em anos completos a partir das datas de nascimento e admissão), score médio da DES-SF, pontuação do DKQ-10 e IMC no Baseline.\n\n\n\nExemplo de configuração distintiva no eCRF: lógica condicional, regras de Data Quality ou campos calculados.\n\n\n\n\nRegras de Data Quality\nO projeto inclui as nove regras pré-definidas do REDCap (A–I) — que cobrem valores em falta, erros de validação, outliers, incoerências de branching logic, campos ocultos com dados guardados e valores inválidos em campos de escolha múltipla — e duas regras custom desenvolvidas pelo grupo:\n\nConsentimento em inelegível — sinaliza participantes inelegíveis com consentimento assinado, servindo como segunda linha de defesa face à branching logic.\nData V1 anterior ao Baseline — regra cross-event cross-arm que deteta erros cronológicos na sequência de visitas, em qualquer um dos arms.\n\n\n\nDecisões de configuração\nVários módulos opcionais do REDCap foram avaliados e deliberadamente não ativados:\n\nScheduling module — não ativado; a janela de V1 é verificada por regra de Data Quality custom.\nRandomization module — não ativado; em estudos piloto de 30 participantes a aleatorização é gerida fora do REDCap (lista externa).\nSurveys por email — não ativado; os instrumentos auto-reportados (DES-SF, DKQ-10, satisfação) são preenchidos em formato interviewer-administered, alinhado com a literacia digital potencialmente baixa da população-alvo e com o princípio de minimização de dados pessoais.\n\n\n\nReflexão crítica\nO desenvolvimento do eCRF colocou em evidência decisões de desenho com trade-offs relevantes que importa documentar:\n\nCálculo do IMC nas visitas de follow-up. O campo [bmi] permanece vazio em V1 e V2 porque a variável altura foi registada apenas em V0 e o REDCap procura cada variável no event corrente. A alternativa — duplicar altura em todos os events — foi rejeitada para evitar redundância e risco de inconsistência. A limitação está documentada no próprio campo, com indicação de que o IMC pode ser recalculado em fase de análise estatística.\nValidações de plausibilidade vs. critérios de elegibilidade. Os limites de validação no dicionário (HbA1c 3–20%) são mais abrangentes do que o critério de inclusão (7,0–9,5%), permitindo registar valores reais para auditoria. A verificação do critério é delegada ao campo calculado [elegivel], que bloqueia por branching logic o acesso aos instrumentos subsequentes.\nAprendizagens de processo. A primeira tentativa de upload do dicionário falhou por o ficheiro ter sido guardado com separador ; em vez de , (definição regional portuguesa do Excel), gerando dezenas de erros aparentes. Resolveu-se com re-exportação em formato CSV UTF-8 delimitado por vírgulas e validação em editor de texto antes do novo upload. Uma segunda iteração foi necessária por omissão do passo Commit Changes na pré-visualização do import.\n\n\n\nDocumentos para download\n\n\n\nDocumento\nFormato\nDownload\n\n\n\n\nDicionário de dados completo\nCSV\nE7_Grupo6_DataDictionaryAvSumativa.csv\n\n\neCRF (instrumentos em branco)\nPDF\nE7_Grupo6_eCRFAvSumativa.pdf\n\n\nRelatório completo da E7\nPDF\nE7_Grupo6_Relatorio.pdf"
+  },
+  {
+    "objectID": "materiais.html#material-de-apoio-à-investigators-meeting-tp8",
+    "href": "materiais.html#material-de-apoio-à-investigators-meeting-tp8",
+    "title": "Materiais",
+    "section": "Material de apoio à Investigator’s Meeting (TP8)",
+    "text": "Material de apoio à Investigator’s Meeting (TP8)\nOs materiais seguintes foram desenvolvidos no âmbito da TP8 — Suporte para Apresentações, Comunicações UX e Prototipagem — em apoio à simulação de uma Investigator’s Meeting dirigida a investigadores e equipa clínica, com duração de 10 a 15 minutos.\n\nFicha de persona\nA ficha de persona representa o utilizador-tipo da aplicação GlucoCheck — adultos entre 40 e 75 anos com Diabetes Mellitus Tipo 2 e controlo glicémico subótimo, seguidos em cuidados de saúde primários. Constitui a referência central no desenho da experiência de utilização da aplicação e é citada ao longo de toda a apresentação como fio condutor narrativo.\n\n\n\nFicha de persona do utilizador-tipo da aplicação GlucoCheck.\n\n\n\n\nFluxograma de navegação\nO fluxograma seguinte representa a estrutura de navegação da aplicação GlucoCheck, identificando os ecrãs principais e as ligações entre eles. Foi a referência usada no desenvolvimento dos wireframes e mockups em Figma, garantindo coerência entre o desenho da experiência e o protótipo final.\n\n\n\nFluxograma de navegação dos ecrãs da aplicação GlucoCheck.\n\n\n\n\nProtótipo interativo\nO protótipo da aplicação foi desenvolvido em Figma e inclui login funcional e quatro acções completas para além do login: registar uma nova medição, registar uma refeição, consultar o histórico de medições e consultar o perfil do utilizador.\nAceder ao protótipo Figma\n\n\nApresentação\nA apresentação foi desenhada para uma Investigator’s Meeting de 10 a 15 minutos dirigida a investigadores e equipa clínica, seguindo o arco narrativo Porquê? — Como? — E então? recomendado nos materiais da unidade curricular.\nDescarregar a apresentação (PDF)\n\n\nCumprimento dos requisitos da TP8\nA tabela seguinte mapeia os requisitos definidos no enunciado da TP8 para a respetiva evidência presente nesta página.\n\n\n\n\n\n\n\n\nRequisito do enunciado\nCumprimento\nEvidência\n\n\n\n\nMaterial de suporte à Investigator’s Meeting\n✓\nEsta secção\n\n\nApresentação do estudo\n✓\nSlides (PDF acima)\n\n\nDemonstração do protótipo\n✓\nLink Figma acima\n\n\nDirigida a investigadores e equipa clínica\n✓\nAudiência identificada\n\n\nDuração de 10 a 15 minutos\n✓\nDeck dimensionado para ≈ 14 min\n\n\nLink para o protótipo (obrigatório)\n✓\nLink Figma acima\n\n\nAcção completa para além do login (obrigatório)\n✓\nRegistar medição · Registar refeição · Histórico · Perfil"
+  },
+  {
     "objectID": "protocolo.html",
     "href": "protocolo.html",
     "title": "Protocolo",
@@ -56,41 +161,6 @@
     "text": "1. Genitsaridi I, Salpea P, Salim A, Sajjadi SF, Tomic D, James S, et al. 11th edition of the IDF Diabetes Atlas: global, regional, and national diabetes prevalence estimates for 2024 and projections for 2050. The Lancet Diabetes & Endocrinology. 2026;14(2):149–56. doi:10.1016/S2213-8587(25)00299-2 PubMed PMID: 41412135.\n\n\n2. Observatório Nacional da Diabetes. Diabetes: Factos e Números – Relatório Anual do Observatório Nacional da Diabetes [Internet]. Lisboa: Sociedade Portuguesa de Diabetologia; 2024. Disponível em: https://www.spd.pt/\n\n\n3. Davies MJ, Aroda VR, Collins BS, Gabbay RA, Green J, Maruthur NM, et al. Management of Hyperglycemia in Type 2 Diabetes, 2022. A Consensus Report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD). Diabetes Care. 2022;45(11):2753–86. doi:10.2337/dci22-0034 PubMed PMID: 36148880.\n\n\n4. Kebede MM, Schuett C, Gerhardus A. Effectiveness, reach, uptake, and feasibility of digital health interventions for adults with type 2 diabetes: a systematic review and meta-analysis of randomised controlled trials. The Lancet Digital Health. 2023;5(3):e125–43. doi:10.1016/S2589-7500(22)00233-3\n\n\n5. Eberle C, Löhnert M, Stichling S. Effectiveness of Disease-Specific mHealth Apps in Patients With Diabetes Mellitus: Scoping Review. JMIR mHealth and uHealth. 2021;9(2):e23477. doi:10.2196/23477 PubMed PMID: 33587045.\n\n\n6. Versluis A, Boels AM, Huijden MCG, Mijnsbergen MD, Rutten GEHM, Vos RC. Diabetes self-management education and support delivered by mobile health (mHealth) interventions for adults with type 2 diabetes—A systematic review and meta-analysis. Diabetic Medicine. 2025;42(5):e70002. doi:10.1111/dme.70002 PubMed PMID: 40007461.\n\n\n7. Nathan DM, Kuenen J, Borg R, Zheng H, Schoenfeld D, Heine RJ. Translating the A1C assay into estimated average glucose values. Diabetes Care. 2008;31(8):1473–8. doi:10.2337/dc08-0545 PubMed PMID: 18540046.\n\n\n8. Anderson RM, Fitzgerald JT, Gruppen LD, Funnell MM, Oh MS. The Diabetes Empowerment Scale-Short Form (DES-SF). Diabetes Care. 2003;26(5):1641–2. doi:10.2337/diacare.26.5.1641-a PubMed PMID: 12716841.\n\n\n9. Chan AW, Tetzlaff JM, Altman DG, Laupacis A, Gøtzsche PC, Krleža-Jerić K, et al. SPIRIT 2013 Statement: Defining Standard Protocol Items for Clinical Trials. Annals of Internal Medicine. 2013;158(3):200–7. doi:10.7326/0003-4819-158-3-201302050-00583 PubMed PMID: 23295957.\n\n\n10. Julious SA. Sample size of 12 per group rule of thumb for a pilot study. Pharmaceutical Statistics. 2005;4(4):287–91. doi:10.1002/pst.185\n\n\n11. Bates D, Mächler M, Bolker B, Walker S. Fitting Linear Mixed-Effects Models Using lme4. Journal of Statistical Software. 2015;67(1):1–48. doi:10.18637/jss.v067.i01\n\n\n12. Eysenbach G, CONSORT-EHEALTH Group. CONSORT-EHEALTH: Improving and Standardizing Evaluation Reports of Web-based and Mobile Health Interventions. Journal of Medical Internet Research. 2011;13(4):e126. doi:10.2196/jmir.1923 PubMed PMID: 22209829.\n\n\nVersão: 1.2 Data desta versão: 2026-05-13 Autores desta versão: Francisca Teixeira, Luísa Moreira, Mariana Dias, Rosarinho Barros"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Ensaio GlucoCheck",
-    "section": "",
-    "text": "O GlucoCheck é um ensaio clínico aleatorizado, controlado e de grupos paralelos, conduzido em cuidados de saúde primários, que avalia a eficácia de uma aplicação móvel de monitorização glicémica e registo alimentar com feedback nutricional automatizado, em comparação com a consulta habitual isolada, em adultos com diabetes mellitus tipo 2 e controlo glicémico subótimo. O outcome primário é a redução da hemoglobina glicada (HbA1c) às 24 semanas.\nEsta versão do ensaio corresponde ao estudo piloto (pré-teste), com 30 participantes distribuídos em razão 1:1 (15 intervenção + 15 controlo) numa Unidade de Saúde Familiar da região norte de Portugal."
-  },
-  {
-    "objectID": "index.html#resumo",
-    "href": "index.html#resumo",
-    "title": "Ensaio GlucoCheck",
-    "section": "",
-    "text": "O GlucoCheck é um ensaio clínico aleatorizado, controlado e de grupos paralelos, conduzido em cuidados de saúde primários, que avalia a eficácia de uma aplicação móvel de monitorização glicémica e registo alimentar com feedback nutricional automatizado, em comparação com a consulta habitual isolada, em adultos com diabetes mellitus tipo 2 e controlo glicémico subótimo. O outcome primário é a redução da hemoglobina glicada (HbA1c) às 24 semanas.\nEsta versão do ensaio corresponde ao estudo piloto (pré-teste), com 30 participantes distribuídos em razão 1:1 (15 intervenção + 15 controlo) numa Unidade de Saúde Familiar da região norte de Portugal."
-  },
-  {
-    "objectID": "index.html#cenário",
-    "href": "index.html#cenário",
-    "title": "Ensaio GlucoCheck",
-    "section": "Cenário",
-    "text": "Cenário\nAdultos entre 40 e 75 anos, com diagnóstico de diabetes mellitus tipo 2 (DM2) há pelo menos 6 meses, HbA1c entre 7,0% e 9,5% (controlo subótimo), sem insulinoterapia e em seguimento ativo numa USF, são aleatorizados para uma de duas condições:\n\nIntervenção — acesso, durante 24 semanas, à aplicação GlucoCheck, que combina registo alimentar com feedback nutricional, integração com glucómetro via Bluetooth, objetivos glicémicos semanais personalizados, educação nutricional adaptativa, alertas para padrões problemáticos e gráficos de evolução da HbA1c estimada. Os participantes mantêm o cuidado habitual em paralelo.\nControlo — apenas a consulta habitual em cuidados primários: consultas trimestrais, aconselhamento nutricional standard, auto-monitorização conforme prescrito e material educativo da USF.\n\nA avaliação intermédia ocorre às 12 semanas (T1) e a avaliação final às 24 semanas (T2)."
-  },
-  {
-    "objectID": "index.html#objetivos",
-    "href": "index.html#objetivos",
-    "title": "Ensaio GlucoCheck",
-    "section": "Objetivos",
-    "text": "Objetivos\nObjetivo primário: Avaliar a eficácia da aplicação GlucoCheck, em comparação com a consulta habitual isolada, na redução da HbA1c aos 6 meses. A diferença mínima clinicamente relevante considerada é de ≥ 0,4 pontos percentuais.\nObjetivos secundários: Avaliar o efeito da intervenção em:\n\nGlicemia em jejum\nPeso corporal\nAdesão ao registo alimentar e frequência de auto-monitorização\nAutoeficácia (escala DES-SF)\nConhecimento sobre diabetes (DKQ-24)\nSatisfação com os cuidados (DTSQ)"
-  },
-  {
-    "objectID": "index.html#estrutura-do-site",
-    "href": "index.html#estrutura-do-site",
-    "title": "Ensaio GlucoCheck",
-    "section": "Estrutura do site",
-    "text": "Estrutura do site\n\nProtocolo — versão revista do protocolo SPIRIT (E1).\nMateriais — CRF, formulário REDCap e protótipos da E2.\nResultados — características basais e outcome primário do piloto.\nEquipa — membros, papéis e contactos."
-  },
-  {
     "objectID": "IA.html",
     "href": "IA.html",
     "title": "Declaração de uso de Inteligência Artificial",
@@ -145,75 +215,5 @@
     "title": "Declaração de uso de Inteligência Artificial",
     "section": "Histórico de versões",
     "text": "Histórico de versões\n\n\n\n\n\n\n\n\nVersão\nData\nAlterações\n\n\n\n\n1.0\nAbril de 2026\nVersão inicial (declaração sucinta no relatório da TP7).\n\n\n2.0\nMaio de 2026\nVersão alargada em página dedicada, na sequência do feedback docente à entrega formativa."
-  },
-  {
-    "objectID": "equipa.html",
-    "href": "equipa.html",
-    "title": "Equipa",
-    "section": "",
-    "text": "Contacto. up202509787@up.pt\nPrincipais contribuições:\n\nRedação do protocolo SPIRIT (E1) e conversão entre formatos\nTestes ao projeto REDCap (E7)\nSlides da Investigator’s Meeting (TP8)\nAnálise estatística em R (Tabela 1 e outcome primário)\nEstrutura e configuração do site Quarto\nWorkflow GitHub Actions para publicação automática\n\n\n\n\nContacto. up202508306@up.pt\nPrincipais contribuições:\n\nRelatório de reflexão crítica do eCRF (E7)\nFluxograma de navegação da aplicação GlucoCheck (TP8)\nProtótipo Figma da aplicação (TP8)\nDeclaração detalhada de uso de Inteligência Artificial\n\n\n\n\nContacto. up202506985@up.pt\nPrincipais contribuições:\n\nRedação do protocolo SPIRIT (E1) e conversão entre formatos\nConfiguração do projeto REDCap\nFicha de persona da aplicação GlucoCheck (TP8)\nSlides da Investigator’s Meeting (TP8)\nEstrutura e configuração do site Quarto\nWorkflow GitHub Actions para publicação automática\nIntegração da bibliografia (.bib) e citações Vancouver\n\n\n\n\nContacto. up202506863@up.pt\nPrincipais contribuições:\n\nDiagramas do protocolo (E1)\nDicionário de dados do projecto REDCap (E7)\nProtótipo Figma da aplicação (TP8)"
-  },
-  {
-    "objectID": "equipa.html#membros",
-    "href": "equipa.html#membros",
-    "title": "Equipa",
-    "section": "",
-    "text": "Contacto. up202509787@up.pt\nPrincipais contribuições:\n\nRedação do protocolo SPIRIT (E1) e conversão entre formatos\nTestes ao projeto REDCap (E7)\nSlides da Investigator’s Meeting (TP8)\nAnálise estatística em R (Tabela 1 e outcome primário)\nEstrutura e configuração do site Quarto\nWorkflow GitHub Actions para publicação automática\n\n\n\n\nContacto. up202508306@up.pt\nPrincipais contribuições:\n\nRelatório de reflexão crítica do eCRF (E7)\nFluxograma de navegação da aplicação GlucoCheck (TP8)\nProtótipo Figma da aplicação (TP8)\nDeclaração detalhada de uso de Inteligência Artificial\n\n\n\n\nContacto. up202506985@up.pt\nPrincipais contribuições:\n\nRedação do protocolo SPIRIT (E1) e conversão entre formatos\nConfiguração do projeto REDCap\nFicha de persona da aplicação GlucoCheck (TP8)\nSlides da Investigator’s Meeting (TP8)\nEstrutura e configuração do site Quarto\nWorkflow GitHub Actions para publicação automática\nIntegração da bibliografia (.bib) e citações Vancouver\n\n\n\n\nContacto. up202506863@up.pt\nPrincipais contribuições:\n\nDiagramas do protocolo (E1)\nDicionário de dados do projecto REDCap (E7)\nProtótipo Figma da aplicação (TP8)"
-  },
-  {
-    "objectID": "equipa.html#distribuição-detalhada-de-responsabilidades",
-    "href": "equipa.html#distribuição-detalhada-de-responsabilidades",
-    "title": "Equipa",
-    "section": "Distribuição detalhada de responsabilidades",
-    "text": "Distribuição detalhada de responsabilidades\n\n\n\nEntregável\nResponsável\n\n\n\n\nE1 — Protocolo SPIRIT\nMariana, Francisca\n\n\nE1 — Diagramas\nRosarinho\n\n\nTP7 — Dicionário de dados\nRosarinho\n\n\nTP7 — Configuração REDCap\nMariana\n\n\nTP7 — Testes ao eCRF\nFrancisca\n\n\nTP7 — Relatório de reflexão crítica\nLuísa\n\n\nTP8 — Ficha de persona\nLuísa\n\n\nTP8 — Fluxograma de navegação\nLuísa\n\n\nTP8 — Protótipo Figma\nLuísa, Rosarinho\n\n\nTP8 — Slides da Investigator’s Meeting\nFrancisca, Mariana\n\n\nTP9/TP10 — Estrutura do site Quarto\nMariana, Francisca\n\n\nTP9/TP10 — Análise estatística em R\nFrancisca\n\n\nTP9/TP10 — Workflow GitHub Actions\nMariana, Francisca\n\n\nTP9/TP10 — Bibliografia e citações\nMariana\n\n\nTP9/TP10 — Declaração de IA\nMariana\n\n\nTP11 — Apresentação final\nToda a equipa"
-  },
-  {
-    "objectID": "equipa.html#afiliação",
-    "href": "equipa.html#afiliação",
-    "title": "Equipa",
-    "section": "Afiliação",
-    "text": "Afiliação\nFaculdade de Medicina da Universidade do Porto\nLicenciatura em Saúde Digital e Inovação Biomédica\nUnidade Curricular de Ferramentas de Produtividade · 2025/2026"
-  },
-  {
-    "objectID": "materiais.html",
-    "href": "materiais.html",
-    "title": "Materiais",
-    "section": "",
-    "text": "Esta página reúne os materiais desenvolvidos no âmbito do ensaio GlucoCheck: o Case Report Form (CRF) e a sua implementação eletrónica em REDCap (E7), e os materiais de apoio à Investigator’s Meeting — persona, fluxograma de navegação e protótipo da aplicação móvel — produzidos no contexto da TP8."
-  },
-  {
-    "objectID": "materiais.html#crf-e-formulário-redcap",
-    "href": "materiais.html#crf-e-formulário-redcap",
-    "title": "Materiais",
-    "section": "CRF e formulário REDCap",
-    "text": "CRF e formulário REDCap\nO eCRF do estudo GlucoCheck foi desenvolvido na plataforma REDCap institucional, com uma estrutura de recolha de dados longitudinal, organizada em dois braços (intervenção e controlo) e três momentos de avaliação (Baseline V0, 3 meses V1, 6 meses V2), em conformidade com o protocolo.\n\nEstrutura modular dos tempos de avaliação\nO instrumento está organizado em três módulos correspondentes às avaliações do cronograma:\n\nInclusão e Baseline (V0) — dados sociodemográficos, critérios de elegibilidade, HbA1c, glicemia em jejum, peso, DES-SF, DKQ-10.\nAvaliação intermédia (V1, 3 meses) — HbA1c, glicemia em jejum, peso, adesão ao registo alimentar, DES-SF.\nAvaliação final (V2, 6 meses) — HbA1c, glicemia em jejum, peso, DES-SF, DKQ-10, satisfação.\n\n\n\nArquitetura do projeto REDCap\n\nArms. Dois braços: Arm 1 — grupo de intervenção (utilizadores da aplicação GlucoCheck); Arm 2 — grupo de controlo (cuidados habituais).\nEvents. Três events por braço: Baseline (V0), Visita aos 3 meses (V1) e Visita aos 6 meses (V2).\nInstrumentos. Dez instrumentos de recolha de dados: Screening de Elegibilidade, Consentimento Informado, Randomização, Caracterização Basal, História Clínica, Avaliação Clínica, Escalas Psicométricas (DES-SF e DKQ-10), Satisfação e Utilização, Ajuste de Medicação, Evento Adverso (configurado como repeating instrument).\n\n\n\n\nVisão geral do projeto REDCap, com a estrutura longitudinal de arms, events e instrumentos.\n\n\n\n\nInstrumento exemplo\nA figura abaixo mostra um dos instrumentos do eCRF, ilustrando a estrutura de campos, labels e choices utilizados.\n\n\n\nExemplo de um dos instrumentos de recolha de dados do eCRF.\n\n\n\n\nLógica condicional e campos calculados\nFoi implementada branching logic em vários pontos do eCRF para garantir a relevância e a integridade dos dados recolhidos:\n\nA pergunta sobre capacidade de utilização de smartphone só aparece quando a resposta à posse de smartphone é afirmativa.\nO campo [elegivel] é calculado automaticamente a partir dos seis critérios definidos no protocolo (DM2 confirmada, HbA1c entre 7,0 e 9,5%, seguimento em CSP, ausência de insulinoterapia, idade entre 40 e 75 anos).\nOs campos do Consentimento Informado só aparecem se [elegivel] = 1, bloqueando o acesso aos instrumentos seguintes em participantes inelegíveis.\nOs campos clínicos das visitas de follow-up só aparecem quando a visita foi marcada como realizada.\nO instrumento de Utilização da App é restringido ao Arm 1 por designação de instrumentos a events.\nOs campos detalhados do instrumento de Evento Adverso só aparecem quando o campo gate [ea_ocorreu] indica que ocorreu um evento.\n\nForam igualmente implementados campos calculados para a elegibilidade (binário 0/1), idade (em anos completos a partir das datas de nascimento e admissão), score médio da DES-SF, pontuação do DKQ-10 e IMC no Baseline.\n\n\n\nExemplo de configuração distintiva no eCRF: lógica condicional, regras de Data Quality ou campos calculados.\n\n\n\n\nRegras de Data Quality\nO projeto inclui as nove regras pré-definidas do REDCap (A–I) — que cobrem valores em falta, erros de validação, outliers, incoerências de branching logic, campos ocultos com dados guardados e valores inválidos em campos de escolha múltipla — e duas regras custom desenvolvidas pelo grupo:\n\nConsentimento em inelegível — sinaliza participantes inelegíveis com consentimento assinado, servindo como segunda linha de defesa face à branching logic.\nData V1 anterior ao Baseline — regra cross-event cross-arm que deteta erros cronológicos na sequência de visitas, em qualquer um dos arms.\n\n\n\nDecisões de configuração\nVários módulos opcionais do REDCap foram avaliados e deliberadamente não ativados:\n\nScheduling module — não ativado; a janela de V1 é verificada por regra de Data Quality custom.\nRandomization module — não ativado; em estudos piloto de 30 participantes a aleatorização é gerida fora do REDCap (lista externa).\nSurveys por email — não ativado; os instrumentos auto-reportados (DES-SF, DKQ-10, satisfação) são preenchidos em formato interviewer-administered, alinhado com a literacia digital potencialmente baixa da população-alvo e com o princípio de minimização de dados pessoais.\n\n\n\nReflexão crítica\nO desenvolvimento do eCRF colocou em evidência decisões de desenho com trade-offs relevantes que importa documentar:\n\nCálculo do IMC nas visitas de follow-up. O campo [bmi] permanece vazio em V1 e V2 porque a variável altura foi registada apenas em V0 e o REDCap procura cada variável no event corrente. A alternativa — duplicar altura em todos os events — foi rejeitada para evitar redundância e risco de inconsistência. A limitação está documentada no próprio campo, com indicação de que o IMC pode ser recalculado em fase de análise estatística.\nValidações de plausibilidade vs. critérios de elegibilidade. Os limites de validação no dicionário (HbA1c 3–20%) são mais abrangentes do que o critério de inclusão (7,0–9,5%), permitindo registar valores reais para auditoria. A verificação do critério é delegada ao campo calculado [elegivel], que bloqueia por branching logic o acesso aos instrumentos subsequentes.\nAprendizagens de processo. A primeira tentativa de upload do dicionário falhou por o ficheiro ter sido guardado com separador ; em vez de , (definição regional portuguesa do Excel), gerando dezenas de erros aparentes. Resolveu-se com re-exportação em formato CSV UTF-8 delimitado por vírgulas e validação em editor de texto antes do novo upload. Uma segunda iteração foi necessária por omissão do passo Commit Changes na pré-visualização do import.\n\n\n\nDocumentos para download\n\n\n\nDocumento\nFormato\nDownload\n\n\n\n\nDicionário de dados completo\nCSV\nE7_Grupo6_DataDictionaryAvSumativa.csv\n\n\neCRF (instrumentos em branco)\nPDF\nE7_Grupo6_eCRFAvSumativa.pdf\n\n\nRelatório completo da E7\nPDF\nE7_Grupo6_Relatorio.pdf"
-  },
-  {
-    "objectID": "materiais.html#material-de-apoio-à-investigators-meeting-tp8",
-    "href": "materiais.html#material-de-apoio-à-investigators-meeting-tp8",
-    "title": "Materiais",
-    "section": "Material de apoio à Investigator’s Meeting (TP8)",
-    "text": "Material de apoio à Investigator’s Meeting (TP8)\nOs materiais seguintes foram desenvolvidos no âmbito da TP8 — Suporte para Apresentações, Comunicações UX e Prototipagem — em apoio à simulação de uma Investigator’s Meeting dirigida a investigadores e equipa clínica, com duração de 10 a 15 minutos.\n\nFicha de persona\nA ficha de persona representa o utilizador-tipo da aplicação GlucoCheck — adultos entre 40 e 75 anos com Diabetes Mellitus Tipo 2 e controlo glicémico subótimo, seguidos em cuidados de saúde primários. Constitui a referência central no desenho da experiência de utilização da aplicação e é citada ao longo de toda a apresentação como fio condutor narrativo.\n\n\n\nFicha de persona do utilizador-tipo da aplicação GlucoCheck.\n\n\n\n\nFluxograma de navegação\nO fluxograma seguinte representa a estrutura de navegação da aplicação GlucoCheck, identificando os ecrãs principais e as ligações entre eles. Foi a referência usada no desenvolvimento dos wireframes e mockups em Figma, garantindo coerência entre o desenho da experiência e o protótipo final.\n\n\n\nFluxograma de navegação dos ecrãs da aplicação GlucoCheck.\n\n\n\n\nProtótipo interativo\nO protótipo da aplicação foi desenvolvido em Figma e inclui login funcional e quatro acções completas para além do login: registar uma nova medição, registar uma refeição, consultar o histórico de medições e consultar o perfil do utilizador.\nAceder ao protótipo Figma\n\n\nApresentação\nA apresentação foi desenhada para uma Investigator’s Meeting de 10 a 15 minutos dirigida a investigadores e equipa clínica, seguindo o arco narrativo Porquê? — Como? — E então? recomendado nos materiais da unidade curricular.\nDescarregar a apresentação (PDF)\n\n\nCumprimento dos requisitos da TP8\nA tabela seguinte mapeia os requisitos definidos no enunciado da TP8 para a respetiva evidência presente nesta página.\n\n\n\n\n\n\n\n\nRequisito do enunciado\nCumprimento\nEvidência\n\n\n\n\nMaterial de suporte à Investigator’s Meeting\n✓\nEsta secção\n\n\nApresentação do estudo\n✓\nSlides (PDF acima)\n\n\nDemonstração do protótipo\n✓\nLink Figma acima\n\n\nDirigida a investigadores e equipa clínica\n✓\nAudiência identificada\n\n\nDuração de 10 a 15 minutos\n✓\nDeck dimensionado para ≈ 14 min\n\n\nLink para o protótipo (obrigatório)\n✓\nLink Figma acima\n\n\nAcção completa para além do login (obrigatório)\n✓\nRegistar medição · Registar refeição · Histórico · Perfil"
-  },
-  {
-    "objectID": "resultados.html",
-    "href": "resultados.html",
-    "title": "Resultados preliminares",
-    "section": "",
-    "text": "A tabela apresenta as características basais dos participantes, estratificadas por grupo de aleatorização, e permite verificar o balanceamento entre grupos — esperado num ensaio com aleatorização 1:1. Variáveis contínuas em mediana (Q1, Q3); categóricas em n (%).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nOverall\nN = 301\nControlo\nN = 151\nIntervenção\nN = 151\n\n\n\n\nIdade (anos)\n57.0 (45.5, 67.2)\n59.2 (48.7, 69.4)\n56.5 (43.7, 67.2)\n\n\nSexo\n\n\n\n\n\n\n\n\n    Feminino\n14 (47%)\n8 (53%)\n6 (40%)\n\n\n    Masculino\n16 (53%)\n7 (47%)\n9 (60%)\n\n\nHbA1c basal (%)\n8.3 (7.9, 8.6)\n8.3 (7.9, 8.7)\n8.2 (7.8, 8.6)\n\n\nGlicemia em jejum basal (mg/dL)\n160.1 (141.8, 183.4)\n162.7 (143.7, 178.6)\n157.5 (141.2, 185.9)\n\n\nPeso basal (kg)\n88.0 (80.8, 96.1)\n90.5 (85.1, 99.5)\n86.8 (77.6, 96.1)\n\n\nDES-SF basal\n7.2 (6.2, 8.3)\n6.8 (5.8, 8.3)\n7.7 (6.9, 8.4)\n\n\n\n1 Median (Q1, Q3); n (%)"
-  },
-  {
-    "objectID": "resultados.html#características-basais",
-    "href": "resultados.html#características-basais",
-    "title": "Resultados preliminares",
-    "section": "",
-    "text": "A tabela apresenta as características basais dos participantes, estratificadas por grupo de aleatorização, e permite verificar o balanceamento entre grupos — esperado num ensaio com aleatorização 1:1. Variáveis contínuas em mediana (Q1, Q3); categóricas em n (%).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nOverall\nN = 301\nControlo\nN = 151\nIntervenção\nN = 151\n\n\n\n\nIdade (anos)\n57.0 (45.5, 67.2)\n59.2 (48.7, 69.4)\n56.5 (43.7, 67.2)\n\n\nSexo\n\n\n\n\n\n\n\n\n    Feminino\n14 (47%)\n8 (53%)\n6 (40%)\n\n\n    Masculino\n16 (53%)\n7 (47%)\n9 (60%)\n\n\nHbA1c basal (%)\n8.3 (7.9, 8.6)\n8.3 (7.9, 8.7)\n8.2 (7.8, 8.6)\n\n\nGlicemia em jejum basal (mg/dL)\n160.1 (141.8, 183.4)\n162.7 (143.7, 178.6)\n157.5 (141.2, 185.9)\n\n\nPeso basal (kg)\n88.0 (80.8, 96.1)\n90.5 (85.1, 99.5)\n86.8 (77.6, 96.1)\n\n\nDES-SF basal\n7.2 (6.2, 8.3)\n6.8 (5.8, 8.3)\n7.7 (6.9, 8.4)\n\n\n\n1 Median (Q1, Q3); n (%)"
-  },
-  {
-    "objectID": "resultados.html#outcome-primário-hba1c-aos-6-meses",
-    "href": "resultados.html#outcome-primário-hba1c-aos-6-meses",
-    "title": "Resultados preliminares",
-    "section": "Outcome primário — HbA1c aos 6 meses",
-    "text": "Outcome primário — HbA1c aos 6 meses\nA figura mostra a distribuição da hemoglobina glicada (HbA1c) aos 6 meses por grupo de aleatorização. Três participantes do grupo de intervenção não tinham follow-up disponível e foram excluídos da visualização."
   }
 ]
