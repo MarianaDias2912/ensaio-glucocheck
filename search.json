@@ -81,7 +81,7 @@
     "href": "index.html#objetivos",
     "title": "Ensaio GlucoCheck",
     "section": "Objetivos",
-    "text": "Objetivos\nObjetivo primário Avaliar a eficácia da aplicação GlucoCheck, em comparação com a consulta habitual isolada, na redução da HbA1c aos 6 meses. A diferença mínima clinicamente relevante considerada é de ≥ 0,4 pontos percentuais.\nObjetivos secundários Avaliar o efeito da intervenção em:\n\nGlicemia em jejum\nPeso corporal\nAdesão ao registo alimentar e frequência de auto-monitorização\nAutoeficácia (escala DES-SF)\nConhecimento sobre diabetes (DKQ-24)\nSatisfação com os cuidados (DTSQ)"
+    "text": "Objetivos\nObjetivo primário: Avaliar a eficácia da aplicação GlucoCheck, em comparação com a consulta habitual isolada, na redução da HbA1c aos 6 meses. A diferença mínima clinicamente relevante considerada é de ≥ 0,4 pontos percentuais.\nObjetivos secundários: Avaliar o efeito da intervenção em:\n\nGlicemia em jejum\nPeso corporal\nAdesão ao registo alimentar e frequência de auto-monitorização\nAutoeficácia (escala DES-SF)\nConhecimento sobre diabetes (DKQ-24)\nSatisfação com os cuidados (DTSQ)"
   },
   {
     "objectID": "index.html#estrutura-do-site",
@@ -165,7 +165,7 @@
     "href": "equipa.html#distribuição-detalhada-de-responsabilidades",
     "title": "Equipa",
     "section": "Distribuição detalhada de responsabilidades",
-    "text": "Distribuição detalhada de responsabilidades\n\n\n\nEntregável\nResponsável\n\n\n\n\nE1 — Protocolo SPIRIT\nMariana, Francisca\n\n\nE1 — Diagramas\nRosarinho\n\n\nTP7 — Dicionário de dados\nRosarinho\n\n\nTP7 — Configuração REDCap\nMariana\n\n\nTP7 — Testes ao eCRF\nFrancisca\n\n\nTP7 — Relatório de reflexão crítica\nLuísa\n\n\nTP8 — Ficha de persona\nMariana\n\n\nTP8 — Fluxograma de navegação\nLuísa\n\n\nTP8 — Protótipo Figma\nLuísa, Rosarinho\n\n\nTP8 — Slides da Investigator’s Meeting\nFrancisca, Mariana\n\n\nTP9/TP10 — Estrutura do site Quarto\nMariana, Francisca\n\n\nTP9/TP10 — Análise estatística em R\nFrancisca\n\n\nTP9/TP10 — Workflow GitHub Actions\nMariana, Francisca\n\n\nTP9/TP10 — Bibliografia e citações\nMariana\n\n\nTP9/TP10 — Declaração de IA\nLuísa\n\n\nTP11 — Apresentação final\nToda a equipa"
+    "text": "Distribuição detalhada de responsabilidades\n\n\n\nEntregável\nResponsável\n\n\n\n\nE1 — Protocolo SPIRIT\nMariana, Francisca\n\n\nE1 — Diagramas\nRosarinho\n\n\nTP7 — Dicionário de dados\nRosarinho\n\n\nTP7 — Configuração REDCap\nMariana\n\n\nTP7 — Testes ao eCRF\nFrancisca\n\n\nTP7 — Relatório de reflexão crítica\nLuísa\n\n\nTP8 — Ficha de persona\nLuísa\n\n\nTP8 — Fluxograma de navegação\nLuísa\n\n\nTP8 — Protótipo Figma\nLuísa, Rosarinho\n\n\nTP8 — Slides da Investigator’s Meeting\nFrancisca, Mariana\n\n\nTP9/TP10 — Estrutura do site Quarto\nMariana, Francisca\n\n\nTP9/TP10 — Análise estatística em R\nFrancisca\n\n\nTP9/TP10 — Workflow GitHub Actions\nMariana, Francisca\n\n\nTP9/TP10 — Bibliografia e citações\nMariana\n\n\nTP9/TP10 — Declaração de IA\nMariana\n\n\nTP11 — Apresentação final\nToda a equipa"
   },
   {
     "objectID": "equipa.html#afiliação",
