@@ -4,7 +4,7 @@ subtitle: "Documentos, instrumentos e protótipos do ensaio"
 ---
 
 Esta página reúne os materiais desenvolvidos no âmbito do ensaio
-GlucoCheck: o *Case Report Form* (CRF) e a sua implementação electrónica
+GlucoCheck: o *Case Report Form* (CRF) e a sua implementação eletrónica
 em REDCap (E7), e os materiais de apoio à *Investigator's Meeting* —
 persona, fluxograma de navegação e protótipo da aplicação móvel —
 produzidos no contexto da TP8.
@@ -160,6 +160,7 @@ referência central no desenho da experiência de utilização da aplicação e
 é citada ao longo de toda a apresentação como fio condutor narrativo.
 
 ![Ficha de persona do utilizador-tipo da aplicação GlucoCheck.](images/persona_glucocheck.svg){width=85% fig-align="center"}
+
 ### Fluxograma de navegação
 
 O fluxograma seguinte representa a estrutura de navegação da aplicação

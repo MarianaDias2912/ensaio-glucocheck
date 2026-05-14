@@ -26,7 +26,7 @@ uma de duas condições:
 
 - **Intervenção** — acesso, durante 24 semanas, à aplicação **GlucoCheck**,
   que combina registo alimentar com *feedback* nutricional, integração com
-  glucómetro via *Bluetooth*, objectivos glicémicos semanais personalizados,
+  glucómetro via *Bluetooth*, objetivos glicémicos semanais personalizados,
   educação nutricional adaptativa, alertas para padrões problemáticos e
   gráficos de evolução da HbA1c estimada. Os participantes mantêm o cuidado
   habitual em paralelo.
@@ -39,12 +39,12 @@ A avaliação intermédia ocorre às **12 semanas (T1)** e a avaliação final
 
 ## Objetivos
 
-**Objectivo primário.** Avaliar a eficácia da aplicação GlucoCheck, em
+**Objetivo primário** Avaliar a eficácia da aplicação GlucoCheck, em
 comparação com a consulta habitual isolada, na redução da HbA1c aos 6 meses.
 A diferença mínima clinicamente relevante considerada é de **≥ 0,4 pontos
 percentuais**.
 
-**Objetivos secundários.** Avaliar o efeito da intervenção em:
+**Objetivos secundários** Avaliar o efeito da intervenção em:
 
 - Glicemia em jejum
 - Peso corporal

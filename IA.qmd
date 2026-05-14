@@ -45,7 +45,7 @@ sistemática.
 - Aceite com alterações.
 - Todo o conteúdo científico (critérios de elegibilidade, desenho do
   estudo, *outcomes*, análise estatística) foi definido pela equipa antes
-  de qualquer interacção com IA.
+  de qualquer interação com IA.
 - O texto gerado foi revisto frase a frase pela equipa, com confirmação
   contra a literatura de referência e adaptação ao cenário clínico
   específico (DM2 em USF, Portugal).
@@ -86,7 +86,7 @@ sistemática.
 
 - Identificação de inconsistências entre variáveis, tipos de campo e regras
   de validação.
-- Sugestões de correcção, incluindo deteção de duplicação da variável
+- Sugestões de correção, incluindo deteção de duplicação da variável
   *peso* e redundância da variável *grupo_aloc*.
 - Sugestão de campos calculados.
 
@@ -133,14 +133,14 @@ sistemática.
 - A definição da persona (idade, contexto clínico, motivações) partiu da
   população-alvo do protocolo definida na E1.
 - O fluxograma final foi redesenhado pela equipa, com base nas
-  sugestões iniciais da IA, mas adaptado ao protótipo efectivo da
+  sugestões iniciais da IA, mas adaptado ao protótipo efetivo da
   aplicação.
 
 ### TP9 / TP10 — Site Quarto e análise em R
 
 **Output da IA:**
 
-- Apoio à redacção da página inicial do site (`index.qmd`) com base no
+- Apoio à redação da página inicial do site (`index.qmd`) com base no
   protocolo da E1 e no cenário clínico fornecido pela disciplina.
 - Reformatação do código R em `resultados.qmd` para alinhamento estrito
   com a matéria leccionada nos *slides* da TP9.
@@ -162,9 +162,8 @@ sistemática.
 
 ## Prompts essenciais
 
-Apresentam-se a seguir exemplos representativos dos *prompts* utilizados,
-agrupados por fase. *Prompts* de afinação iterativa e correcção pontual
-não são listados.
+Apresentam-se a seguir exemplos dos *prompts* utilizados,
+agrupados por fase.
 
 **E1 — Protocolo:**
 
@@ -198,8 +197,8 @@ não são listados.
 
 > "Reformata este código R do `resultados.qmd` para corresponder estritamente
 > ao que está nos slides da TP9: Tabela 1 só com variáveis basais,
-> estatísticas mediana (Q1, Q3), *labels* em português, *boxplot* com
-> *jitter* e tema *minimal*."
+> estatísticas mediana (Q1, Q3), *labels* em português e *boxplot*."
+
 
 ## Processo de revisão crítica
 
@@ -224,7 +223,7 @@ gerado por IA:
 ## Responsabilidade pelo conteúdo final
 
 A responsabilidade pelo conteúdo científico, metodológico e técnico do
-projecto GlucoCheck é integralmente assumida pela equipa do **Grupo 6,
+projeto GlucoCheck é integralmente assumida pela equipa do **Grupo 6,
 Turma B** — Francisca Teixeira, Luísa Moreira, Mariana Dias e Rosarinho
 Barros — sob a orientação dos docentes da unidade curricular.
 

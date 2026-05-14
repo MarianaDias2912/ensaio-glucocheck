@@ -15,7 +15,7 @@ subtitle: "Grupo 6 · Turma B"
 **Principais contribuições:**
 
 - Redação do protocolo SPIRIT (E1) e conversão entre formatos
-- Testes ao projecto REDCap (E7)
+- Testes ao projeto REDCap (E7)
 - *Slides* da *Investigator's Meeting* (TP8)
 - Análise estatística em R (Tabela 1 e *outcome* primário)
 - Estrutura e configuração do site Quarto
@@ -43,7 +43,7 @@ subtitle: "Grupo 6 · Turma B"
 **Principais contribuições:**
 
 - Redação do protocolo SPIRIT (E1) e conversão entre formatos
-- Configuração do projecto REDCap e dicionário de dados (E7)
+- Configuração do projeto REDCap
 - Ficha de persona da aplicação GlucoCheck (TP8)
 - *Slides* da *Investigator's Meeting* (TP8)
 - Estrutura e configuração do site Quarto
@@ -71,10 +71,10 @@ subtitle: "Grupo 6 · Turma B"
 |---|---|
 | **E1 — Protocolo SPIRIT** | Mariana, Francisca |
 | **E1 — Diagramas** | Rosarinho |
-| **E7 — Dicionário de dados** | Rosarinho |
-| **E7 — Configuração REDCap** | Mariana |
-| **E7 — Testes ao eCRF** | Francisca |
-| **E7 — Relatório de reflexão crítica** | Luísa |
+| **TP7 — Dicionário de dados** | Rosarinho |
+| **TP7 — Configuração REDCap** | Mariana |
+| **TP7 — Testes ao eCRF** | Francisca |
+| **TP7 — Relatório de reflexão crítica** | Luísa |
 | **TP8 — Ficha de persona** | Mariana |
 | **TP8 — Fluxograma de navegação** | Luísa |
 | **TP8 — Protótipo Figma** | Luísa, Rosarinho |
@@ -86,9 +86,6 @@ subtitle: "Grupo 6 · Turma B"
 | **TP9/TP10 — Declaração de IA** | Luísa |
 | **TP11 — Apresentação final** | Toda a equipa |
 
-## Contacto institucional
-
-`up202506985@up.pt`
 
 ## Afiliação
 
@@ -96,9 +93,5 @@ subtitle: "Grupo 6 · Turma B"
 Licenciatura em Saúde Digital e Inovação Biomédica  
 Unidade Curricular de Ferramentas de Produtividade · 2025/2026
 
-## Docentes da unidade curricular
 
-- **Tiago Jacinto** · `tiagojacinto@med.up.pt`
-- **Rute Almeida**
-- **Renato Ferreira da Silva**
 
