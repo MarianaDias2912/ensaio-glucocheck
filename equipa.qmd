@@ -5,10 +5,86 @@ subtitle: "Grupo 6 · Turma B"
 
 ## Membros
 
-- **Francisca Teixeira** — up202509787
-- **Luísa Moreira** — up202508306
-- **Mariana Dias** — up202506985
-- **Rosarinho Barros** — up202506983
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### Francisca Teixeira
+
+**Contacto.** `up202509787@up.pt`
+
+**Principais contribuições:**
+
+- Redação do protocolo SPIRIT (E1) e conversão entre formatos
+- Testes ao projecto REDCap (E7)
+- *Slides* da *Investigator's Meeting* (TP8)
+- Análise estatística em R (Tabela 1 e *outcome* primário)
+- Estrutura e configuração do site Quarto
+- *Workflow* GitHub Actions para publicação automática
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Luísa Moreira
+
+**Contacto.** `up202508306@up.pt`
+
+**Principais contribuições:**
+
+- Relatório de reflexão crítica do eCRF (E7)
+- Fluxograma de navegação da aplicação GlucoCheck (TP8)
+- Protótipo Figma da aplicação (TP8)
+- Declaração detalhada de uso de Inteligência Artificial
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Mariana Dias
+
+**Contacto.** `up202506985@up.pt`
+
+**Principais contribuições:**
+
+- Redação do protocolo SPIRIT (E1) e conversão entre formatos
+- Configuração do projecto REDCap e dicionário de dados (E7)
+- Ficha de persona da aplicação GlucoCheck (TP8)
+- *Slides* da *Investigator's Meeting* (TP8)
+- Estrutura e configuração do site Quarto
+- *Workflow* GitHub Actions para publicação automática
+- Integração da bibliografia (`.bib`) e citações Vancouver
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Rosarinho Barros
+
+**Contacto.** `up202506863@up.pt`
+
+**Principais contribuições:**
+
+- Diagramas do protocolo (E1)
+- Dicionário de dados do projecto REDCap (E7)
+- Protótipo Figma da aplicação (TP8)
+:::
+
+:::
+
+## Distribuição detalhada de responsabilidades
+
+| Entregável | Responsável |
+|---|---|
+| **E1 — Protocolo SPIRIT** | Mariana, Francisca |
+| **E1 — Diagramas** | Rosarinho |
+| **E7 — Dicionário de dados** | Rosarinho |
+| **E7 — Configuração REDCap** | Mariana |
+| **E7 — Testes ao eCRF** | Francisca |
+| **E7 — Relatório de reflexão crítica** | Luísa |
+| **TP8 — Ficha de persona** | Mariana |
+| **TP8 — Fluxograma de navegação** | Luísa |
+| **TP8 — Protótipo Figma** | Luísa, Rosarinho |
+| **TP8 — Slides da *Investigator's Meeting*** | Francisca, Mariana |
+| **TP9/TP10 — Estrutura do site Quarto** | Mariana, Francisca |
+| **TP9/TP10 — Análise estatística em R** | Francisca |
+| **TP9/TP10 — *Workflow* GitHub Actions** | Mariana, Francisca |
+| **TP9/TP10 — Bibliografia e citações** | Mariana |
+| **TP9/TP10 — Declaração de IA** | Luísa |
+| **TP11 — Apresentação final** | Toda a equipa |
 
 ## Contacto institucional
 
@@ -17,5 +93,12 @@ subtitle: "Grupo 6 · Turma B"
 ## Afiliação
 
 **Faculdade de Medicina da Universidade do Porto**  
+Licenciatura em Saúde Digital e Inovação Biomédica  
 Unidade Curricular de Ferramentas de Produtividade · 2025/2026
+
+## Docentes da unidade curricular
+
+- **Tiago Jacinto** · `tiagojacinto@med.up.pt`
+- **Rute Almeida**
+- **Renato Ferreira da Silva**
 
